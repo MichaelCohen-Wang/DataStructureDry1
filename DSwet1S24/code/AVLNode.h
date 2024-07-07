@@ -7,7 +7,7 @@ struct AVLNode{
 private:
     shared_ptr<AVLNode> leftNode; //left son 
     shared_ptr<AVLNode> rightNode; //right son
-    int count; //#nodes in this tree
+    int balFactor; //#nodes in this tree
     int height; //height of node 
     T val; //node will hold pirate or ship
     int key; 
@@ -19,7 +19,9 @@ private:
     void setLeftNode(AVLNode* left); 
     void setRightNode(AVLNode* right);
 
+    //page 24 lecture 4, if height of node doesn't change then BF doesn't either
     int findBalanceFactor() const;
+    int updateHeight() const; 
     void fixValues(); //used to update values after rotation
 
 
@@ -37,8 +39,8 @@ template<class T>
 AVLNode<T>::AVLNode(int valueId, T value): value(value){
 leftNode = nullptr ;
 rightNode = nullptr; 
-count = 1;
-height = 1;
+balFactor = 0;
+height = 0;
 key = valueId; 
 }
 
@@ -75,6 +77,8 @@ int AVLNode<T>::findBalanceFactor() const{
 
     return left- right; 
 }
+
+
 
 template<class T>
 void AVLNode<T>::fixValues(){ 

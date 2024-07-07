@@ -8,15 +8,17 @@ class AVLTree{
 private:
     shared_ptr<AVLNode> root;  
     int size; 
+    Queue<int> keyQueue; 
 public:
     AVLTree();
-    AVLTree(AVLNode* root); 
+    AVLTree(AVLNode<T>* node); 
 
     ~AVLTree();
 
     int getSize() const;
+    int findHeight(int key); 
 
-    void insert(int key);
+    void insert(AVLNode<T> );
     void erase(int key);
 
     bool empty() const; 
@@ -24,5 +26,41 @@ public:
     int find() const; 
     int contains() const; 
 };
+
+template<class T>
+AVLTree<T>::AVLTree(){
+    root= nullptr; 
+    size = 0;
+}
+
+/*
+template<class T>
+AVLTree<T>::AVLTree(AVLNode<T>* node){
+    root = node; 
+    size = 0;
+}
+*/
+
+template<class T>
+AVLTree<T>::~AVLTree() = default;
+
+template<class T>
+int AVLTree<T>::getSize() const{
+    return size; 
+}
+
+template<class T>
+void AVLTree<T>::insert(int key){
+    keyQueue.insert(key); 
+    
+}
+
+template<class T>
+void AVLTree<T>::erase(int key){
+    
+}
+
+
+
 
 
