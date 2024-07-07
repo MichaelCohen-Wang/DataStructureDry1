@@ -86,6 +86,7 @@ void AVLNode<T>::fixValues(){
     count = (leftNode != nullptr ? leftNode->count : 0) + (rightNode != nullptr ? rightNode->count : 0) + 1;
     
     height = std::max(leftNode != nullptr ? leftNode->height : 0, rightNode != nullptr ? rightNode->height : 0) + 1;
+    //O(1) because we don't keep using getHeight function. We simply look at right and left members
 }
 }
 

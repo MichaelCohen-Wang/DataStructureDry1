@@ -19,6 +19,8 @@ public:
     int getHeight() const; 
     //int findHeight(int key); 
 
+    //maybe use static allocation array to create path
+    //array size will be the height of the whole tree
     void insert(AVLNode<T> node);
     void erase(int key);
 
@@ -56,11 +58,7 @@ int AVLTree<T>::getHeight() const{
 }
 
 
-template<class T>
-void AVLTree<T>::insert(int key){
-    keyQueue.insert(key); 
-    
-}
+
 
 template<class T>
 void AVLTree<T>::erase(int key){
