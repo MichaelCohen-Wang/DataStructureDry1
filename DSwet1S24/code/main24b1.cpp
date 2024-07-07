@@ -8,9 +8,12 @@
 // .. WILL use our file.
 // 
 
+#include "AVLNode.h"
+#include "AVLTree.h"
 #include "pirates24b1.h"
 #include <string>
 #include <iostream>
+#include "wet1util.h"
 
 using namespace std;
 
@@ -72,7 +75,9 @@ int main()
 
     // Quit 
     delete obj;
+
     return 0;
+
 }
 
 // Helpers

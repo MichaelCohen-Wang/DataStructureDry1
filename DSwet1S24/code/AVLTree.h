@@ -6,7 +6,7 @@
 template<class T>
 class AVLTree{
 private:
-    shared_ptr<AVLNode> root;  
+    std::shared_ptr<AVLNode<T>> root;  
     int size; 
     Queue<int> keyQueue; 
 public:
@@ -21,20 +21,22 @@ public:
 
 
     void insert(AVLNode<T> node);
-    shared_ptr<AVLNode<T>> insertHelper(shared_ptr<AVLNode<T>> current, AVLNode<T> node);
+    std::shared_ptr<AVLNode<T>> insertHelper(std::shared_ptr<AVLNode<T>> current, AVLNode<T> node);
     void erase(int key);
+    std::shared_ptr<AVLNode<T>> eraseHelper(std::shared_ptr<AVLNode<T>> current, int key);
 
 
 
     bool empty() const; 
 
-    int find() const; 
-    int contains() const; 
+    int find(int key) const; 
+    int findHelper(AVLNode<T>* current, int key) const;
+    bool contains(int key) const; 
 };
 
 //global function: 
 template<class T>
-AVLNode<T>* balance(shared_ptr<AVLNode<T>> node);
+AVLNode<T>* balance(std::shared_ptr<AVLNode<T>> node);
 
 
 template<class T>
@@ -65,7 +67,7 @@ int AVLTree<T>::getHeight() const{
 }
 
 template<class T>
-AVLNode<T>* balance(shared_ptr<AVLNode<T>> node) {
+AVLNode<T>* balance(std::shared_ptr<AVLNode<T>> node) {
   int balance = node->findBalanceFactor();
 
   // Left Left Case (Single right rotation)
@@ -80,7 +82,7 @@ AVLNode<T>* balance(shared_ptr<AVLNode<T>> node) {
   }
 
   // Right Right Case (Single left rotation)
-  if(balance < -1 && node->rightNode->findBalanceFactor() <= 0) {
+  if(balance < -1 && node->rightNode->findBalanceFactor() <= 0){
     return node->left_rotate();
   }
 
@@ -94,7 +96,7 @@ AVLNode<T>* balance(shared_ptr<AVLNode<T>> node) {
   return node;
 }
 
-/*
+
 template<class T>
 void AVLTree<T>::erase(int key) {
   // Recursive helper function for deletion
@@ -103,7 +105,7 @@ void AVLTree<T>::erase(int key) {
 
 
 template<class T>
-shared_ptr<AVLNode<T>> AVLTree<T>::eraseHelper(shared_ptr<AVLNode<T>> current, int key) {
+std::shared_ptr<AVLNode<T>> AVLTree<T>::eraseHelper(std::shared_ptr<AVLNode<T>> current, int key) {
   // Base cases: Empty tree or key not found
   if (current == nullptr) {
     return nullptr; // Key not found
@@ -133,7 +135,7 @@ shared_ptr<AVLNode<T>> AVLTree<T>::eraseHelper(shared_ptr<AVLNode<T>> current, i
 
     // Case 3: Node has two children (choose successor)
     // Find the in-order successor (smallest node in the right subtree)
-    shared_ptr<AVLNode<T>> successor = current->rightNode;
+    std::shared_ptr<AVLNode<T>> successor = current->rightNode;
     while (successor->leftNode != nullptr) {
       successor = successor->leftNode;
     }
@@ -153,12 +155,12 @@ shared_ptr<AVLNode<T>> AVLTree<T>::eraseHelper(shared_ptr<AVLNode<T>> current, i
   return balance(current);
 }
 
-/*
+
 template<class T>
-shared_ptr<AVLNode<T>> AVLTree<T>::insertHelper(shared_ptr<AVLNode<T>> current, AVLNode<T> node) {
+std::shared_ptr<AVLNode<T>> AVLTree<T>::insertHelper(std::shared_ptr<AVLNode<T>> current, AVLNode<T> node) {
   // Base case: Empty tree
   if (current == nullptr) {
-    return make_shared<AVLNode<T>>(node.key, node.val);
+    return std::make_shared<AVLNode<T>>(node.key, node.val);
   }
 
   // Traverse based on key comparison
@@ -174,6 +176,39 @@ shared_ptr<AVLNode<T>> AVLTree<T>::insertHelper(shared_ptr<AVLNode<T>> current, 
   return balance(current);
 }
 
-*/
+template<class T>
+bool AVLTree<T>::empty() const {
+  return root == nullptr; // Check if the root is nullptr (empty tree)
+}
+
+template<class T>
+int AVLTree<T>::find(int key) const {
+  // Recursive helper function for finding a node with the given key
+  return findHelper(root, key);
+}
+
+template<class T>
+int AVLTree<T>::findHelper(AVLNode<T>* current, int key) const {
+  // Base cases: Empty tree or key not found
+  if (current == nullptr) {
+    return -1; // Key not found
+  }
+
+  // Traverse based on key comparison
+  if (key < current->key) {
+    return findHelper(current->leftNode, key);
+  } else if (key > current->key) {
+    return findHelper(current->rightNode, key);
+  } else {
+    // Key found! Return the value associated with the key
+    return current->val;
+  }
+}
+
+// Function for checking existence (similar to find, returns true/false)
+template<class T>
+bool AVLTree<T>::contains(int key) const {
+  return find(key) != -1; // If find returns -1 (not found), contains returns false
+}
 
 

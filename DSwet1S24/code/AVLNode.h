@@ -5,14 +5,14 @@
 template<class T>
 struct AVLNode{
 private:
-    shared_ptr<AVLNode> leftNode; //left son 
-    shared_ptr<AVLNode> rightNode; //right son
-    int balFactor; //#nodes in this tree
+    std::shared_ptr<AVLNode> leftNode; //left son 
+    std::shared_ptr<AVLNode> rightNode; //right son
+    int count; //#nodes in this tree
     int height; //height of node 
     T val; //node will hold pirate or ship
     int key; 
 
-    AVLNode(int valueId, T valueId);
+    AVLNode(int valueId, T value);
 
     ~AVLNode(); 
 
@@ -28,18 +28,15 @@ private:
     //AVLNode* rotateLeft(); //LL rotation
     //AVLNode* rotateRight(); //RR rotation
     void rotateLeft();
-    void rotateRight(); 
-
-
-
+    void rotateRight();
 
 };
 
 template<class T>
-AVLNode<T>::AVLNode(int valueId, T value): value(value){
+AVLNode<T>::AVLNode(int valueId, T value): val(value){
 leftNode = nullptr ;
 rightNode = nullptr; 
-balFactor = 0;
+count = 0;
 height = 0;
 key = valueId; 
 }
@@ -98,7 +95,7 @@ void AVLNode<T>::rotateLeft(){ //BF(v) = 2, BF(v_L) = -1
     this->rightNode = rightNode-> leftNode; //rightNode becomes rightNode's (bigger than this) leftNode (bigger than this but smaller than rightNode) 
     right -> leftNode  = this; 
     this.fixValues();
-    right.fixValues()
+    right.fixValues();
 }
 
 //for this function to work, leftNode needs a rightNode
@@ -109,6 +106,6 @@ void AVLNode<T>::rotateRight(){
     this->leftNode = leftNode-> rightNode; //rightNode becomes rightNode's (bigger than this) leftNode (bigger than this but smaller than rightNode) 
     left -> rightNode  = this; 
     this.fixValues();
-    left.fixValues()
+    left.fixValues();
 
 }
