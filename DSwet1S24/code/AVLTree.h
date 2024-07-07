@@ -16,9 +16,10 @@ public:
     ~AVLTree();
 
     int getSize() const;
-    int findHeight(int key); 
+    int getHeight() const; 
+    //int findHeight(int key); 
 
-    void insert(AVLNode<T> );
+    void insert(AVLNode<T> node);
     void erase(int key);
 
     bool empty() const; 
@@ -48,6 +49,12 @@ template<class T>
 int AVLTree<T>::getSize() const{
     return size; 
 }
+
+template<class T>
+int AVLTree<T>::getHeight() const{
+    return root-> height; 
+}
+
 
 template<class T>
 void AVLTree<T>::insert(int key){
