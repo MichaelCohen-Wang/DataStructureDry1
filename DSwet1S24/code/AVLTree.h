@@ -29,14 +29,14 @@ public:
 
     bool empty() const; 
 
-    int find(int key) const; 
-    int findHelper(AVLNode<T>* current, int key) const;
+    std::shared_ptr<AVLNode<T>> find(int key) const; 
+    std::shared_ptr<AVLNode<T>> AVLTree<T>::findHelper(std::shared_ptr<AVLNode<T>>, int key) const;
     bool contains(int key) const; 
 };
 
 //global function: 
 template<class T>
-AVLNode<T>* balance(std::shared_ptr<AVLNode<T>> node);
+std::shared_ptr<AVLNode<T>> balance(std::shared_ptr<AVLNode<T>> node);
 
 
 template<class T>
@@ -67,7 +67,7 @@ int AVLTree<T>::getHeight() const{
 }
 
 template<class T>
-AVLNode<T>* balance(std::shared_ptr<AVLNode<T>> node) {
+std::shared_ptr<AVLNode<T>> balance(std::shared_ptr<AVLNode<T>> node) {
   int balance = node->findBalanceFactor();
 
   // Left Left Case (Single right rotation)
@@ -187,13 +187,13 @@ bool AVLTree<T>::empty() const {
 }
 
 template<class T>
-int AVLTree<T>::find(int key) const {
+std::shared_ptr<AVLNode<T>> AVLTree<T>::find(int key) const {
   // Recursive helper function for finding a node with the given key
   return findHelper(root, key);
 }
 
 template<class T>
-int AVLTree<T>::findHelper(AVLNode<T>* current, int key) const {
+std::shared_ptr<AVLNode<T>> AVLTree<T>::findHelper(std::shared_ptr<AVLNode<T>>, int key) const {
   // Base cases: Empty tree or key not found
   if (current == nullptr) {
     return -1; // Key not found
@@ -206,7 +206,7 @@ int AVLTree<T>::findHelper(AVLNode<T>* current, int key) const {
     return findHelper(current->rightNode, key);
   } else {
     // Key found! Return the value associated with the key
-    return current->val;
+    return currentl;
   }
 }
 

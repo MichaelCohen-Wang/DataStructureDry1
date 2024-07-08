@@ -103,7 +103,7 @@ std::shared_ptr<AVLNode<T>> AVLNode<T>::rotateLeft(){ //BF(v) = 2, BF(v_L) = -1
 //same as rotateLeft but switches right and left
 template<class T>
 std::shared_ptr<AVLNode<T>> AVLNode<T>::rotateRight(){
-    std::shared_ptr<AVLNode<T>> = leftNode; //holds onto rightNode even after reassignment
+    std::shared_ptr<AVLNode<T>> left = leftNode; //holds onto rightNode even after reassignment
     this->leftNode = leftNode-> rightNode; //rightNode becomes rightNode's (bigger than this) leftNode (bigger than this but smaller than rightNode) 
     left -> rightNode  = this; 
     this.fixValues();
