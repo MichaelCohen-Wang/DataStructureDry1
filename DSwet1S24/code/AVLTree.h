@@ -157,7 +157,7 @@ std::shared_ptr<AVLNode<T>> AVLTree<T>::eraseHelper(std::shared_ptr<AVLNode<T>> 
 
 void insert(AVLNode<T> node){
   // Recursive helper function for deletion
-  root = eraseHelper(root, node);
+  root = insertHelper(root, node);
 }
 
 template<class T>
