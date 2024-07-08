@@ -23,19 +23,27 @@ void print(string cmd, output_t<int> res);
 int main()
 {
     
-    std::shared_ptr<AVLNode<int>> node1 = std::make_shared<AVLNode<int>>(20, 20);
-    std::shared_ptr<AVLNode<int>> node2 = std::make_shared<AVLNode<int>>(30, 20);
-    std::shared_ptr<AVLNode<int>> node3 = std::make_shared<AVLNode<int>>(10, 20);
-    std::shared_ptr<AVLNode<int>> node4 = std::make_shared<AVLNode<int>>(5, 20);
-    std::shared_ptr<AVLNode<int>> node5 = std::make_shared<AVLNode<int>>(6, 20);
+    AVLNode<int>* node1 = new AVLNode<int>(20, 20);
+    AVLNode<int>* node2 = new AVLNode<int>(30, 20);
+    AVLNode<int>* node3 = new AVLNode<int>(10, 20);
+    AVLNode<int>* node4 = new AVLNode<int>(5, 20);
+    AVLNode<int>* node5 = new AVLNode<int>(11, 20);
     
     AVLTree<int> tree; 
-    tree.insert(*node1);
-    tree.insert(*node2);
-    tree.insert(*node3);
-    tree.insert(*node4);
-    tree.insert(*node5);
-    //std::cout << node4 -> rightNode -> key << std::endl; 
+    tree.insert(node1);
+    tree.insert(node2);
+    tree.insert(node3);
+    tree.insert(node4);
+    tree.insert(node5);
+
+    tree.erase(20);
+
+    std::cout << tree.root -> key << std::endl;
+    std::cout << tree.root -> leftNode -> key << std::endl;
+    std::cout << tree.root -> rightNode -> key << std::endl;
+
+
+    
 
 /*
     int d1, d2, d3;
