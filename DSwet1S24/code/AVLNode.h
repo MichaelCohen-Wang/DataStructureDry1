@@ -27,8 +27,8 @@ private:
 
     //AVLNode* rotateLeft(); //LL rotation
     //AVLNode* rotateRight(); //RR rotation
-    void rotateLeft();
-    void rotateRight();
+    std::shared_ptr<AVLNode<T>> rotateLeft();
+    std::shared_ptr<AVLNode<T>> rotateRight();
 
 };
 
@@ -90,22 +90,24 @@ void AVLNode<T>::fixValues(){
 //for this function to work, rightNode needs a leftNode
 //check notebook diagram
 template<class T>
-void AVLNode<T>::rotateLeft(){ //BF(v) = 2, BF(v_L) = -1
-    AVLNode* right = rightNode; //holds onto rightNode even after reassignment
+std::shared_ptr<AVLNode<T>> AVLNode<T>::rotateLeft(){ //BF(v) = 2, BF(v_L) = -1
+    std::shared_ptr<AVLNode<T>> right = rightNode; //holds onto rightNode even after reassignment
     this->rightNode = rightNode-> leftNode; //rightNode becomes rightNode's (bigger than this) leftNode (bigger than this but smaller than rightNode) 
     right -> leftNode  = this; 
     this.fixValues();
     right.fixValues();
+    return right; 
 }
 
 //for this function to work, leftNode needs a rightNode
 //same as rotateLeft but switches right and left
 template<class T>
-void AVLNode<T>::rotateRight(){
-    AVLNode* left = leftNode; //holds onto rightNode even after reassignment
+std::shared_ptr<AVLNode<T>> AVLNode<T>::rotateRight(){
+    std::shared_ptr<AVLNode<T>> = leftNode; //holds onto rightNode even after reassignment
     this->leftNode = leftNode-> rightNode; //rightNode becomes rightNode's (bigger than this) leftNode (bigger than this but smaller than rightNode) 
     left -> rightNode  = this; 
     this.fixValues();
     left.fixValues();
+    return left; 
 
 }

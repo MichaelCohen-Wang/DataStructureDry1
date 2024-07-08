@@ -72,24 +72,24 @@ AVLNode<T>* balance(std::shared_ptr<AVLNode<T>> node) {
 
   // Left Left Case (Single right rotation)
   if(balance > 1 && node->leftNode->findBalanceFactor() >= 0) {
-    return node->rotateRight();
+    return node->right_rotate();
   }
 
   // Left Right Case (Double left rotation)
   if(balance > 1 && node->leftNode->findBalanceFactor() < 0) {
-    node->leftNode = node->leftNode->rotateLeft();
-    return node->rotateRight();
+    node->leftNode = node->leftNode->left_rotate();
+    return node->right_rotate();
   }
 
   // Right Right Case (Single left rotation)
   if(balance < -1 && node->rightNode->findBalanceFactor() <= 0){
-    return node->rotateLeft();
+    return node->left_rotate();
   }
 
   // Right Left Case (Double right rotation)
   if(balance < -1 && node->rightNode->findBalanceFactor() > 0) {
-    node->rightNode = node->rightNode->rotateLeft();
-    return node->rotateLeft();
+    node->rightNode = node->rightNode->right_rotate();
+    return node->left_rotate();
   }
 
   // No rotations needed
@@ -155,7 +155,8 @@ std::shared_ptr<AVLNode<T>> AVLTree<T>::eraseHelper(std::shared_ptr<AVLNode<T>> 
   return balance(current);
 }
 
-void insert(AVLNode<T> node){
+template<class T>
+void AVLTree<T>::insert(AVLNode<T> node) {
   // Recursive helper function for deletion
   root = insertHelper(root, node);
 }
