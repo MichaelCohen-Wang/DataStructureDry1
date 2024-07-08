@@ -30,7 +30,7 @@ public:
     bool empty() const; 
 
     std::shared_ptr<AVLNode<T>> find(int key) const; 
-    std::shared_ptr<AVLNode<T>> AVLTree<T>::findHelper(std::shared_ptr<AVLNode<T>>, int key) const;
+    std::shared_ptr<AVLNode<T>> findHelper(std::shared_ptr<AVLNode<T>>, int key) const;
     bool contains(int key) const; 
 };
 
@@ -72,24 +72,24 @@ std::shared_ptr<AVLNode<T>> balance(std::shared_ptr<AVLNode<T>> node) {
 
   // Left Left Case (Single right rotation)
   if(balance > 1 && node->leftNode->findBalanceFactor() >= 0) {
-    return node->right_rotate();
+    return node->rotateRight();
   }
 
   // Left Right Case (Double left rotation)
   if(balance > 1 && node->leftNode->findBalanceFactor() < 0) {
-    node->leftNode = node->leftNode->left_rotate();
-    return node->right_rotate();
+    node->leftNode = node->leftNode->rotateLeft();
+    return node->rotateRight();
   }
 
   // Right Right Case (Single left rotation)
   if(balance < -1 && node->rightNode->findBalanceFactor() <= 0){
-    return node->left_rotate();
+    return node->rotateLeft();
   }
 
   // Right Left Case (Double right rotation)
   if(balance < -1 && node->rightNode->findBalanceFactor() > 0) {
-    node->rightNode = node->rightNode->right_rotate();
-    return node->left_rotate();
+    node->rightNode = node->rightNode->rotateRight();
+    return node->rotateLeft();
   }
 
   // No rotations needed
@@ -193,12 +193,11 @@ std::shared_ptr<AVLNode<T>> AVLTree<T>::find(int key) const {
 }
 
 template<class T>
-std::shared_ptr<AVLNode<T>> AVLTree<T>::findHelper(std::shared_ptr<AVLNode<T>>, int key) const {
+std::shared_ptr<AVLNode<T>> AVLTree<T>::findHelper(std::shared_ptr<AVLNode<T>> current, int key) const {
   // Base cases: Empty tree or key not found
   if (current == nullptr) {
     return -1; // Key not found
   }
-
   // Traverse based on key comparison
   if (key < current->key) {
     return findHelper(current->leftNode, key);
@@ -206,7 +205,7 @@ std::shared_ptr<AVLNode<T>> AVLTree<T>::findHelper(std::shared_ptr<AVLNode<T>>, 
     return findHelper(current->rightNode, key);
   } else {
     // Key found! Return the value associated with the key
-    return currentl;
+    return current;
   }
 }
 

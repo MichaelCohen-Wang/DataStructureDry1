@@ -4,7 +4,6 @@
 
 template<class T>
 struct AVLNode{
-private:
     std::shared_ptr<AVLNode> leftNode; //left son 
     std::shared_ptr<AVLNode> rightNode; //right son
     int count; //#nodes in this tree
@@ -62,14 +61,14 @@ int AVLNode<T>::findBalanceFactor() const{
         left = 0; 
     }
     else{
-        left = leftNode.height;
+        left = leftNode->height;
     }
 
     if(rightNode == nullptr){
         right = 0; 
     }
     else{
-        right = rightNode.height;
+        right = rightNode->height;
     }
 
     return left- right; 
@@ -93,9 +92,9 @@ template<class T>
 std::shared_ptr<AVLNode<T>> AVLNode<T>::rotateLeft(){ //BF(v) = 2, BF(v_L) = -1
     std::shared_ptr<AVLNode<T>> right = rightNode; //holds onto rightNode even after reassignment
     this->rightNode = rightNode-> leftNode; //rightNode becomes rightNode's (bigger than this) leftNode (bigger than this but smaller than rightNode) 
-    right -> leftNode  = this; 
-    this.fixValues();
-    right.fixValues();
+    right -> leftNode  = std::shared_ptr<AVLNode<T>>(this);; 
+    this->fixValues();
+    right->fixValues();
     return right; 
 }
 
@@ -105,9 +104,9 @@ template<class T>
 std::shared_ptr<AVLNode<T>> AVLNode<T>::rotateRight(){
     std::shared_ptr<AVLNode<T>> left = leftNode; //holds onto rightNode even after reassignment
     this->leftNode = leftNode-> rightNode; //rightNode becomes rightNode's (bigger than this) leftNode (bigger than this but smaller than rightNode) 
-    left -> rightNode  = this; 
-    this.fixValues();
-    left.fixValues();
+    left -> rightNode  = std::shared_ptr<AVLNode<T>>(this);; 
+    this->fixValues();
+    left->fixValues();
     return left; 
 
 }
