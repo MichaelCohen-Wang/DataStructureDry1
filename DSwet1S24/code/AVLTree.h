@@ -148,11 +148,14 @@ AVLNode<T>* AVLTree<T>::insertHelper(AVLNode<T>* current, AVLNode<T> node) {
   
   // Update height of the current node
   current->fixValues();
+  /*
   if(node.key == 40){
     std::cout<< "key: " << current->key << ", BF: " << current -> findBalanceFactor();
     std::cout.flush();
   }
+  */
   return balance(current);
+  
 }
 
 template<class T>

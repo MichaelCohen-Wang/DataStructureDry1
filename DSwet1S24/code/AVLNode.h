@@ -88,6 +88,5 @@ AVLNode<T>* AVLNode<T>::rotateRight() { // BF(v) = -2, BF(v_R) = 1
   left->rightNode = this;               // LeftNode's rightNode becomes this (current node)
   this->fixValues();
   left->fixValues();
-  std::cout << left->key << std::endl; 
   return left;
 }
