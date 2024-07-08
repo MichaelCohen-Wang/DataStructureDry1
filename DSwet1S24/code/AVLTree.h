@@ -72,24 +72,24 @@ AVLNode<T>* balance(std::shared_ptr<AVLNode<T>> node) {
 
   // Left Left Case (Single right rotation)
   if(balance > 1 && node->leftNode->findBalanceFactor() >= 0) {
-    return node->right_rotate();
+    return node->rotateRight();
   }
 
   // Left Right Case (Double left rotation)
   if(balance > 1 && node->leftNode->findBalanceFactor() < 0) {
-    node->leftNode = node->leftNode->left_rotate();
-    return node->right_rotate();
+    node->leftNode = node->leftNode->rotateLeft();
+    return node->rotateRight();
   }
 
   // Right Right Case (Single left rotation)
   if(balance < -1 && node->rightNode->findBalanceFactor() <= 0){
-    return node->left_rotate();
+    return node->rotateLeft();
   }
 
   // Right Left Case (Double right rotation)
   if(balance < -1 && node->rightNode->findBalanceFactor() > 0) {
-    node->rightNode = node->rightNode->right_rotate();
-    return node->left_rotate();
+    node->rightNode = node->rightNode->rotateLeft();
+    return node->rotateLeft();
   }
 
   // No rotations needed
