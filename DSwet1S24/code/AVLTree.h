@@ -11,6 +11,7 @@ private:
   
   int size;
 public:
+//set to public for testing
   AVLNode<T>* root;
 
 
@@ -30,42 +31,26 @@ public:
 
   //int findHeight(int key); 
 
-
+  //insert for nodes: 
   void insert(AVLNode<T> node);
   AVLNode<T>* insertHelper(AVLNode<T>* current, AVLNode<T> node);
+  //insert for pointers: 
+  void insert(AVLNode<T>* node);
+  AVLNode<T>* insertHelper(AVLNode<T>* current, AVLNode<T>* node);
   void erase(int key);
   AVLNode<T>* eraseHelper(AVLNode<T>* current, int key);
 
-  bool empty() const {
-    return root == nullptr; // Check if the root is nullptr (empty tree)
-  }
 
-  AVLNode<T>* find(int key) const {
-    // Recursive helper function for finding a node with the given key
-    return findHelper(root, key);
-  }
+  bool empty() const;
 
-  AVLNode<T>* findHelper(AVLNode<T>* current, int key) const {
-    // Base cases: Empty tree or key not found
-    if (current == nullptr) {
-      return nullptr; // Key not found
-    }
-    // Traverse based on key comparison
-    if (key < current->key) {
-      return findHelper(current->leftNode, key);
-    } else if (key > current->key) {
-      return findHelper(current->rightNode, key);
-    } else {
-      // Key found! Return the node
-      return current;
-    }
-  }
+  AVLNode<T>* find(int key) const;
+
+  AVLNode<T>* findHelper(AVLNode<T>* current, int key) const;
 
   void deleteHelper(AVLNode<T>* current);
+
   // Function for checking existence (similar to find, returns true/false)
-  bool contains(int key) const {
-    return find(key) != nullptr; // If find returns nullptr (not found), contains returns false
-  }
+  bool contains(int key) const;
 };
 
 //global function: 
@@ -120,6 +105,14 @@ AVLTree<T>::AVLTree(AVLNode<T>* node) {
 }
 
 template<class T>
+void AVLTree<T>::insert(AVLNode<T> node) {
+  // Recursive helper function for insertion
+  root = insertHelper(root, node);
+  size++; // Increment size after successful insertion
+}
+
+// makes a copy of node and doesn't release it - bad
+template<class T>
 AVLNode<T>* AVLTree<T>::insertHelper(AVLNode<T>* current, AVLNode<T> node) {
   // Base case: Empty tree
   if (current == nullptr) {
@@ -142,28 +135,53 @@ AVLNode<T>* AVLTree<T>::insertHelper(AVLNode<T>* current, AVLNode<T> node) {
       current->rightNode = new AVLNode<T>(node.key, node.val); // Allocate for right child
     } else {
       current->rightNode = insertHelper(current->rightNode, node);
-    }
   }
-
-  
+  }
   // Update height of the current node
   current->fixValues();
-  /*
-  if(node.key == 40){
-    std::cout<< "key: " << current->key << ", BF: " << current -> findBalanceFactor();
-    std::cout.flush();
-  }
-  */
   return balance(current);
-  
 }
 
 template<class T>
-void AVLTree<T>::insert(AVLNode<T> node) {
+void AVLTree<T>::insert(AVLNode<T>* node) {
   // Recursive helper function for insertion
-  root = insertHelper(root, node);
+  if(root != nullptr){
+    root = insertHelper(root, node);
+  }
+  else{
+    root = node; 
+  }
+
   size++; // Increment size after successful insertion
 }
+
+template<class T>
+AVLNode<T>* AVLTree<T>::insertHelper(AVLNode<T>* current, AVLNode<T>* node) {
+  // Base case: Empty tree
+
+  // Traverse based on key comparison
+  if (node->key < current->key) {
+    // Check for null pointer before accessing leftNode
+    if (current->leftNode == nullptr) {
+      current->leftNode = node; 
+    } else {
+      current->leftNode = insertHelper(current->leftNode, node);
+    }
+  } 
+  else if (node->key > current->key) {
+    // Check for null pointer before accessing rightNode
+    if (current->rightNode == nullptr) {
+      current->rightNode = node; 
+    } else {
+      current->rightNode = insertHelper(current->rightNode, node);
+  }
+  }
+  // Update height of the current node
+  current->fixValues();
+  return balance(current);
+}
+
+
 
 template<class T>
 AVLNode<T>* AVLTree<T>::eraseHelper(AVLNode<T>* current, int key) {
@@ -248,4 +266,37 @@ void AVLTree<T>::deleteHelper(AVLNode<T>* current) {
   delete current; // Delete the current node
 }
 
+template<class T>
+bool AVLTree<T>::empty() const {
+  return root == nullptr; // Check if the root is nullptr (empty tree)
+}
 
+template<class T>
+AVLNode<T>* AVLTree<T>::find(int key) const {
+  // Recursive helper function for finding a node with the given key
+  return findHelper(root, key);
+}
+
+template<class T>
+AVLNode<T>* AVLTree<T>::findHelper(AVLNode<T>* current, int key) const {
+  // Base cases: Empty tree or key not found
+  if (current == nullptr) {
+    return nullptr; // Key not found
+  }
+  // Traverse based on key comparison
+  if (key < current->key) {
+    return findHelper(current->leftNode, key);
+  } else if (key > current->key) {
+    return findHelper(current->rightNode, key);
+  } else {
+    // Key found! Return the node
+    return current;
+  }
+}
+
+template<class T>
+bool AVLTree<T>::contains(int key) const {
+  // If find returns nullptr (not found), contains returns false
+  return find(key) != nullptr; 
+
+}

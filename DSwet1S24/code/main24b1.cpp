@@ -27,22 +27,22 @@ int main()
     AVLNode<int>* node2 = new AVLNode<int>(30, 20);
     AVLNode<int>* node3 = new AVLNode<int>(10, 20);
     AVLNode<int>* node4 = new AVLNode<int>(5, 20);
-
     AVLNode<int>* node5 = new AVLNode<int>(11, 20);
-    AVLNode<int>* node6 = new AVLNode<int>(12, 20);
     
     AVLTree<int> tree; 
-    tree.insert(*node1);
-    tree.insert(*node2);
-    tree.insert(*node3);
-    tree.insert(*node4);
+    tree.insert(node1);
+    tree.insert(node2);
+    tree.insert(node3);
+    tree.insert(node4);
+    tree.insert(node5);
 
-    tree.insert(*node5);
-    tree.insert(*node6);
+    tree.erase(20);
 
     std::cout << tree.root -> key << std::endl;
     std::cout << tree.root -> leftNode -> key << std::endl;
     std::cout << tree.root -> rightNode -> key << std::endl;
+
+
     
 
 /*
