@@ -1,112 +1,93 @@
 #pragma once
-#include <memory>
-
+#include <cmath>
+#include <algorithm>
+#include <iostream>
 
 template<class T>
-struct AVLNode{
-    std::shared_ptr<AVLNode> leftNode; //left son 
-    std::shared_ptr<AVLNode> rightNode; //right son
-    int count; //#nodes in this tree
-    int height; //height of node 
-    T val; //node will hold pirate or ship
-    int key; 
+struct AVLNode {
+  AVLNode<T>* leftNode;  // Left child
+  AVLNode<T>* rightNode; // Right child
+  int count;             // Number of nodes in the subtree rooted at this node
+  int height;            // Height of the node
+  T val;                // Value stored in the node
+  int key;               // Key of the node
 
-    AVLNode(int valueId, T value);
+  AVLNode(int valueId, T value);
+  ~AVLNode();
 
-    ~AVLNode(); 
+  void setLeftNode(AVLNode* left);
+  void setRightNode(AVLNode* right);
 
-    void setLeftNode(AVLNode* left); 
-    void setRightNode(AVLNode* right);
+  // Page 24 lecture 4, if height of node doesn't change then BF doesn't either
+  int findBalanceFactor() const;
+  int updateHeight() const;
+  void fixValues(); // Used to update values after rotation
 
-    //page 24 lecture 4, if height of node doesn't change then BF doesn't either
-    int findBalanceFactor() const;
-    int updateHeight() const; 
-    void fixValues(); //used to update values after rotation
-
-
-    //AVLNode* rotateLeft(); //LL rotation
-    //AVLNode* rotateRight(); //RR rotation
-    std::shared_ptr<AVLNode<T>> rotateLeft();
-    std::shared_ptr<AVLNode<T>> rotateRight();
-
+  AVLNode<T>* rotateLeft(); // LL rotation
+  AVLNode<T>* rotateRight(); // RR rotation
 };
 
 template<class T>
-AVLNode<T>::AVLNode(int valueId, T value): val(value){
-leftNode = nullptr ;
-rightNode = nullptr; 
-count = 0;
-height = 0;
-key = valueId; 
+AVLNode<T>::AVLNode(int valueId, T value) : val(value) {
+  leftNode = nullptr;
+  rightNode = nullptr;
+  count = 1;
+  height = 1;
+  key = valueId;
 }
 
 template<class T>
-AVLNode<T>::~AVLNode() = default; 
-
-template<class T>
-void AVLNode<T>::setLeftNode(AVLNode* left){
-    leftNode = left; 
+AVLNode<T>::~AVLNode() {
+  // Manual memory deallocation required to avoid leaks
+  // Implement logic to delete left and right nodes recursively
+  // Consider using a separate helper function for deletion
 }
 
 template<class T>
-void AVLNode<T>::setRightNode(AVLNode* right){
-    rightNode = right; 
+void AVLNode<T>::setLeftNode(AVLNode* left) {
+  leftNode = left;
 }
 
 template<class T>
-int AVLNode<T>::findBalanceFactor() const{
-    int left; 
-    int right; 
-    if(leftNode == nullptr){
-        left = 0; 
-    }
-    else{
-        left = leftNode->height;
-    }
-
-    if(rightNode == nullptr){
-        right = 0; 
-    }
-    else{
-        right = rightNode->height;
-    }
-
-    return left- right; 
+void AVLNode<T>::setRightNode(AVLNode* right) {
+  rightNode = right;
 }
-
-
 
 template<class T>
-void AVLNode<T>::fixValues(){ 
-    {
-    count = (leftNode != nullptr ? leftNode->count : 0) + (rightNode != nullptr ? rightNode->count : 0) + 1;
-    
-    height = std::max(leftNode != nullptr ? leftNode->height : 0, rightNode != nullptr ? rightNode->height : 0) + 1;
-    //O(1) because we don't keep using getHeight function. We simply look at right and left members
-}
+int AVLNode<T>::findBalanceFactor() const {
+  int left = leftNode != nullptr ? leftNode->height : 0;
+  int right = rightNode != nullptr ? rightNode->height : 0;
+
+  return left - right;
 }
 
-//for this function to work, rightNode needs a leftNode
-//check notebook diagram
 template<class T>
-std::shared_ptr<AVLNode<T>> AVLNode<T>::rotateLeft(){ //BF(v) = 2, BF(v_L) = -1
-    std::shared_ptr<AVLNode<T>> right = rightNode; //holds onto rightNode even after reassignment
-    this->rightNode = rightNode-> leftNode; //rightNode becomes rightNode's (bigger than this) leftNode (bigger than this but smaller than rightNode) 
-    right -> leftNode  = std::shared_ptr<AVLNode<T>>(this);; 
-    this->fixValues();
-    right->fixValues();
-    return right; 
+void AVLNode<T>::fixValues() {
+  count = (leftNode != nullptr ? leftNode->count : 0) +
+         (rightNode != nullptr ? rightNode->count : 0) + 1;
+
+  height = std::max(leftNode != nullptr ? leftNode->height : 0,
+                   rightNode != nullptr ? rightNode->height : 0) +
+          1;
 }
 
-//for this function to work, leftNode needs a rightNode
-//same as rotateLeft but switches right and left
 template<class T>
-std::shared_ptr<AVLNode<T>> AVLNode<T>::rotateRight(){
-    std::shared_ptr<AVLNode<T>> left = leftNode; //holds onto rightNode even after reassignment
-    this->leftNode = leftNode-> rightNode; //rightNode becomes rightNode's (bigger than this) leftNode (bigger than this but smaller than rightNode) 
-    left -> rightNode  = std::shared_ptr<AVLNode<T>>(this);; 
-    this->fixValues();
-    left->fixValues();
-    return left; 
+AVLNode<T>* AVLNode<T>::rotateLeft() { // BF(v) = 2, BF(v_L) = -1
+  AVLNode<T>* right = rightNode; // Hold onto rightNode even after reassignment
+  this->rightNode = rightNode->leftNode; // RightNode becomes rightNode's (bigger than this) leftNode (bigger than this but smaller than rightNode)
+  right->leftNode = this;                 // RightNode's leftNode becomes this (current node)
+  this->fixValues();
+  right->fixValues();
+  return right;
+}
 
+template<class T>
+AVLNode<T>* AVLNode<T>::rotateRight() { // BF(v) = -2, BF(v_R) = 1
+  AVLNode<T>* left = leftNode;   // Hold onto leftNode even after reassignment
+  this->leftNode = leftNode->rightNode; // LeftNode becomes leftNode's (bigger than this) rightNode (bigger than this but smaller than leftNode)
+  left->rightNode = this;               // LeftNode's rightNode becomes this (current node)
+  this->fixValues();
+  left->fixValues();
+  std::cout << left->key << std::endl; 
+  return left;
 }
