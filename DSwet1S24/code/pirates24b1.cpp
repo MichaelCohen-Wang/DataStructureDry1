@@ -4,8 +4,8 @@
 
 Ocean::Ocean()
 {
-    jiji';
     
+
 }
 
 Ocean::~Ocean()
