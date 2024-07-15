@@ -1,12 +1,12 @@
-#include "Ocean.h"
+#include "ocean.h"
 #include "wet1util.h"
 #include "AVLTree.h"
 #include "AVLNode.h"
 
 
 //pirate constr'
-Pirate::Pirate(const int id, int treasure, int pirateIndex):
-     pirateId_n(id), treasure_n(treasure), pirate_index_n(pirateIndex){}
+Pirate::Pirate(const int id, int treasure, int pirateIndex, int shipId):
+     pirateId_n(id), treasure_n(treasure), pirate_index_n(pirateIndex),shipId(shipId){}
 
 //ship constr'
 Ship::Ship(const int id, int cannons): shipId_m(id), cannons_m(cannons){}
@@ -20,7 +20,6 @@ Ship::Ship(const int id, int cannons): shipId_m(id), cannons_m(cannons){}
 StatusType Ocean::add_ship(int shipId, int cannons)
 {
     
-
     if(shipId <= 0 || cannons < 0){//invalid input =2
     return StatusType(2);
     }
@@ -66,14 +65,22 @@ StatusType Ocean::add_pirate(int pirateId, int shipId, int treasure){
     if(current_ship->val.pirates_id.contains(pirateId) ){
         return StatusType(3);
     }
-    Pirate new_pirate1 = Pirate(pirateId,treasure, current_ship->val.current_index); //do we need to do a pointer
-    Pirate new_pirate2 = Pirate(pirateId,treasure, current_ship->val.current_index);
+    Pirate new_pirate1 = Pirate(pirateId,treasure, current_ship->val.current_index,current_ship->key); //do we need to do a pointer
+    Pirate new_pirate2 = new_pirate1;
+    Pirate new_pirate3 = new_pirate1;
+    Pirate new_pirate4 = new_pirate1;
+
 
     try{  
+        AVLNode<Pirate>* pirateleaf = new AVLNode<Pirate>(pirateId,new_pirate4);//for all the piraes in the ocean
+        this->pirate_head.insert((pirateleaf));
+
         AVLNode<Pirate>* idPirate = new AVLNode<Pirate>(pirateId, new_pirate1);
         AVLNode<Pirate>* indexPirate = new AVLNode<Pirate>(current_ship->val.current_index, new_pirate2);
+        AVLNode<Pirate>* treasurePirate = new AVLNode<Pirate>(treasure, new_pirate3);
         current_ship->val.pirates_id.insert(idPirate);
         current_ship->val.pirates_index.insert(indexPirate);
+        current_ship->val.pirates_treasure.insert(treasurePirate);
         current_ship->val.current_index ++; 
         return StatusType(0); //success  
     }

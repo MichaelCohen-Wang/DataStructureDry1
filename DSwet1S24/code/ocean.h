@@ -18,7 +18,7 @@ private:
 
 public:
 
-     Pirate(const int id, int treasure, int pirateIndex);
+     Pirate(const int id, int treasure, int pirateIndex, int shipid);
     // Additional fields 
 
 };
@@ -32,6 +32,7 @@ public:
     int cannons_m;
     AVLTree<Pirate> pirates_index ; //the tree is by index of pirates(queue)
     AVLTree<Pirate> pirates_id ;
+    AVLTree<Pirate> pirates_treasure ;
     int current_index=-10000;
     Ship(const int id, int cannons = 0);
     // int exist(int shipId);
