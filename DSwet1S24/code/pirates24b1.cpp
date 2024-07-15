@@ -4,6 +4,7 @@
 
 Ocean::Ocean()
 {
+    jiji';
     
 }
 
