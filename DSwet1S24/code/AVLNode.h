@@ -62,13 +62,16 @@ int AVLNode<T>::findBalanceFactor() const {
 }
 
 template<class T>
-void AVLNode<T>::fixValues() {
-  count = (leftNode != nullptr ? leftNode->count : 0) +
-         (rightNode != nullptr ? rightNode->count : 0) + 1;
-
-  height = std::max(leftNode != nullptr ? leftNode->height : 0,
-                   rightNode != nullptr ? rightNode->height : 0) +
-          1;
+void AVLNode<T>::fixValues(){ 
+    count = (leftNode != nullptr ? leftNode->count : 0) + (rightNode != nullptr ? rightNode->count : 0) + 1;
+    int left = leftNode != nullptr ? leftNode->height : 0;
+    int right = rightNode != nullptr ? rightNode->height : 0;
+    if(left > right){
+        height = left + 1;
+    }
+    else{
+        height = right + 1; 
+    }
 }
 
 template<class T>
