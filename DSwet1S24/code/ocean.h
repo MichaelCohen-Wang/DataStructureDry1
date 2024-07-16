@@ -11,16 +11,17 @@
 
 class Pirate {
 private:
-    int pirateId_n;
-    int treasure_n;
-    int pirate_index_n;
-    int shipId;    
-
+   
+    
 public:
+    int m_pirateId;
+    int m_treasure;
+    int m_pirateIndex;
+    int m_shipId;
+    Ship *m_ship;
 
-     Pirate(const int id, int treasure, int pirateIndex, int shipid);
+    Pirate(const int id, int treasure, int pirateIndex, int shipid);
     // Additional fields 
-
 };
 
 class Ship {
@@ -28,13 +29,14 @@ private:
 
 
 public:
-    int shipId_m;
-    int cannons_m;
+    int m_counter=0;
+    int m_shipId;
+    int m_cannons;
     AVLTree<Pirate> pirates_index ; //the tree is by index of pirates(queue)
     AVLTree<Pirate> pirates_id ;
     AVLTree<Pirate> pirates_treasure ;
-    int current_index=-10000;
-    Ship(const int id, int cannons = 0);
+    int m_currentIndex=-100000;
+    Ship(const int id, int cannons = 0, int counter=0);
     // int exist(int shipId);
  
     // Additional fields and methods

@@ -6,10 +6,11 @@
 
 //pirate constr'
 Pirate::Pirate(const int id, int treasure, int pirateIndex, int shipId):
-     pirateId_n(id), treasure_n(treasure), pirate_index_n(pirateIndex),shipId(shipId){}
+m_pirateId(id), m_treasure(treasure), m_pirateIndex(pirateIndex),m_shipId(shipId),m_ship(nullptr){}
 
 //ship constr'
-Ship::Ship(const int id, int cannons): shipId_m(id), cannons_m(cannons){}
+Ship::Ship(const int id, int cannons,int counter): 
+  m_shipId(id), m_cannons(cannons), m_counter(counter){}
 
 /*int Ship::exist(int id){
 
@@ -38,16 +39,16 @@ StatusType Ocean::add_ship(int shipId, int cannons)
     }
 }
 
-StatusType Ocean::remove_ship(int shipId)
+StatusType Ocean::remove_ship(int shipId) // check counter =0
 {
     if(shipId <= 0)//invalid input =2
         return StatusType(2);
 
-    if(this->ship_head.contains(shipId)){
-        this->ship_head.erase((shipId));
+    if(this->ship_head.contains(shipId)&&(this->ship_head.find(shipId))->val.m_counter==0){
+        this->ship_head.erase((shipId));//delete empty ship
         return StatusType(0);
     }
-    return StatusType(3);
+    return StatusType(3); //failure
 }
 
 StatusType Ocean::add_pirate(int pirateId, int shipId, int treasure){
@@ -63,12 +64,13 @@ StatusType Ocean::add_pirate(int pirateId, int shipId, int treasure){
     AVLNode<Ship>* current_ship = this->ship_head.find(shipId);
    
     if(current_ship->val.pirates_id.contains(pirateId) ){
-        return StatusType(3);
+        return StatusType(3);  //already exist
     }
-    Pirate new_pirate1 = Pirate(pirateId,treasure, current_ship->val.current_index,current_ship->key); //do we need to do a pointer
-    Pirate new_pirate2 = new_pirate1;
-    Pirate new_pirate3 = new_pirate1;
-    Pirate new_pirate4 = new_pirate1;
+    Pirate new_pirate1 = Pirate(pirateId,treasure, current_ship->val.m_currentIndex,current_ship->key); //do we need to do a pointer
+    new_pirate1.m_ship= &current_ship->val; //to have a pointer to the ship
+    Pirate new_pirate2 = new_pirate1;//for index
+    Pirate new_pirate3 = new_pirate1;//for treasure
+    Pirate new_pirate4 = new_pirate1;//for ocean
 
 
     try{  
@@ -76,12 +78,13 @@ StatusType Ocean::add_pirate(int pirateId, int shipId, int treasure){
         this->pirate_head.insert((pirateleaf));
 
         AVLNode<Pirate>* idPirate = new AVLNode<Pirate>(pirateId, new_pirate1);
-        AVLNode<Pirate>* indexPirate = new AVLNode<Pirate>(current_ship->val.current_index, new_pirate2);
+        AVLNode<Pirate>* indexPirate = new AVLNode<Pirate>(current_ship->val.m_currentIndex, new_pirate2);
         AVLNode<Pirate>* treasurePirate = new AVLNode<Pirate>(treasure, new_pirate3);
-        current_ship->val.pirates_id.insert(idPirate);
+        current_ship->val.pirates_id.insert(idPirate);//add the pirates to the tree
         current_ship->val.pirates_index.insert(indexPirate);
         current_ship->val.pirates_treasure.insert(treasurePirate);
-        current_ship->val.current_index ++; 
+        current_ship->val.m_currentIndex ++;
+        current_ship->val.m_counter++;
         return StatusType(0); //success  
     }
     catch (...){ // bad alloc allocation error=1
@@ -91,7 +94,6 @@ StatusType Ocean::add_pirate(int pirateId, int shipId, int treasure){
 }
     
 StatusType Ocean::remove_pirate(int pirateId){
-
 
 
 }
