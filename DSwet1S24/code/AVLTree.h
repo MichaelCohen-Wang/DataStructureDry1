@@ -142,9 +142,11 @@ AVLTree<T>::AVLTree(AVLNode<T>* node) {
 template<class T>
 void AVLTree<T>::insert(AVLNode<T> node) {
   // Recursive helper function for insertion
+  
   if(this->contains(node->key)){
     return; 
   }
+
   root = insertHelper(root, node);
   size++; // Increment size after successful insertion
 }
@@ -183,9 +185,11 @@ AVLNode<T>* AVLTree<T>::insertHelper(AVLNode<T>* current, AVLNode<T> node) {
 template<class T>
 void AVLTree<T>::insert(AVLNode<T>* node) {
   // Recursive helper function for insertion
+  /*
   if(this->contains(node->key)){
     return;
   }
+  */
   if(root != nullptr){
     root = insertHelper(root, node);
     size++;
@@ -216,7 +220,23 @@ AVLNode<T>* AVLTree<T>::insertHelper(AVLNode<T>* current, AVLNode<T>* node) {
       current->rightNode = node; 
     } else {
       current->rightNode = insertHelper(current->rightNode, node);
+    }
   }
+  else{
+    if(current -> val < node -> val){
+      if (current->rightNode == nullptr) {
+        current->rightNode = node; 
+      } else {
+        current->rightNode = insertHelper(current->rightNode, node);
+      }
+    }
+    else{
+      if (current->leftNode == nullptr) {
+        current->leftNode = node; 
+      } else {
+      current->leftNode = insertHelper(current->leftNode, node);
+      }
+    }
   }
   // Update height of the current node
   current->fixValues();
@@ -372,3 +392,4 @@ AVLNode<T>* AVLTree<T>::getMinimum() const{
   }
   return current; 
 }
+

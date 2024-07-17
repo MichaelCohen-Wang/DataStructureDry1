@@ -5,6 +5,7 @@
 #include "AVLNode.h"
 #include "Ship.h"
 
+class Ship;
 
 class Pirate {
 public:

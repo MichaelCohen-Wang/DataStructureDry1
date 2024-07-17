@@ -9,10 +9,11 @@
 
 class Ship {
 public:
-    int m_counter=0;
     int m_shipId;
     int m_cannons;
     int m_battleWinnings; 
+    int m_counter;
+
     AVLTree<Pirate> pirates_index ; //the tree is by index of pirates(queue)
     AVLTree<Pirate> pirates_id ;
     AVLTree<Pirate> pirates_treasure ;

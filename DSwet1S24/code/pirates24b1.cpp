@@ -16,6 +16,9 @@ Ship::Ship(const int id, int cannons,int counter):
 
 }
 */
+Ocean::Ocean() = default;
+
+Ocean::~Ocean() = default; 
 
 //---------------------------OCEAN class------------------------
 StatusType Ocean::add_ship(int shipId, int cannons)
