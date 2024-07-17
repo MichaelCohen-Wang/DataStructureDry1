@@ -107,7 +107,7 @@ StatusType Ocean::add_pirate(int pirateId, int shipId, int treasure){
         return StatusType(3);  //already exist
     }
     Pirate new_pirate1 = Pirate(pirateId,treasure - current_ship->val.m_battleWinnings, current_ship->val.m_currentIndex,current_ship->key); //do we need to do a pointer
-    new_pirate1.m_ship= &current_ship->val; //to have a pointer to the ship
+    //new_pirate1.m_ship= &current_ship->val; //to have a pointer to the ship
     Pirate new_pirate2 = new_pirate1;//for index
     Pirate new_pirate3 = new_pirate1;//for treasure
     Pirate new_pirate4 = new_pirate1;//for ocean
@@ -125,11 +125,13 @@ StatusType Ocean::add_pirate(int pirateId, int shipId, int treasure){
         current_ship->val.pirates_index.insert(indexPirate);
         current_ship->val.pirates_treasure.insert(treasurePirate);
         pirate_head.insert(oceanPirate);
-        if(current_ship->val.pirates_index.empty()){
+        if(current_ship->val.m_counter == 0){
             //no need to free because new_pirate4 wasn't dynmically allocated
+            std::cout << "i was here44"<< std::endl; 
             current_ship->val.m_richestPirate = &new_pirate4;
         }
         else{
+            std::cout << "i was here 33"<< std::endl;
             if(current_ship->val.m_richestPirate->m_treasure < treasure){
                 current_ship->val.m_richestPirate = &new_pirate4;
             }
@@ -266,10 +268,17 @@ output_t<int> Ocean::get_richest_pirate(int shipId){
     if(!ship_head.contains(shipId)){
         return StatusType(3);
     }
+
     AVLNode<Ship>*  targetShip = ship_head.find(shipId);
+    if(targetShip->val.m_counter == 0){
+        return StatusType(3);
+    }
+
     if(targetShip -> val.pirates_treasure.empty()){
         return StatusType(3);
     }
+    std::cout << "I was in richest pirate" << std::endl;
+    std::cout <<  "amount of money: " << targetShip->val.m_richestPirate->m_treasure<< std::endl; 
     return output_t<int>(targetShip->val.m_richestPirate->m_pirateId);
 }
 
