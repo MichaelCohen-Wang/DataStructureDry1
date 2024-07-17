@@ -13,8 +13,8 @@ struct AVLNode {
   std::shared_ptr<T> val;               // Value stored in the node
   int key;               // Key of the node
 
-  AVLNode<T>::AVLNode(int valueId, std::shared_ptr<T> value); 
-  AVLNode(int valueId, T value);
+  AVLNode(int valueId, std::shared_ptr<T> value); 
+  //AVLNode(int valueId, T value);
   ~AVLNode();
 
   void setLeftNode(AVLNode* left);
@@ -29,6 +29,7 @@ struct AVLNode {
   AVLNode<T>* rotateRight(); // RR rotation
 };
 
+/*
 template<class T>
 AVLNode<T>::AVLNode(int valueId, T value){
   leftNode = nullptr;
@@ -38,6 +39,7 @@ AVLNode<T>::AVLNode(int valueId, T value){
   val = val; 
   key = valueId;
 }
+*/
 
 template<class T>
 AVLNode<T>::AVLNode(int valueId, std::shared_ptr<T> value){

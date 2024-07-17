@@ -126,6 +126,7 @@ StatusType Ocean::remove_pirate(int pirateId){
     out->m_counter--; 
 
     pirate_head.erase(pirateId);
+    return StatusType(0);
 }
     
 StatusType Ocean::treason(int sourceShipId, int destShipId){
@@ -147,7 +148,7 @@ StatusType Ocean::treason(int sourceShipId, int destShipId){
 
     add_pirate(oldestId, destShip->val->m_shipId, oldestTreasure);
 
-
+    return StatusType(0);
 }
 
 StatusType Ocean::update_pirate_treasure(int pirateId, int change){
@@ -181,6 +182,7 @@ StatusType Ocean::update_pirate_treasure(int pirateId, int change){
             }
         }
     }
+    return StatusType(0);
 
 
 }
@@ -254,6 +256,7 @@ StatusType Ocean::ships_battle(int shipId1,int shipId2){
         target2->val->m_battleWinnings+= target1->val->pirates_id.getSize();
         return StatusType(0);
     }
+    return StatusType(0);
 }
 
 

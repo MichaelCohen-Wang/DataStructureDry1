@@ -22,7 +22,7 @@ void print(string cmd, output_t<int> res);
 
 int main()
 {
-    
+    /*
     AVLNode<int>* node1 = new AVLNode<int>(20, 20);
     AVLNode<int>* node2 = new AVLNode<int>(30, 20);
     AVLNode<int>* node3 = new AVLNode<int>(10, 20);
@@ -42,10 +42,10 @@ int main()
     std::cout << tree.root -> leftNode -> key << std::endl;
     std::cout << tree.root -> rightNode -> key << std::endl;
 
-
+*/
     
 
-/*
+
     int d1, d2, d3;
 
     // Init
@@ -98,7 +98,7 @@ int main()
 
     // Quit 
     delete obj;
-*/
+
     return 0;
 
 }
