@@ -139,6 +139,7 @@ AVLTree<T>::AVLTree(AVLNode<T>* node) {
   size = 0;
 }
 
+/*
 template<class T>
 void AVLTree<T>::insert(AVLNode<T> node) {
   // Recursive helper function for insertion
@@ -179,6 +180,7 @@ AVLNode<T>* AVLTree<T>::insertHelper(AVLNode<T>* current, AVLNode<T> node) {
   current->fixValues();
   return balance(current);
 }
+*/
 
 template<class T>
 void AVLTree<T>::insert(AVLNode<T>* node) {

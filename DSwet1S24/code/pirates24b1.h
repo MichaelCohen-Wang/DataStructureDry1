@@ -1,26 +1,58 @@
-// 
-// 234218 Data Structures 1.
-// Semester: 2024B (spring).
-// Wet Exercise #1.
-// 
-// The following header file contains all methods we expect you to implement.
-// You MAY add private methods and fields of your own.
-// DO NOT erase or modify the signatures of the public methods.
-// DO NOT modify the preprocessors in this file.
-// DO NOT use the preprocessors in your other code files.
-// 
 
-#ifndef PIRRATES24SPRING_WET1_H_
-#define PIRRATES24SPRING_WET1_H_
+#ifndef OCEAN
+#define OCEAN
 
 #include "wet1util.h"
+#include "AVLNode.h"
+#include "AVLTree.h"
+
+
+
+
+class Pirate {
+private:
+   
+    
+public:
+    int m_pirateId;
+    int m_treasure;
+    int m_pirateIndex;
+    int m_shipId;
+    std::shared_ptr<Ship> m_ship;
+
+    Pirate(const int id, int treasure, int pirateIndex, int shipid);
+    // Additional fields 
+};
+
+class Ship {
+private:      
+
+
+public:
+    int m_counter=0;
+    int m_shipId;
+    int m_cannons;
+    int m_battleWinnings; 
+    AVLTree<Pirate> pirates_index ; //the tree is by index of pirates(queue)
+    AVLTree<Pirate> pirates_id ;
+    AVLTree<Pirate> pirates_treasure ;
+    std::shared_ptr<Pirate> m_richestPirate; 
+    int m_currentIndex=-100000;
+    Ship(const int id, int cannons = 0, int counter=0);
+    // int exist(int shipId);
+ 
+    // Additional fields and methods
+};
+
+
 
 class Ocean {
 private:
-    //
-    // Here you may add anything you want
-    //
-    
+
+    AVLTree<Ship> ship_head;
+    AVLTree<Pirate> pirate_head;
+
+
 public:
     // <DO-NOT-MODIFY> {
     
@@ -48,7 +80,7 @@ public:
 
     StatusType ships_battle(int shipId1,int shipId2);
 
-    // } </DO-NOT-MODIFY>
+  
 };
 
-#endif // PIRRATES24SPRING_WET1_H_
+#endif // PIRRATES

@@ -2,6 +2,7 @@
 #include <cmath>
 #include <algorithm>
 #include <iostream>
+#include <memory>
 
 template<class T>
 struct AVLNode {
@@ -9,9 +10,10 @@ struct AVLNode {
   AVLNode<T>* rightNode; // Right child
   int count;             // Number of nodes in the subtree rooted at this node
   int height;            // Height of the node
-  T val;                // Value stored in the node
+  std::shared_ptr<T> val;               // Value stored in the node
   int key;               // Key of the node
 
+  AVLNode<T>::AVLNode(int valueId, std::shared_ptr<T> value); 
   AVLNode(int valueId, T value);
   ~AVLNode();
 
@@ -28,11 +30,22 @@ struct AVLNode {
 };
 
 template<class T>
-AVLNode<T>::AVLNode(int valueId, T value) : val(value) {
+AVLNode<T>::AVLNode(int valueId, T value){
   leftNode = nullptr;
   rightNode = nullptr;
   count = 1;
   height = 1;
+  val = val; 
+  key = valueId;
+}
+
+template<class T>
+AVLNode<T>::AVLNode(int valueId, std::shared_ptr<T> value){
+  leftNode = nullptr;
+  rightNode = nullptr;
+  count = 1;
+  height = 1;
+  val = val; 
   key = valueId;
 }
 
@@ -62,13 +75,16 @@ int AVLNode<T>::findBalanceFactor() const {
 }
 
 template<class T>
-void AVLNode<T>::fixValues() {
-  count = (leftNode != nullptr ? leftNode->count : 0) +
-         (rightNode != nullptr ? rightNode->count : 0) + 1;
-
-  height = std::max(leftNode != nullptr ? leftNode->height : 0,
-                   rightNode != nullptr ? rightNode->height : 0) +
-          1;
+void AVLNode<T>::fixValues(){ 
+    count = (leftNode != nullptr ? leftNode->count : 0) + (rightNode != nullptr ? rightNode->count : 0) + 1;
+    int left = leftNode != nullptr ? leftNode->height : 0;
+    int right = rightNode != nullptr ? rightNode->height : 0;
+    if(left > right){
+        height = left + 1;
+    }
+    else{
+        height = right + 1; 
+    }
 }
 
 template<class T>
