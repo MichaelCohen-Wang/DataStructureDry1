@@ -102,7 +102,7 @@ StatusType Ocean::add_pirate(int pirateId, int shipId, int treasure){
     }
 
     AVLNode<Ship>* current_ship = this->ship_head.find(shipId);
-    std::cout << "error 7" << std::endl;
+    // this causes seg fault std::cout << current_ship -> val ->m_battleWinnings << std::endl;
     std::cout.flush();
     //seg fault happens during contains? 
     /*
@@ -114,7 +114,7 @@ StatusType Ocean::add_pirate(int pirateId, int shipId, int treasure){
     */
     std::cout << "error 9" << std::endl;
     std::cout.flush();
-    std::shared_ptr<Pirate> new_pirate = std::make_shared<Pirate>(pirateId,treasure - current_ship->val->m_battleWinnings, current_ship->val->m_currentIndex,current_ship->key); //do we need to do a pointer
+    std::shared_ptr<Pirate> new_pirate = std::make_shared<Pirate>(pirateId, /*treasure - current_ship->val->m_battleWinnings */ 0, /* this causes seg fault? current_ship->val->m_currentIndex */ 0 ,current_ship->key); //do we need to do a pointer
     std::cout << "error 10" << std::endl;
     std::cout.flush();
     new_pirate-> m_ship= current_ship->val; //to have a pointer to the ship
