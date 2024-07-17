@@ -62,8 +62,8 @@ StatusType Ocean::add_ship(int shipId, int cannons)
     if(this->ship_head.contains(shipId))// failure
         return StatusType(3);
         
-    std::shared_ptr<Ship> new_ship = std::make_shared<Ship>(shipId, cannons);
     try{  
+        std::shared_ptr<Ship> new_ship = std::make_shared<Ship>(shipId, cannons);
         AVLNode<Ship>* newleaf = new AVLNode<Ship>(shipId, new_ship);
         this->ship_head.insert(newleaf);
         return StatusType(0); //success  
@@ -105,11 +105,13 @@ StatusType Ocean::add_pirate(int pirateId, int shipId, int treasure){
     std::cout << "error 7" << std::endl;
     std::cout.flush();
     //seg fault happens during contains? 
+    /*
     if(current_ship->val->pirates_id.contains(pirateId) ){
         std::cout << "error 91" << std::endl;
         std::cout.flush();
         return StatusType(3);  //already exist
     }
+    */
     std::cout << "error 9" << std::endl;
     std::cout.flush();
     std::shared_ptr<Pirate> new_pirate = std::make_shared<Pirate>(pirateId,treasure - current_ship->val->m_battleWinnings, current_ship->val->m_currentIndex,current_ship->key); //do we need to do a pointer
