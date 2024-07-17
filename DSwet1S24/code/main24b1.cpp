@@ -22,6 +22,13 @@ void print(string cmd, output_t<int> res);
 
 int main()
 {
+    Ocean ocean;
+    ocean.add_ship(2, 20);
+    ocean.add_pirate(10,2, 40);
+    //ocean.add_pirate(10,2, 50);
+
+    //ocean.get_richest_pirate(2).ans();
+
     /*
     AVLNode<int>* node1 = new AVLNode<int>(20, 20);
     AVLNode<int>* node2 = new AVLNode<int>(30, 20);
@@ -45,7 +52,7 @@ int main()
 */
     
 
-
+/*
     int d1, d2, d3;
 
     // Init
@@ -98,7 +105,7 @@ int main()
 
     // Quit 
     delete obj;
-
+*/
     return 0;
 
 }

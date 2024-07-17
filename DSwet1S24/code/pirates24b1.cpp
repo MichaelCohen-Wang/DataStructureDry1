@@ -2,20 +2,55 @@
 #include "AVLTree.h"
 #include "AVLNode.h"
 #include "pirates24b1.h"
-
+#include "Ship.h"
 //pirate constr'
 Pirate::Pirate(const int id, int treasure, int pirateIndex, int shipId):
 m_pirateId(id), m_treasure(treasure), m_pirateIndex(pirateIndex),m_shipId(shipId),m_ship(nullptr){}
 
+bool Pirate::operator<(Pirate other){
+    if(m_pirateId < other.m_pirateId){
+        return true;
+    }
+    else{
+        return false; 
+    }
+}
+
+bool Pirate::operator>(Pirate other){
+    if(m_pirateId > other.m_pirateId){
+        return true; 
+    }
+    else{
+        return false; 
+    }
+}
 //ship constr'
 Ship::Ship(const int id, int cannons,int counter): 
   m_shipId(id), m_cannons(cannons), m_battleWinnings(0), m_counter(counter){}
 
+bool Ship::operator<(Ship other){
+    if(m_shipId < other.m_shipId){
+        return true;
+    }
+    else{
+        return false; 
+    }
+}
+
+bool Ship::operator>(Ship other){
+    if(m_shipId > other.m_shipId){
+        return true; 
+    }
+    else{
+        return false; 
+    }
+}
 /*int Ship::exist(int id){
 
 }
 */
-
+Ocean::Ocean() = default;
+Ocean::~Ocean() = default; 
 //---------------------------OCEAN class------------------------
 StatusType Ocean::add_ship(int shipId, int cannons)
 {
@@ -52,22 +87,35 @@ StatusType Ocean::remove_ship(int shipId) // check counter =0
 
 StatusType Ocean::add_pirate(int pirateId, int shipId, int treasure){
 
-
+    std::cout << "error 8" << std::endl;
+    std::cout.flush();
     if(shipId <= 0 || pirateId <= 0){//invalid input =2
-    return StatusType(2);
+        std::cout << "error 5" << std::endl;
+        std::cout.flush();
+        return StatusType(2);
     }
 
-    if(!this->ship_head.contains(shipId) || !this->pirate_head.contains(pirateId))// failure no such ship
+    if(!this->ship_head.contains(shipId) || this->pirate_head.contains(pirateId)){// failure no such ship
+        std::cout << "error 6" << std::endl;
+        std::cout.flush();
         return StatusType(3);
+    }
 
     AVLNode<Ship>* current_ship = this->ship_head.find(shipId);
-   
+    std::cout << "error 7" << std::endl;
+    std::cout.flush();
+    //seg fault happens during contains? 
     if(current_ship->val->pirates_id.contains(pirateId) ){
+        std::cout << "error 91" << std::endl;
+        std::cout.flush();
         return StatusType(3);  //already exist
     }
+    std::cout << "error 9" << std::endl;
+    std::cout.flush();
     std::shared_ptr<Pirate> new_pirate = std::make_shared<Pirate>(pirateId,treasure - current_ship->val->m_battleWinnings, current_ship->val->m_currentIndex,current_ship->key); //do we need to do a pointer
+    std::cout << "error 10" << std::endl;
+    std::cout.flush();
     new_pirate-> m_ship= current_ship->val; //to have a pointer to the ship
-
 
     try{  
         AVLNode<Pirate>* idPirate = new AVLNode<Pirate>(pirateId, new_pirate);
@@ -78,11 +126,15 @@ StatusType Ocean::add_pirate(int pirateId, int shipId, int treasure){
         current_ship->val->pirates_index.insert(indexPirate);
         current_ship->val->pirates_treasure.insert(treasurePirate);
         pirate_head.insert(oceanPirate);
-        if(current_ship->val->pirates_index.empty()){
+        if(current_ship->val->m_counter ==0 ){
             //no need to free because new_pirate4 wasn't dynmically allocated
+            std::cout << "error 8" << std::endl;
+            std::cout.flush();
             current_ship->val->m_richestPirate = new_pirate;
         }
         else{
+            std::cout << "error 9" << std::endl;
+            std::cout.flush();
             if(current_ship->val->m_richestPirate->m_treasure < treasure){
                 current_ship->val->m_richestPirate = new_pirate;
             }
@@ -214,13 +266,19 @@ output_t<int> Ocean::get_cannons(int shipId){
 
 output_t<int> Ocean::get_richest_pirate(int shipId){
     if(shipId <= 0 ){
+        std::cout << "error4" << std::endl; 
+        std::cout.flush();
         return StatusType(2);
     }
     if(!ship_head.contains(shipId)){
+        std::cout << "error4" << std::endl; 
+        std::cout.flush();
         return StatusType(3);
     }
     AVLNode<Ship>*  targetShip = ship_head.find(shipId);
-    if(!targetShip -> val->pirates_treasure.empty()){
+    if(targetShip -> val->m_counter == 0){
+        std::cout << "error4" << std::endl; 
+        std::cout.flush();
         return StatusType(3);
     }
     return output_t<int>(targetShip->val->m_richestPirate->m_pirateId);
@@ -236,24 +294,24 @@ StatusType Ocean::ships_battle(int shipId1,int shipId2){
     AVLNode<Ship>* target1 = ship_head.find(shipId1);
     AVLNode<Ship>* target2 = ship_head.find(shipId2);
     int combatPower1 = target1->val->m_cannons;
-    if(combatPower1 > target1->val->pirates_id.getSize()){
-        combatPower1 = target1->val->pirates_id.getSize();
+    if(combatPower1 > target1->val->m_counter){
+        combatPower1 = target1->val->m_counter;
     }
     int combatPower2 = target2->val->m_cannons;
-    if(combatPower2 > target2->val->pirates_id.getSize()){
-        combatPower2 = target2->val->pirates_id.getSize();
+    if(combatPower2 > target2->val->m_counter){
+        combatPower2 = target2->val->m_counter;
     }
     if(combatPower2 == combatPower1){
         return StatusType(0);
     }
     if(combatPower1 >= combatPower2){
-        target1->val->m_battleWinnings+= target2->val->pirates_id.getSize();
-        target2->val->m_battleWinnings-= target1->val->pirates_id.getSize();
+        target1->val->m_battleWinnings+= target2->val->m_counter;
+        target2->val->m_battleWinnings-= target1->val->m_counter;
         return StatusType(0);
     }
     if(combatPower2 >= combatPower1){
-        target1->val->m_battleWinnings-= target2->val->pirates_id.getSize();
-        target2->val->m_battleWinnings+= target1->val->pirates_id.getSize();
+        target1->val->m_battleWinnings -= target2->val->m_counter;
+        target2->val->m_battleWinnings += target1->val->m_counter;
         return StatusType(0);
     }
     return StatusType(0);

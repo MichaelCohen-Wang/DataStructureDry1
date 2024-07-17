@@ -218,7 +218,23 @@ AVLNode<T>* AVLTree<T>::insertHelper(AVLNode<T>* current, AVLNode<T>* node) {
       current->rightNode = node; 
     } else {
       current->rightNode = insertHelper(current->rightNode, node);
+    }
   }
+  else{
+    if( *(current->val) > *(node->val)){
+      if (current->leftNode == nullptr) {
+        current->leftNode = node; 
+      } else {
+          current->leftNode = insertHelper(current->leftNode, node);
+      }
+    }
+    else{
+      if (current->rightNode == nullptr) {
+        current->rightNode = node; 
+      } else {
+        current->rightNode = insertHelper(current->rightNode, node);
+      }
+    }
   }
   // Update height of the current node
   current->fixValues();
@@ -345,6 +361,9 @@ AVLNode<T>* AVLTree<T>::findHelper(AVLNode<T>* current, int key) const {
 template<class T>
 bool AVLTree<T>::contains(int key) const {
   // If find returns nullptr (not found), contains returns false
+  if(root == nullptr){
+    return false; 
+  }
   return find(key) != nullptr; 
 
 }

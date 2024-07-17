@@ -4,8 +4,9 @@
 #include <memory>
 #include "Ship.h"
 
+class Ship; 
+
 class Pirate {
-private:
    
     
 public:
@@ -14,6 +15,8 @@ public:
     int m_pirateIndex;
     int m_shipId;
     std::shared_ptr<Ship> m_ship;
+    bool operator<(Pirate other); 
+    bool operator>(Pirate other); 
 
     Pirate(const int id, int treasure, int pirateIndex, int shipid);
     // Additional fields 
