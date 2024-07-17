@@ -1,26 +1,19 @@
-// 
-// 234218 Data Structures 1.
-// Semester: 2024B (spring).
-// Wet Exercise #1.
-// 
-// The following header file contains all methods we expect you to implement.
-// You MAY add private methods and fields of your own.
-// DO NOT erase or modify the signatures of the public methods.
-// DO NOT modify the preprocessors in this file.
-// DO NOT use the preprocessors in your other code files.
-// 
 
-#ifndef PIRRATES24SPRING_WET1_H_
-#define PIRRATES24SPRING_WET1_H_
+#pragma once 
 
+#include "Ship.h"
 #include "wet1util.h"
+#include "AVLNode.h"
+#include "AVLTree.h"
+#include "Pirate.h"
 
 class Ocean {
 private:
-    //
-    // Here you may add anything you want
-    //
-    
+
+    AVLTree<Ship> ship_head;
+    AVLTree<Pirate> pirate_head;
+
+
 public:
     // <DO-NOT-MODIFY> {
     
@@ -48,7 +41,6 @@ public:
 
     StatusType ships_battle(int shipId1,int shipId2);
 
-    // } </DO-NOT-MODIFY>
+  
 };
 
-#endif // PIRRATES24SPRING_WET1_H_
