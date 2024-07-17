@@ -8,9 +8,46 @@
 Pirate::Pirate(const int id, int treasure, int pirateIndex, int shipId):
 m_pirateId(id), m_treasure(treasure), m_pirateIndex(pirateIndex),m_shipId(shipId),m_ship(nullptr){}
 
+bool Pirate::operator<(Pirate other){
+    if(m_pirateId < other.m_pirateId){
+        return true;
+    }
+    else{
+        return false; 
+    }
+}
+
+bool Pirate::operator>(Pirate other){
+    if(m_pirateId > other.m_pirateId){
+        return true; 
+    }
+    else{
+        return false; 
+    }
+}
+
+
 //ship constr'
 Ship::Ship(const int id, int cannons,int counter): 
   m_shipId(id), m_cannons(cannons), m_battleWinnings(0), m_counter(counter){}
+
+bool Ship::operator<(Ship other){
+    if(m_shipId < other.m_shipId){
+        return true;
+    }
+    else{
+        return false; 
+    }
+}
+
+bool Ship::operator>(Ship other){
+    if(m_shipId > other.m_shipId){
+        return true; 
+    }
+    else{
+        return false; 
+    }
+}
 
 /*int Ship::exist(int id){
 
@@ -61,7 +98,7 @@ StatusType Ocean::add_pirate(int pirateId, int shipId, int treasure){
     return StatusType(2);
     }
 
-    if(!this->ship_head.contains(shipId) || !this->pirate_head.contains(pirateId))// failure no such ship
+    if(! (this->ship_head.contains(shipId)) || this->pirate_head.contains(pirateId))// failure no such ship
         return StatusType(3);
 
     AVLNode<Ship>* current_ship = this->ship_head.find(shipId);
@@ -125,12 +162,13 @@ StatusType Ocean::remove_pirate(int pirateId){
 
     AVLNode<Pirate>* target = pirate_head.find(pirateId); 
     Ship* out = target->val.m_ship;
-
+    out->pirates_treasure.erase(target->val.m_treasure);
     out->pirates_id.erase(target->val.m_pirateId);
     out->pirates_index.erase(target->val.m_pirateIndex);
-    out->pirates_treasure.erase(target->val.m_treasure);
     out->m_counter--; 
-
+    if(out->m_counter > 0){
+        out->m_richestPirate = &(out->pirates_treasure.getMaximum()->val);
+    }
     pirate_head.erase(pirateId);
     return StatusType(0);
 }
@@ -229,7 +267,7 @@ output_t<int> Ocean::get_richest_pirate(int shipId){
         return StatusType(3);
     }
     AVLNode<Ship>*  targetShip = ship_head.find(shipId);
-    if(!targetShip -> val.pirates_treasure.empty()){
+    if(targetShip -> val.pirates_treasure.empty()){
         return StatusType(3);
     }
     return output_t<int>(targetShip->val.m_richestPirate->m_pirateId);
@@ -242,6 +280,7 @@ StatusType Ocean::ships_battle(int shipId1,int shipId2){
     if(!ship_head.contains(shipId1) || !ship_head.contains(shipId2)){
         return StatusType(3);
     }
+
     AVLNode<Ship>* target1 = ship_head.find(shipId1);
     AVLNode<Ship>* target2 = ship_head.find(shipId2);
     int combatPower1 = target1->val.m_cannons;

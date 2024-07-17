@@ -15,6 +15,11 @@ public:
     int m_shipId;
     Ship* m_ship;
 
+    bool operator<(Pirate other); 
+    bool operator>(Pirate other); 
+
     Pirate(const int id, int treasure, int pirateIndex, int shipid);
     // Additional fields 
 };
+
+

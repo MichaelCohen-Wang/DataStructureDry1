@@ -7,14 +7,13 @@
 #include "AVLTree.h"
 #include "Pirate.h"
 
-class Ocean {
-private:
+class Pirate; 
+class Ship; 
 
+class Ocean {
+public:
     AVLTree<Ship> ship_head;
     AVLTree<Pirate> pirate_head;
-
-
-public:
     // <DO-NOT-MODIFY> {
     
     Ocean();
