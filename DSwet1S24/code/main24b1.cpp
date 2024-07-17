@@ -39,10 +39,9 @@ void printStatus(StatusType status) {
     }
 }
 
-
+/*
 int main()
 {
-    /*
 
     AVLNode<int>* node1 = new AVLNode<int>(20, 20);
     AVLNode<int>* node2 = new AVLNode<int>(30, 20);
@@ -63,65 +62,6 @@ int main()
     std::cout << tree.root -> leftNode -> key << std::endl;
     std::cout << tree.root -> rightNode -> key << std::endl;
 
-*/
-    
-    Ocean ocean;
-
-    // Test add_ship
-    printStatus(ocean.add_ship(1, 10));  // Should print SUCCESS
-    printStatus(ocean.add_ship(2, 15));  // Should print SUCCESS
-    printStatus(ocean.add_ship(1, 20));  // Should print FAILURE (duplicate shipId)
-
-    // Test add_pirate
-    printStatus(ocean.add_pirate(101, 1, 100));  // Should print SUCCESS
-    printStatus(ocean.add_pirate(102, 1, 150));  // Should print SUCCESS
-    printStatus(ocean.add_pirate(101, 2, 200));  // Should print FAILURE (duplicate pirateId)
-
-
-    // Test get_treasure
-    auto treasure1 = ocean.get_treasure(101);
-    if (treasure1.status() == StatusType::SUCCESS) {
-        std::cout << "Pirate 101 Treasure: " << treasure1.ans() << std::endl;  // Should print 100
-    } else {
-        printStatus(treasure1.status());
-    }
-    // Test get_cannons
-    auto cannons1 = ocean.get_cannons(1);
-    if (cannons1.status() == StatusType::SUCCESS) {
-        std::cout << "Ship 1 Cannons: " << cannons1.ans() << std::endl;  // Should print 10
-    } else {
-        printStatus(cannons1.status());
-    }
- /*
-    // Test remove_pirate
-    printStatus(ocean.remove_pirate(101));  // Should print SUCCESS
-    printStatus(ocean.remove_pirate(101));  // Should print FAILURE (pirateId not found)
-
-    // Test remove_ship
-    printStatus(ocean.remove_ship(1));  // Should print FAILURE (pirates still on the ship)
-    printStatus(ocean.remove_ship(2));  // Should print SUCCESS
-*/
-    std::cout << "battle test: " << std::endl; 
-    printStatus(ocean.ships_battle(1, 2));  // Should print SUCCESS
-    //failed
-
-    // Test treason
-    std::cout << "treason test: " << std::endl; 
-    printStatus(ocean.treason(1, 2));  // Should print SUCCESS
-
-    // Test update_pirate_treasure
-    std::cout << "Update treasure: " << std::endl; 
-    printStatus(ocean.update_pirate_treasure(102, 50));  // Should print SUCCESS
-    //fail fefffffffffff
-
-    // Test get_richest_pirate
-    auto richestPirate = ocean.get_richest_pirate(1);
-    if (richestPirate.status() == StatusType::SUCCESS) {
-        std::cout << "Richest Pirate on Ship 1: " << richestPirate.ans() << std::endl;
-    } else {
-        printStatus(richestPirate.status());
-    }
-/*
     int d1, d2, d3;
 
     // Init
@@ -175,10 +115,11 @@ int main()
 
     // Quit 
     delete obj;
-*/
+
     return 0;
 
 }
+*/
 
 // Helpers
 static const char *StatusTypeStr[] =
