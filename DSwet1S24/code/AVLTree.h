@@ -51,6 +51,41 @@ public:
 
   // Function for checking existence (similar to find, returns true/false)
   bool contains(int key) const;
+
+  //maybe will cause problems when we remove in following method
+  AVLNode<T>* getMaximum() const;
+
+  AVLNode<T>* getMinimum() const;
+
+  void print2DUtil(AVLNode<T>* root, int space) {
+      // Base case
+      if (root == NULL)
+          return;
+  
+      // Increase distance between levels
+      space += 10;
+  
+      // Process right child first
+      print2DUtil(root->rightNode, space);
+  
+      // Print current node after space
+      // count
+      std::cout << std::endl;
+      for (int i = 10; i < space; i++)
+          std::cout << " ";
+      std::cout << root->key << "\n";
+  
+      // Process left child
+      print2DUtil(root->leftNode, space);
+  }
+ 
+// Wrapper over
+  void print2D()
+  {
+      // Pass initial space count as 0
+      print2DUtil(root, 0);
+  }
+
 };
 
 //global function: 
@@ -107,6 +142,9 @@ AVLTree<T>::AVLTree(AVLNode<T>* node) {
 template<class T>
 void AVLTree<T>::insert(AVLNode<T> node) {
   // Recursive helper function for insertion
+  if(this->contains(node->key)){
+    return; 
+  }
   root = insertHelper(root, node);
   size++; // Increment size after successful insertion
 }
@@ -145,14 +183,18 @@ AVLNode<T>* AVLTree<T>::insertHelper(AVLNode<T>* current, AVLNode<T> node) {
 template<class T>
 void AVLTree<T>::insert(AVLNode<T>* node) {
   // Recursive helper function for insertion
+  if(this->contains(node->key)){
+    return;
+  }
   if(root != nullptr){
     root = insertHelper(root, node);
+    size++;
   }
   else{
     root = node; 
+    size++;
   }
-
-  size++; // Increment size after successful insertion
+ // Increment size after successful insertion
 }
 
 template<class T>
@@ -244,8 +286,12 @@ AVLNode<T>* AVLTree<T>::eraseHelper(AVLNode<T>* current, int key) {
 
 template<class T>
 void AVLTree<T>::erase(int key) {
+  if(!this->contains(key)){
+    return; 
+  }
   // Recursive helper function for deletion
   root = eraseHelper(root, key);
+  size--; 
 }
 
 // Destructor implementation (mentioned earlier)
@@ -299,4 +345,30 @@ bool AVLTree<T>::contains(int key) const {
   // If find returns nullptr (not found), contains returns false
   return find(key) != nullptr; 
 
+}
+
+template<class T>
+AVLNode<T>* AVLTree<T>::getMaximum() const{
+  if(root == nullptr){
+    return nullptr; 
+  }
+
+  AVLNode<T>* current = root;
+  while(current->rightNode !=nullptr){
+      current = current->rightNode; 
+  }
+  return current; 
+}
+
+template<class T>
+AVLNode<T>* AVLTree<T>::getMinimum() const{
+  if(root == nullptr){
+    return nullptr; 
+  }
+
+  AVLNode<T>* current = root;
+  while(current->leftNode !=nullptr){
+      current = current->leftNode; 
+  }
+  return current; 
 }
