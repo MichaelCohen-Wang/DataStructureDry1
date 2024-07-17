@@ -53,6 +53,7 @@ int main()
     
     // Execute all commands in file
     string op;
+    
     while (cin >> op)
     {
         if (!op.compare("add_ship")) {
