@@ -160,26 +160,24 @@ StatusType Ocean::update_pirate_treasure(int pirateId, int change){
 
     AVLNode<Pirate>* target = pirate_head.find(pirateId);
 
-    Ship* targetShip = target->val->m_ship;
+    std::shared_ptr<Ship> targetShip = target->val->m_ship;
 
     targetShip->pirates_treasure.erase(target->val->m_treasure); 
     target->val->m_treasure += change; 
-    Pirate newPirate = Pirate(target->val.m_pirateId, target->val.m_treasure, target->val.m_pirateIndex, target->val.m_shipId);
-    newPirate.m_ship = targetShip; 
-    AVLNode<Pirate>* newNode = new AVLNode<Pirate>(newPirate.m_treasure, newPirate);
+    AVLNode<Pirate>* newNode= new AVLNode<Pirate>(pirateId, target->val);
     targetShip->pirates_treasure.insert(newNode); 
 
     if(targetShip->pirates_index.empty()){
         //no need to free because new_pirate4 wasn't dynmically allocated
-        targetShip->m_richestPirate = &newPirate;
+        targetShip->m_richestPirate = target->val;
     }
     else{
-        if(targetShip->m_richestPirate->m_treasure < target->val.m_treasure){
-            targetShip->m_richestPirate = &newPirate;
+        if(targetShip->m_richestPirate->m_treasure < target->val->m_treasure){
+            targetShip->m_richestPirate = target->val;
         }
-        else if(targetShip->m_richestPirate->m_treasure == target->val.m_treasure){
+        else if(targetShip->m_richestPirate->m_treasure == target->val->m_treasure){
             if(targetShip->m_richestPirate->m_pirateId < pirateId){
-                targetShip->m_richestPirate = &newPirate;
+                targetShip->m_richestPirate = target->val;
             }
         }
     }
@@ -195,10 +193,9 @@ output_t<int> Ocean::get_treasure(int pirateId){
         return StatusType(3);
     }
     AVLNode<Pirate>* targetPirate = pirate_head.find(pirateId);
-    Ship* current_ship = targetPirate->val.m_ship; 
-
+    std::shared_ptr<Ship> current_ship = targetPirate->val->m_ship; 
     //add winnings gained in fights
-    return output_t<int>(targetPirate->val.m_treasure + current_ship->m_battleWinnings); 
+    return output_t<int>(targetPirate->val->m_treasure + current_ship->m_battleWinnings); 
 }
 
 
@@ -210,7 +207,7 @@ output_t<int> Ocean::get_cannons(int shipId){
         return StatusType(3);
     }
     AVLNode<Ship>*  targetShip = ship_head.find(shipId);
-    return output_t<int>(targetShip->val.m_cannons); 
+    return output_t<int>(targetShip->val->m_cannons); 
 }
 
 output_t<int> Ocean::get_richest_pirate(int shipId){
@@ -221,10 +218,10 @@ output_t<int> Ocean::get_richest_pirate(int shipId){
         return StatusType(3);
     }
     AVLNode<Ship>*  targetShip = ship_head.find(shipId);
-    if(!targetShip -> val.pirates_treasure.empty()){
+    if(!targetShip -> val->pirates_treasure.empty()){
         return StatusType(3);
     }
-    return output_t<int>(targetShip->val.m_richestPirate->m_pirateId);
+    return output_t<int>(targetShip->val->m_richestPirate->m_pirateId);
 }
 
 StatusType Ocean::ships_battle(int shipId1,int shipId2){
@@ -236,25 +233,25 @@ StatusType Ocean::ships_battle(int shipId1,int shipId2){
     }
     AVLNode<Ship>* target1 = ship_head.find(shipId1);
     AVLNode<Ship>* target2 = ship_head.find(shipId2);
-    int combatPower1 = target1->val.m_cannons;
-    if(combatPower1 > target1->val.pirates_id.getSize()){
-        combatPower1 = target1->val.pirates_id.getSize();
+    int combatPower1 = target1->val->m_cannons;
+    if(combatPower1 > target1->val->pirates_id.getSize()){
+        combatPower1 = target1->val->pirates_id.getSize();
     }
-    int combatPower2 = target2->val.m_cannons;
-    if(combatPower2 > target2->val.pirates_id.getSize()){
-        combatPower2 = target2->val.pirates_id.getSize();
+    int combatPower2 = target2->val->m_cannons;
+    if(combatPower2 > target2->val->pirates_id.getSize()){
+        combatPower2 = target2->val->pirates_id.getSize();
     }
     if(combatPower2 == combatPower1){
         return StatusType(0);
     }
     if(combatPower1 >= combatPower2){
-        target1->val.m_battleWinnings+= target2->val.pirates_id.getSize();
-        target2->val.m_battleWinnings-= target1->val.pirates_id.getSize();
+        target1->val->m_battleWinnings+= target2->val->pirates_id.getSize();
+        target2->val->m_battleWinnings-= target1->val->pirates_id.getSize();
         return StatusType(0);
     }
     if(combatPower2 >= combatPower1){
-        target1->val.m_battleWinnings-= target2->val.pirates_id.getSize();
-        target2->val.m_battleWinnings+= target1->val.pirates_id.getSize();
+        target1->val->m_battleWinnings-= target2->val->pirates_id.getSize();
+        target2->val->m_battleWinnings+= target1->val->pirates_id.getSize();
         return StatusType(0);
     }
 }
