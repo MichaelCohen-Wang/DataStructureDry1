@@ -362,6 +362,8 @@ template<class T>
 bool AVLTree<T>::contains(int key) const {
   // If find returns nullptr (not found), contains returns false
   if(root == nullptr){
+    std::cout << "error 71" << std::endl;
+    std::cout.flush();
     return false; 
   }
   return find(key) != nullptr; 

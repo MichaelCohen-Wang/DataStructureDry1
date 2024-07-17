@@ -26,7 +26,7 @@ bool Pirate::operator>(Pirate other){
 }
 //ship constr'
 Ship::Ship(const int id, int cannons,int counter): 
-  m_shipId(id), m_cannons(cannons), m_battleWinnings(0), m_counter(counter){}
+  m_shipId(id), m_cannons(cannons), m_battleWinnings(0), m_counter(counter) {}
 
 bool Ship::operator<(Ship other){
     if(m_shipId < other.m_shipId){
