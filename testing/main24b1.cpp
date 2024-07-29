@@ -25,44 +25,33 @@ int main()
     
     //int* a = new int(3);
     
-
 /*
-    AVLNode<int>* node1 = new AVLNode<int>(20, 20);
-    AVLNode<int>* node2 = new AVLNode<int>(20, 30);
+
+    AVLNode<int>* node1 = new AVLNode<int>(117588, 20);
+    AVLNode<int>* node2 = new AVLNode<int>(152689, 30);
     
-    AVLNode<int>* node3 = new AVLNode<int>(10, 20);
-    AVLNode<int>* node4 = new AVLNode<int>(5, 20);
+    AVLNode<int>* node3 = new AVLNode<int>(313259, 20);
+    AVLNode<int>* node4 = new AVLNode<int>(88735, 20);
     
-    AVLNode<int>* node5 = new AVLNode<int>(11, 20);
+    AVLNode<int>* node5 = new AVLNode<int>(91132, 20);
     
-    AVLNode<int>* node6 = new AVLNode<int>(12, 20);
     
     AVLTree<int> tree; 
     tree.insert(node1);
     tree.insert(node2);
     tree.insert(node3);
     tree.insert(node4);
-    
     tree.insert(node5);
-    //std::cout << tree.getSize() << std::endl;
-    tree.erase(20);
-    tree.erase(15);
+    tree.print(); 
     
-    //std::cout << tree.getSize() << std::endl;
-    //prints tree sideways
-    
-    tree.insert(node6);
-    
-    tree.print2D();
 */
-
 
     //std::cout << tree.root -> key << std::endl;
     //std::cout << tree.root -> leftNode -> key << std::endl;
     //std::cout << tree.root -> rightNode -> key << std::endl;
 
 
-    
+  
 
 
     int d1, d2, d3;

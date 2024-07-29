@@ -129,6 +129,7 @@ AVLTree<T>::AVLTree() {
   size = 0;
 }
 
+
 template<class T>
 AVLTree<T>::AVLTree(AVLNode<T>* node) {
   // This constructor might not be safe anymore
@@ -180,6 +181,7 @@ AVLNode<T>* AVLTree<T>::insertHelper(AVLNode<T>* current, AVLNode<T> node) {
   current->fixValues();
   return balance(current);
 }
+
 
 template<class T>
 void AVLTree<T>::insert(AVLNode<T>* node) {
@@ -308,6 +310,8 @@ AVLNode<T>* AVLTree<T>::eraseHelper(AVLNode<T>* current, int key) {
 
 template<class T>
 void AVLTree<T>::erase(int key) {
+  std::cout << "called here" << std::endl; 
+  std::cout.flush();
   if(!this->contains(key)){
     return; 
   }
@@ -315,6 +319,7 @@ void AVLTree<T>::erase(int key) {
   root = eraseHelper(root, key);
   size--; 
 }
+
 
 template<class T>
 AVLNode<T>* AVLTree<T>::eraseHelper(AVLNode<T>* current, T key) {

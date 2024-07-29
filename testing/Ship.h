@@ -20,6 +20,9 @@ public:
     int m_currentIndex= -100000;
     bool operator<(Ship other);
     bool operator>(Ship other);
+    //added this
+    bool operator<=(Ship other){return *this < other;}
+    bool operator>=(Ship other){return *this > other;};
     Ship(const int id, int cannons = 0, int counter=0);
     // int exist(int shipId);
  

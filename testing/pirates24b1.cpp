@@ -82,13 +82,14 @@ bool Ship::operator>(Ship other){
     }
 }
 
+
 /*int Ship::exist(int id){
 
 }
 */
 Ocean::Ocean() = default; 
 
-Ocean::~Ocean() = default; 
+Ocean::~Ocean(){}
 
 //---------------------------OCEAN class------------------------
 StatusType Ocean::add_ship(int shipId, int cannons)
@@ -157,7 +158,7 @@ StatusType Ocean::add_pirate(int pirateId, int shipId, int treasure) {
     AVLNode<Pirate>* treasurePirate = new AVLNode<Pirate>(treasure, new_pirate);
     current_ship->val.pirates_treasure.insert(treasurePirate);
 
-    //if (current_ship->val.m_counter == 0) {
+    //if (current_ship->val.m_counter == 0) { changes here, commented if else out
       //std::cout << "I was here 40" << std::endl; 
       //std::cout << "address of ship : " << current_ship << std::endl; 
       //NEW PIRATE GETS DELETED, YOU NEED TO POINT TO THE NEW OBJECT IN THE NODES
