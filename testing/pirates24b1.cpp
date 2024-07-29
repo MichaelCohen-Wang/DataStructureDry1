@@ -8,6 +8,7 @@
 Pirate::Pirate(const int id, int treasure, int pirateIndex, int shipId):
 m_pirateId(id), m_treasure(treasure), m_pirateIndex(pirateIndex),m_shipId(shipId),m_ship(nullptr){}
 
+
 bool Pirate::operator<(Pirate other){
     if(m_pirateId < other.m_pirateId){
         //std::cout << m_pirateId << " < " << other.m_pirateId << std::endl ; 

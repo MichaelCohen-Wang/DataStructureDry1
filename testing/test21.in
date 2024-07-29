@@ -1,7 +1,7 @@
 add_ship 117588 30
 add_ship 152689 21
 add_ship 313259 19
-add_pirate 317111 117588 2
 add_ship 88735 12
 add_ship 91132 30
-remove_ship 91132
+add_pirate 317111 117588 2 //changing the destination fixes leaks 
+remove_ship 91132 //changing remove ship fixes leaks
