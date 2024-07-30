@@ -67,7 +67,7 @@ int main()
             cin >> d1 >> d2;
             print(op, obj->add_ship(d1, d2));
         } else if (!op.compare("remove_ship")) {
-            obj->print_avl_tree();
+            //obj->print_avl_tree();
             cin >> d1;
             print(op, obj->remove_ship(d1));
         } else if (!op.compare("add_pirate")) {

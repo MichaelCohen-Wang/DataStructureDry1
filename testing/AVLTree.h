@@ -317,8 +317,8 @@ AVLNode<T>* AVLTree<T>::eraseHelper(AVLNode<T>* current, int key) {
 
 template<class T>
 void AVLTree<T>::erase(int key) {
-  std::cout << "called here" << std::endl; 
-  std::cout.flush();
+  //std::cout << "called here" << std::endl; 
+  //std::cout.flush();
   if(!this->contains(key)){
     return; 
   }
@@ -372,17 +372,24 @@ AVLNode<T>* AVLTree<T>::eraseHelper(AVLNode<T>* current, T key) {
 
     // Case 3: Node has two children (choose successor)
     // Find the in-order successor (smallest node in the right subtree)
-    AVLNode<T>* successor = current->rightNode;
-    while (successor->leftNode != nullptr) {
-      successor = successor->leftNode;
-    }
-
-    // Copy the value and key of the successor to the current node
-    current->key = successor->key;
-    current->val = successor->val;
-
-    // Recursively delete the successor (backtracking)
-    current->rightNode = eraseHelper(current->rightNode, successor->key);
+        AVLNode<T>* successor = current->rightNode;
+        AVLNode<T>* successorParent = current;
+  
+        // Find the leftmost leaf in the right subtree
+        while (successor->leftNode != nullptr) {
+            successorParent = successor;
+            successor = successor->leftNode;
+        }
+        // If successor is not the immediate right child
+        if (successorParent != current) {
+            successorParent->leftNode = successor->rightNode;
+            successor->rightNode = current->rightNode;
+        }
+        successor->leftNode = current->leftNode;
+        
+        // Delete current node
+        delete current;
+        current = successor;
   }
 
   // Update height after deletion (may have changed)
