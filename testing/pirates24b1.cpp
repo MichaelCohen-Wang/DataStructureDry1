@@ -8,7 +8,6 @@
 Pirate::Pirate(const int id, int treasure, int pirateIndex, int shipId):
 m_pirateId(id), m_treasure(treasure), m_pirateIndex(pirateIndex),m_shipId(shipId),m_ship(nullptr){}
 
-
 bool Pirate::operator<(Pirate other){
     if(m_pirateId < other.m_pirateId){
         //std::cout << m_pirateId << " < " << other.m_pirateId << std::endl ; 
@@ -82,14 +81,13 @@ bool Ship::operator>(Ship other){
     }
 }
 
-
 /*int Ship::exist(int id){
 
 }
 */
 Ocean::Ocean() = default; 
 
-Ocean::~Ocean(){}
+Ocean::~Ocean() = default; 
 
 //---------------------------OCEAN class------------------------
 StatusType Ocean::add_ship(int shipId, int cannons)
@@ -139,9 +137,9 @@ StatusType Ocean::add_pirate(int pirateId, int shipId, int treasure) {
   }
 
   // Create a single Pirate object and populate its data
-  Pirate new_pirate(pirateId, &current_ship->val, treasure - current_ship->val.m_battleWinnings,
+  Pirate new_pirate(pirateId, treasure - current_ship->val.m_battleWinnings,
                     current_ship->val.m_currentIndex, current_ship->key);
-  //new_pirate.m_ship = &current_ship->val; // assign pointer to the ship
+  new_pirate.m_ship = &current_ship->val; // assign pointer to the ship
 
   try {
     // Use a single Pirate object for insertions (avoid unnecessary copies)
@@ -158,21 +156,21 @@ StatusType Ocean::add_pirate(int pirateId, int shipId, int treasure) {
     AVLNode<Pirate>* treasurePirate = new AVLNode<Pirate>(treasure, new_pirate);
     current_ship->val.pirates_treasure.insert(treasurePirate);
 
-    //if (current_ship->val.m_counter == 0) { changes here, commented if else out
+    if (current_ship->val.m_counter == 0) {
       //std::cout << "I was here 40" << std::endl; 
       //std::cout << "address of ship : " << current_ship << std::endl; 
       //NEW PIRATE GETS DELETED, YOU NEED TO POINT TO THE NEW OBJECT IN THE NODES
-      //current_ship->val.m_richestPirate = &current_ship->val.pirates_id.find(pirateId)->val;
+      current_ship->val.m_richestPirate = &current_ship->val.pirates_id.find(pirateId)->val;
       //std::cout << current_ship->val.m_richestPirate->m_pirateId << std::endl; 
 
-    //} else {
+    } else {
       /*if (current_ship->val.m_richestPirate->m_treasure < treasure - current_ship->val.m_battleWinnings ||
           (current_ship->val.m_richestPirate->m_treasure == treasure - current_ship->val.m_battleWinnings &&
            current_ship->val.m_richestPirate->m_pirateId < pirateId)) {
         current_ship->val.m_richestPirate =  &current_ship->val.pirates_id.find(pirateId)->val;
       } */
-    current_ship->val.m_richestPirate =  &current_ship->val.pirates_treasure.getMaximum()->val;
-    //}
+        current_ship->val.m_richestPirate =  &current_ship->val.pirates_treasure.getMaximum()->val;
+    }
 
     current_ship->val.m_currentIndex++;
     current_ship->val.m_counter++;

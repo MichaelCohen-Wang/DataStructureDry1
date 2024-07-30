@@ -21,12 +21,6 @@ public:
     bool operator<=(Pirate other);
     bool operator>=(Pirate other);
     Pirate(const int id, int treasure, int pirateIndex, int shipid);
-
-    Pirate(const int id, Ship* ship, int treasure, int pirateIndex, int shipId):
-    m_pirateId(id),  m_treasure(treasure), m_pirateIndex(pirateIndex),m_shipId(shipId){m_ship = ship;}
-
-    ~Pirate(){ }
-
     // Additional fields 
 };
 
