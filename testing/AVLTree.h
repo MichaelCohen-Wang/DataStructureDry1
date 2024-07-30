@@ -286,17 +286,20 @@ AVLNode<T>* AVLTree<T>::eraseHelper(AVLNode<T>* current, int key) {
 
     // Case 3: Node has two children (choose successor)
     // Find the in-order successor (smallest node in the right subtree)
-    AVLNode<T>* successor = current->rightNode;
-    while (successor->leftNode != nullptr) {
-      successor = successor->leftNode;
-    }
-
-    // Copy the value and key of the successor to the current node
-    current->key(successor->key);
-    current->val(successor->val);
-
-    // Recursively delete the successor (backtracking)
-    current->rightNode = eraseHelper(current->rightNode, successor->key);
+        AVLNode<T>* successorParent = current;
+        AVLNode<T>* successor = current->rightNode;
+        while (successor->leftNode != nullptr) {
+            successorParent = successor;
+            successor = successor->leftNode;
+        }
+        // Use a helper function to swap values instead of direct assignments
+        swapValues(current, successor);
+        // Remove the successor now that values are swapped
+        if (successorParent->leftNode == successor) {
+            successorParent->leftNode = eraseHelper(successorParent->leftNode, successor->key);
+        } else {
+            successorParent->rightNode = eraseHelper(successorParent->rightNode, successor->key);
+        }
   }
 
   // Update height after deletion (may have changed)
@@ -478,5 +481,13 @@ AVLNode<T>* AVLTree<T>::getMinimum() const{
   return current; 
 }
 
-
+template<class T>
+void swapValues(AVLNode<T>* a, AVLNode<T>* b) {
+    T tempKey = a->key;
+    T tempVal = a->val;
+    a->key = b->key;
+    a->val = b->val;
+    b->key = tempKey;
+    b->val = tempVal;
+}
 
