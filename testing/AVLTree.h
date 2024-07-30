@@ -292,8 +292,8 @@ AVLNode<T>* AVLTree<T>::eraseHelper(AVLNode<T>* current, int key) {
     }
 
     // Copy the value and key of the successor to the current node
-    current->key = successor->key;
-    current->val = successor->val;
+    current->key(successor->key);
+    current->val(successor->val);
 
     // Recursively delete the successor (backtracking)
     current->rightNode = eraseHelper(current->rightNode, successor->key);

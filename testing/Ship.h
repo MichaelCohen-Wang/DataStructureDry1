@@ -21,9 +21,14 @@ public:
     bool operator<(Ship other);
     bool operator>(Ship other);
     //added this
-    bool operator<=(Ship other){return *this < other;}
-    bool operator>=(Ship other){return *this > other;};
+    //bool operator<=(Ship other){return *this < other;}
+    //bool operator>=(Ship other){return *this > other;};
     Ship(const int id, int cannons = 0, int counter=0);
+    //Ship(const Ship& other): 
+    //m_shipId(other.m_shipId), m_cannons(other.m_cannons), 
+    //m_battleWinnings(other.m_battleWinnings), m_counter(other.m_counter), pirates_index(other.pirates_index) {}
+    ~Ship(){};
+    //~Ship() = delete; 
     // int exist(int shipId);
  
     // Additional fields and methods
