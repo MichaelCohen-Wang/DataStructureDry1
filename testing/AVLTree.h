@@ -372,22 +372,16 @@ AVLNode<T>* AVLTree<T>::eraseHelper(AVLNode<T>* current, T key) {
 
     // Case 3: Node has two children (choose successor)
     // Find the in-order successor (smallest node in the right subtree)
-        AVLNode<T>* successor = current->rightNode;
-        AVLNode<T>* successorParent = current;
+        AVLNode<T>* successor = current->rightNode; AVLNode<T>* successorParent = current;
   
         // Find the leftmost leaf in the right subtree
         while (successor->leftNode != nullptr) {
             successorParent = successor;
             successor = successor->leftNode;
         }
-        // If successor is not the immediate right child
-        if (successorParent != current) {
-            successorParent->leftNode = successor->rightNode;
-            successor->rightNode = current->rightNode;
-        }
+        if (successorParent != current) {successorParent->leftNode = successor->rightNode; successor->rightNode = current->rightNode;}
         successor->leftNode = current->leftNode;
         
-        // Delete current node
         delete current;
         current = successor;
   }
