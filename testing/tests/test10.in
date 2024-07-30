@@ -1,0 +1,32 @@
+add_ship 20883 29
+get_treasure 4468
+add_pirate 299808 20883 12
+add_pirate 89064 20883 3
+remove_pirate 299808
+get_cannons 20883
+get_cannons 20883
+add_pirate 303008 20883 20
+get_treasure 89064
+add_pirate 67030 20883 0
+get_cannons 20883
+add_pirate 400694 20883 10
+get_cannons 20883
+get_treasure 400694
+remove_pirate 89064
+get_cannons 20883
+remove_pirate 67030
+get_treasure 382503
+add_pirate 431469 20883 3
+remove_pirate 431469
+remove_ship 20883
+remove_pirate 400694
+get_treasure 303008
+remove_ship 20883
+add_pirate 134427 20883 14
+get_treasure 303008
+add_pirate 249202 20883 24
+update_pirate_treasure 303008 11
+update_pirate_treasure 299808 28
+get_treasure 249202
+update_pirate_treasure 303008 25
+add_pirate 437007 20883 11

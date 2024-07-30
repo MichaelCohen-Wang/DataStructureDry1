@@ -1,0 +1,8 @@
+add_ship 390 28
+add_pirate 576 390 18
+get_cannons 390
+add_pirate 366 390 25
+get_cannons 390
+get_treasure 366
+add_pirate 188 390 25
+get_cannons 390

@@ -1,0 +1,8 @@
+add_ship 170165 19
+add_ship 1519966 5
+remove_ship 1519966
+get_cannons 1519966
+add_ship 1467875 14
+add_ship 344073 7
+add_ship 95005 17
+remove_ship 170165

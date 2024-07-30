@@ -1,0 +1,8 @@
+add_ship 349 11
+get_cannons 349
+update_pirate_treasure 389 20
+update_pirate_treasure 36 29
+add_ship 265 17
+get_cannons 265
+get_cannons 331
+remove_pirate 36

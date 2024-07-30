@@ -1,0 +1,8 @@
+get_treasure: FAILURE
+add_ship: SUCCESS
+add_ship: SUCCESS
+remove_ship: SUCCESS
+add_ship: SUCCESS
+add_pirate: SUCCESS
+remove_ship: SUCCESS
+get_treasure: SUCCESS, 16

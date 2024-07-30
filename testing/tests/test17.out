@@ -1,0 +1,32 @@
+add_ship: SUCCESS
+get_richest_pirate: FAILURE
+remove_ship: SUCCESS
+remove_ship: FAILURE
+add_ship: SUCCESS
+treason: FAILURE
+add_ship: SUCCESS
+remove_pirate: FAILURE
+add_ship: SUCCESS
+remove_ship: SUCCESS
+ships_battle: FAILURE
+add_ship: SUCCESS
+remove_ship: FAILURE
+ships_battle: FAILURE
+add_ship: SUCCESS
+remove_ship: FAILURE
+get_cannons: SUCCESS, 21
+remove_ship: FAILURE
+update_pirate_treasure: FAILURE
+get_richest_pirate: FAILURE
+get_cannons: SUCCESS, 19
+get_richest_pirate: FAILURE
+get_richest_pirate: FAILURE
+get_treasure: FAILURE
+remove_ship: FAILURE
+add_ship: SUCCESS
+ships_battle: SUCCESS
+update_pirate_treasure: FAILURE
+get_treasure: FAILURE
+remove_ship: FAILURE
+get_richest_pirate: FAILURE
+update_pirate_treasure: FAILURE

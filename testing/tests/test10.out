@@ -1,0 +1,32 @@
+add_ship: SUCCESS
+get_treasure: FAILURE
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+remove_pirate: SUCCESS
+get_cannons: SUCCESS, 29
+get_cannons: SUCCESS, 29
+add_pirate: SUCCESS
+get_treasure: SUCCESS, 3
+add_pirate: SUCCESS
+get_cannons: SUCCESS, 29
+add_pirate: SUCCESS
+get_cannons: SUCCESS, 29
+get_treasure: SUCCESS, 10
+remove_pirate: SUCCESS
+get_cannons: SUCCESS, 29
+remove_pirate: SUCCESS
+get_treasure: FAILURE
+add_pirate: SUCCESS
+remove_pirate: SUCCESS
+remove_ship: FAILURE
+remove_pirate: SUCCESS
+get_treasure: SUCCESS, 20
+remove_ship: FAILURE
+add_pirate: SUCCESS
+get_treasure: SUCCESS, 20
+add_pirate: SUCCESS
+update_pirate_treasure: SUCCESS
+update_pirate_treasure: FAILURE
+get_treasure: SUCCESS, 24
+update_pirate_treasure: SUCCESS
+add_pirate: SUCCESS

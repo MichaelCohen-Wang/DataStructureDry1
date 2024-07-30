@@ -1,0 +1,8 @@
+add_ship: SUCCESS
+add_ship: SUCCESS
+treason: FAILURE
+add_pirate: SUCCESS
+remove_pirate: SUCCESS
+remove_ship: SUCCESS
+get_treasure: FAILURE
+update_pirate_treasure: FAILURE

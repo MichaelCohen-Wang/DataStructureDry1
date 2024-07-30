@@ -1,0 +1,8 @@
+get_cannons 468
+add_ship 44 4
+get_cannons 44
+add_ship 408 14
+add_pirate 301 512 11
+add_ship 273 6
+get_cannons 273
+remove_pirate 301

@@ -1,0 +1,8 @@
+add_ship: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+update_pirate_treasure: SUCCESS
+update_pirate_treasure: SUCCESS
+get_treasure: SUCCESS, 54
+remove_pirate: SUCCESS
+add_pirate: SUCCESS

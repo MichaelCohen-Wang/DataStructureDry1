@@ -1,0 +1,32 @@
+add_ship 186148 21
+add_ship 371122 11
+add_pirate 302193 186148 1
+add_pirate 331442 371122 10
+treason 371122 186148
+add_pirate 110984 371122 26
+remove_pirate 331442
+add_ship 281481 15
+add_ship 219386 29
+add_ship 244624 13
+add_pirate 240447 371122 25
+add_ship 172423 20
+get_cannons 186148
+add_pirate 198566 172423 25
+remove_pirate 110984
+add_pirate 26854 371122 11
+add_ship 458321 24
+add_ship 415761 25
+get_cannons 281481
+add_ship 109083 26
+ships_battle 172423 219386
+remove_ship 244624
+add_ship 289640 7
+get_cannons 458321
+add_pirate 378355 219386 1
+add_ship 257170 0
+treason 186148 172423
+add_pirate 184278 257170 1
+get_richest_pirate 109083
+get_treasure 110984
+update_pirate_treasure 331442 -1
+remove_ship 458321

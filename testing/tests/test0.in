@@ -1,0 +1,8 @@
+get_treasure 455292
+add_ship 50666 24
+add_ship 501530 24
+remove_ship 50666
+add_ship 312740 4
+add_pirate 491061 312740 16
+remove_ship 501530
+get_treasure 491061

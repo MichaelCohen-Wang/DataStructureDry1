@@ -1,0 +1,8 @@
+add_ship 510 21
+add_ship 348 29
+treason 510 348
+add_pirate 423 348 2
+remove_pirate 423
+remove_ship 510
+get_treasure 137
+update_pirate_treasure 471 -1

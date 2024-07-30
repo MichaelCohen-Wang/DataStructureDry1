@@ -1,0 +1,8 @@
+add_ship 155356 26
+add_pirate 451855 155356 25
+add_pirate 211260 155356 24
+update_pirate_treasure 211260 30
+update_pirate_treasure 451855 28
+get_treasure 211260
+remove_pirate 211260
+add_pirate 221689 155356 25

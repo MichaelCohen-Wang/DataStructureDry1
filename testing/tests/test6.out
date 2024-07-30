@@ -1,0 +1,8 @@
+add_ship: SUCCESS
+get_cannons: SUCCESS, 11
+update_pirate_treasure: FAILURE
+update_pirate_treasure: FAILURE
+add_ship: SUCCESS
+get_cannons: SUCCESS, 17
+get_cannons: FAILURE
+remove_pirate: FAILURE

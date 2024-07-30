@@ -1,0 +1,4096 @@
+add_ship 161316 10
+remove_pirate 306624
+remove_ship 161316
+update_pirate_treasure 388446 15
+update_pirate_treasure 388446 5
+get_cannons 161316
+get_treasure 388446
+update_pirate_treasure 388446 19
+remove_pirate 441853
+get_treasure 441853
+get_richest_pirate 161316
+add_ship 419710 16
+add_pirate 200782 161316 13
+get_cannons 161316
+add_ship 206931 28
+get_richest_pirate 419710
+remove_ship 419710
+add_ship 489999 18
+add_pirate 287540 206931 22
+remove_pirate 287540
+add_ship 317600 23
+remove_ship 489999
+remove_ship 317600
+remove_ship 317600
+get_cannons 206931
+get_richest_pirate 489999
+get_cannons 489999
+update_pirate_treasure 388446 22
+get_cannons 317600
+add_ship 204136 17
+remove_pirate 225257
+add_ship 114853 3
+get_richest_pirate 317600
+add_ship 21479 11
+get_cannons 317600
+get_richest_pirate 431218
+get_cannons 204136
+get_treasure 192739
+remove_ship 206931
+remove_ship 114853
+add_ship 179708 20
+add_ship 137200 0
+add_pirate 354391 21479 17
+add_pirate 297749 419710 10
+remove_pirate 354391
+remove_ship 204136
+get_treasure 225257
+add_ship 288006 30
+add_ship 339844 29
+get_cannons 288006
+remove_ship 137200
+remove_ship 179708
+add_ship 99787 5
+add_pirate 470426 489999 26
+add_pirate 322918 339844 17
+add_pirate 175068 21479 23
+get_richest_pirate 161316
+add_ship 186971 18
+add_ship 154492 6
+add_ship 376467 9
+get_cannons 99787
+add_ship 8817 3
+get_treasure 175068
+add_ship 472678 9
+get_cannons 376467
+get_richest_pirate 339844
+remove_ship 489999
+add_pirate 428608 489999 6
+remove_pirate 428608
+update_pirate_treasure 322918 3
+add_ship 143568 16
+add_ship 24277 22
+get_treasure 445655
+remove_ship 143568
+remove_ship 376467
+remove_ship 24277
+add_ship 18246 9
+add_ship 149344 2
+add_pirate 190919 18246 7
+remove_ship 8817
+remove_pirate 441853
+remove_pirate 428608
+add_ship 424362 29
+add_pirate 429183 424362 9
+get_cannons 339844
+remove_pirate 322918
+remove_ship 154492
+remove_pirate 429183
+remove_pirate 175068
+get_cannons 149344
+get_treasure 190919
+get_cannons 24277
+get_cannons 97116
+add_pirate 106108 99787 23
+get_richest_pirate 186971
+get_richest_pirate 137200
+get_treasure 287540
+get_richest_pirate 129447
+get_richest_pirate 114853
+add_ship 160349 11
+remove_pirate 428608
+add_pirate 195476 424362 24
+update_pirate_treasure 195476 13
+get_cannons 339844
+get_cannons 18246
+update_pirate_treasure 354391 9
+get_richest_pirate 24277
+get_cannons 288006
+get_cannons 186971
+add_pirate 123172 516463 8
+get_richest_pirate 99787
+add_pirate 319329 339844 30
+add_ship 1425 10
+add_ship 27153 10
+get_cannons 18246
+add_pirate 45715 205664 18
+add_ship 204734 27
+get_treasure 319329
+get_treasure 111248
+get_richest_pirate 143568
+get_cannons 204734
+remove_ship 186971
+get_richest_pirate 424362
+update_pirate_treasure 106108 7
+add_pirate 356163 8817 1
+get_cannons 149344
+add_ship 63841 23
+add_ship 198482 24
+remove_ship 424362
+add_ship 361235 24
+get_cannons 339844
+add_ship 62102 30
+get_richest_pirate 339844
+add_ship 85369 12
+remove_ship 161316
+get_richest_pirate 198482
+add_ship 83635 8
+get_cannons 62102
+remove_ship 83635
+get_treasure 287540
+add_pirate 102226 27153 13
+add_pirate 523392 424362 -1
+remove_ship 85369
+remove_pirate 195476
+update_pirate_treasure 319329 25
+get_treasure 106108
+remove_ship 145831
+update_pirate_treasure 410154 27
+add_pirate 237476 204734 12
+update_pirate_treasure 192739 6
+get_treasure 322918
+get_richest_pirate 339844
+remove_ship 1425
+update_pirate_treasure 429183 2
+get_treasure 356163
+remove_pirate 192739
+get_richest_pirate 8817
+get_cannons 522416
+add_ship 64728 20
+get_cannons 179708
+add_pirate 35400 424362 9
+update_pirate_treasure 175068 26
+add_ship 178133 24
+remove_pirate 494424
+add_pirate 287935 27153 9
+update_pirate_treasure 237476 26
+update_pirate_treasure 287935 27
+update_pirate_treasure 123172 28
+get_cannons 143568
+add_ship 371810 8
+get_cannons 371810
+get_cannons 361235
+get_cannons 5644
+remove_pirate 287935
+add_pirate 393562 249840 7
+get_cannons 198482
+add_pirate 350713 178133 10
+remove_ship 62102
+add_pirate 135531 371810 27
+add_pirate 4950 27153 3
+get_cannons 472678
+add_ship 405615 21
+remove_ship 149344
+add_ship 144124 15
+get_richest_pirate 178133
+add_ship 45386 9
+add_pirate 241855 160349 7
+get_treasure 237476
+add_ship 232747 4
+remove_pirate 428608
+remove_ship 489999
+remove_ship 198482
+get_richest_pirate 288006
+add_ship 264484 12
+get_treasure 45715
+add_pirate 48776 36094 10
+remove_ship 24277
+add_pirate 214335 160349 10
+add_ship 122830 3
+get_cannons 178133
+add_ship 227598 25
+add_ship 286920 14
+add_ship 344718 5
+get_treasure 123172
+add_pirate 301045 288006 5
+remove_ship 264484
+add_ship 345554 19
+get_treasure 214335
+get_richest_pirate 99787
+remove_ship 63841
+get_treasure 35400
+add_ship 108392 6
+add_pirate 282801 64728 19
+get_cannons 27153
+remove_ship 45386
+get_richest_pirate 339844
+get_cannons 144124
+add_ship 456658 28
+add_ship 485085 6
+add_pirate 52927 339844 18
+add_pirate 280105 154492 -1
+add_ship 342070 21
+get_cannons 339844
+add_pirate 79637 472678 16
+get_cannons 62102
+get_cannons 149344
+get_richest_pirate 154492
+remove_ship 345554
+get_cannons 339844
+add_ship 412059 10
+remove_pirate 322918
+add_ship 218193 16
+get_richest_pirate 405615
+remove_ship 83635
+add_ship 72265 15
+update_pirate_treasure 282801 13
+add_ship 389126 7
+update_pirate_treasure 106108 5
+add_ship 331115 13
+update_pirate_treasure 322918 3
+get_treasure 4950
+get_cannons 339844
+get_treasure 287935
+add_pirate 382249 64728 15
+get_richest_pirate 108392
+update_pirate_treasure 319329 10
+add_ship 94576 13
+get_cannons 339844
+add_pirate 441316 21479 1
+get_cannons 24277
+add_ship 120767 4
+get_cannons 371810
+add_ship 378802 24
+add_ship 253842 30
+add_pirate 213128 371810 12
+remove_pirate 280105
+remove_pirate 241855
+get_cannons 456658
+add_pirate 280227 361235 15
+get_treasure 301045
+remove_pirate 190919
+add_ship 263464 17
+get_cannons 472678
+add_ship 205519 6
+get_treasure 388446
+add_ship 429532 23
+remove_ship 227598
+get_treasure 494424
+add_ship 272779 11
+add_pirate 419142 272779 25
+get_richest_pirate 232747
+add_ship 315462 28
+remove_ship 18246
+add_ship 26233 26
+add_ship 470418 21
+get_treasure 35400
+get_cannons 108392
+get_richest_pirate 160349
+get_cannons 331115
+remove_ship 342070
+remove_pirate 250045
+add_pirate 410030 27153 14
+add_ship 64964 28
+get_richest_pirate 99787
+add_pirate 524245 331115 0
+remove_pirate 449212
+get_richest_pirate 218193
+get_cannons 264484
+remove_ship 263464
+add_ship 296476 24
+get_treasure 237476
+get_richest_pirate 472678
+get_cannons 85369
+remove_ship 296476
+update_pirate_treasure 225257 24
+add_ship 517903 11
+add_ship 49069 30
+add_pirate 318949 419710 2
+get_treasure 410030
+get_cannons 371810
+get_cannons 204734
+remove_pirate 282801
+add_pirate 6587 371810 11
+remove_ship 45386
+get_treasure 35400
+get_treasure 280227
+add_ship 128473 27
+get_richest_pirate 160349
+add_ship 493339 1
+get_cannons 315462
+add_ship 422603 19
+remove_ship 344718
+remove_ship 128473
+add_pirate 447198 286920 5
+get_richest_pirate 288006
+get_treasure 102226
+get_cannons 206931
+get_treasure 200782
+add_ship 44239 4
+update_pirate_treasure 494424 10
+add_ship 191749 17
+get_richest_pirate 424362
+update_pirate_treasure 494424 16
+get_treasure 213128
+add_ship 168846 10
+get_cannons 21479
+get_richest_pirate 160349
+get_cannons 218193
+get_treasure 207417
+get_treasure 447198
+add_ship 9571 0
+remove_pirate 393562
+get_treasure 8385
+add_ship 293924 2
+update_pirate_treasure 523392 21
+remove_pirate 301045
+get_cannons 286920
+add_pirate 24736 120767 7
+remove_pirate 6587
+get_cannons 472678
+remove_ship 72265
+add_ship 39566 20
+get_cannons 64964
+update_pirate_treasure 4950 21
+get_cannons 272779
+remove_ship 120767
+remove_ship 168846
+update_pirate_treasure 4950 3
+get_cannons 27153
+get_treasure 388825
+add_pirate 193652 405615 8
+update_pirate_treasure 214335 28
+remove_ship 389126
+get_treasure 428608
+add_ship 437699 9
+add_ship 400182 17
+remove_ship 149344
+add_ship 403558 10
+get_richest_pirate 286920
+get_cannons 371810
+add_ship 121471 2
+get_cannons 272779
+get_cannons 456658
+get_richest_pirate 186971
+add_pirate 96330 26233 11
+add_pirate 37383 429532 14
+update_pirate_treasure 350713 9
+add_ship 224993 15
+add_pirate 384046 296476 30
+get_cannons 144124
+add_ship 520064 19
+get_cannons 21479
+add_ship 148157 22
+get_cannons 400182
+add_pirate 437608 191749 14
+get_treasure 6587
+remove_pirate 6587
+get_cannons 272779
+update_pirate_treasure 102226 14
+get_cannons 227598
+add_ship 313954 15
+get_cannons 344718
+get_treasure 52927
+get_richest_pirate 422603
+add_ship 359767 13
+add_pirate 440515 378802 25
+remove_ship 144124
+get_richest_pirate 128473
+add_pirate 478779 359767 8
+remove_ship 39566
+add_ship 17110 1
+get_cannons 121471
+add_pirate 523316 26233 21
+get_cannons 120767
+remove_ship 24277
+add_ship 40304 30
+add_ship 86773 29
+get_treasure 79637
+update_pirate_treasure 447198 6
+add_pirate 500450 389126 0
+remove_pirate 440515
+remove_ship 148157
+add_ship 316059 0
+remove_ship 40304
+get_cannons 122830
+get_cannons 361235
+get_cannons 191749
+add_pirate 427149 263464 21
+remove_ship 9571
+remove_ship 205519
+remove_pirate 523392
+get_cannons 232747
+remove_ship 422603
+get_cannons 205519
+get_richest_pirate 86773
+remove_pirate 319329
+add_ship 355011 3
+remove_ship 456658
+remove_ship 44239
+update_pirate_treasure 274634 21
+get_richest_pirate 21479
+remove_ship 225173
+remove_ship 293924
+add_pirate 477634 419710 7
+add_pirate 146260 121471 29
+add_pirate 360713 272779 14
+add_pirate 268725 64728 24
+add_pirate 186086 121471 10
+get_treasure 175068
+remove_ship 253842
+get_cannons 108392
+remove_ship 520064
+get_treasure 478779
+get_cannons 493339
+add_pirate 27642 339844 24
+add_ship 44421 23
+add_pirate 273859 493339 18
+get_treasure 106108
+update_pirate_treasure 268725 6
+update_pirate_treasure 146260 17
+update_pirate_treasure 27642 8
+remove_ship 122830
+get_richest_pirate 288006
+add_ship 4089 3
+remove_ship 21479
+get_richest_pirate 429532
+remove_pirate 37383
+add_pirate 271611 344718 5
+add_ship 239806 25
+remove_pirate 145152
+remove_ship 470418
+remove_ship 198482
+remove_ship 178133
+get_cannons 288006
+add_ship 52720 13
+get_treasure 447198
+add_pirate 61900 355011 10
+add_pirate 489746 224993 13
+add_ship 390710 1
+remove_pirate 145152
+remove_pirate 4950
+add_pirate 326874 168846 15
+remove_pirate 523316
+add_ship 62713 21
+remove_pirate 117134
+add_pirate 196420 400182 30
+add_ship 77036 23
+add_ship 241017 18
+remove_ship 44421
+get_cannons 121471
+remove_ship 108392
+update_pirate_treasure 190919 12
+add_pirate 491660 253842 26
+get_richest_pirate 287511
+get_richest_pirate 27153
+get_richest_pirate 378802
+remove_pirate 27642
+update_pirate_treasure 96330 2
+get_cannons 493339
+add_ship 218535 8
+update_pirate_treasure 287935 25
+add_ship 216981 15
+get_cannons 21479
+get_cannons 99787
+update_pirate_treasure 237476 20
+add_ship 272126 28
+add_pirate 56534 339844 12
+get_cannons 390710
+remove_pirate 27642
+get_cannons 316683
+update_pirate_treasure 360713 12
+remove_pirate 491660
+add_ship 107974 10
+get_cannons 179708
+get_treasure 79637
+add_ship 66877 3
+remove_pirate 382249
+remove_ship 21479
+remove_ship 160349
+update_pirate_treasure 61900 23
+add_pirate 330233 216981 26
+remove_ship 86773
+get_cannons 23166
+add_ship 339010 23
+add_pirate 128927 218193 13
+remove_pirate 102226
+update_pirate_treasure 470426 25
+add_pirate 213726 24277 27
+add_ship 49102 9
+get_cannons 315462
+get_richest_pirate 359767
+remove_pirate 45715
+get_treasure 79637
+get_richest_pirate 107974
+get_richest_pirate 296476
+get_cannons 121471
+remove_pirate 4950
+get_cannons 412059
+add_pirate 248329 27153 27
+get_treasure 207417
+get_richest_pirate 77036
+add_pirate 211730 316059 7
+get_richest_pirate 253842
+add_ship 333680 15
+add_ship 373879 0
+get_cannons 429532
+remove_pirate 302282
+remove_pirate 237476
+add_ship 510965 0
+remove_pirate 287540
+get_treasure 207417
+remove_ship 241017
+add_pirate 192871 39566 6
+remove_pirate 61900
+remove_pirate 211730
+add_pirate 28435 288006 15
+get_cannons 160349
+add_ship 214774 26
+add_pirate 170519 161316 13
+add_pirate 281047 355011 13
+get_cannons 339010
+remove_pirate 356163
+get_cannons 272126
+add_ship 194760 5
+get_cannons 339010
+remove_pirate 289797
+get_richest_pirate 27153
+add_ship 263587 20
+add_ship 198729 13
+get_treasure 91288
+remove_pirate 225257
+get_richest_pirate 355011
+remove_ship 510965
+remove_pirate 178391
+get_richest_pirate 21479
+add_pirate 425140 291748 24
+get_treasure 200782
+add_ship 127382 10
+remove_ship 18246
+remove_pirate 28435
+remove_pirate 489746
+update_pirate_treasure 399251 1
+remove_ship 85369
+get_richest_pirate 218193
+remove_ship 179708
+update_pirate_treasure 201026 2
+get_treasure 297749
+get_richest_pirate 204734
+add_ship 95584 17
+get_treasure 146260
+add_pirate 256504 361235 10
+add_pirate 149895 198482 24
+get_richest_pirate 345554
+add_ship 430431 23
+add_ship 517249 0
+update_pirate_treasure 388825 14
+add_ship 246263 10
+remove_pirate 214335
+add_ship 372236 20
+get_cannons 371810
+get_richest_pirate 27153
+add_ship 286503 13
+get_cannons 168846
+add_ship 71485 25
+get_richest_pirate 137200
+add_pirate 51789 198729 5
+update_pirate_treasure 350713 21
+add_ship 154613 14
+remove_pirate 56534
+add_ship 211925 20
+get_cannons 424362
+get_treasure 447198
+get_richest_pirate 472678
+get_cannons 517903
+get_richest_pirate 27153
+add_ship 446261 12
+add_ship 357056 5
+get_treasure 135531
+update_pirate_treasure 200782 26
+remove_pirate 248329
+remove_pirate 256504
+get_richest_pirate 66877
+remove_pirate 149895
+add_ship 277798 30
+add_ship 148721 21
+remove_pirate 175068
+remove_ship 241017
+add_ship 155371 19
+add_ship 18011 26
+add_pirate 344218 66877 25
+update_pirate_treasure 360713 3
+add_ship 432694 18
+get_richest_pirate 154613
+remove_pirate 128927
+remove_ship 412059
+remove_ship 313954
+add_pirate 61773 27153 22
+add_ship 35444 30
+get_richest_pirate 198729
+get_treasure 447198
+add_ship 59184 3
+update_pirate_treasure 396645 4
+get_cannons 400182
+get_cannons 49069
+get_cannons 194760
+add_pirate 29560 373879 28
+add_pirate 378788 496824 27
+update_pirate_treasure 213128 9
+get_cannons 359767
+add_ship 447836 0
+add_ship 304152 30
+get_richest_pirate 272779
+add_ship 440197 21
+remove_ship 27153
+add_ship 118356 11
+update_pirate_treasure 330233 13
+get_treasure 35400
+get_cannons 286920
+get_richest_pirate 496824
+add_ship 175913 5
+get_treasure 425140
+add_pirate 428666 194760 29
+get_cannons 204734
+add_pirate 169040 218535 24
+update_pirate_treasure 388825 7
+add_ship 50494 23
+add_ship 238604 -1
+get_richest_pirate 440197
+update_pirate_treasure 441316 -1
+remove_pirate 27642
+add_pirate 463320 49069 20
+update_pirate_treasure 500450 -1
+add_pirate 103929 52720 12
+get_treasure 410030
+get_cannons 317600
+add_pirate 374819 175913 25
+get_richest_pirate 218535
+get_treasure 393562
+remove_ship 253842
+remove_ship 227598
+add_pirate 512628 429532 18
+get_cannons 114853
+add_pirate 233343 351747 25
+add_ship 233381 23
+add_ship 127002 4
+add_ship 5758 27
+remove_ship 430431
+update_pirate_treasure 374819 7
+get_cannons 272126
+get_treasure 268725
+get_cannons 18011
+add_pirate 94974 485085 28
+remove_pirate 169040
+add_ship 345496 30
+remove_pirate 146260
+get_cannons 17110
+add_pirate 308264 344718 25
+add_pirate 74924 127002 13
+add_ship 265136 18
+update_pirate_treasure 211730 10
+update_pirate_treasure 193652 28
+add_ship 466863 23
+update_pirate_treasure 128927 2
+remove_ship 64964
+get_richest_pirate 287511
+remove_pirate 164466
+add_ship 440603 26
+get_cannons 155371
+get_cannons 49102
+remove_pirate 273859
+get_richest_pirate 59184
+add_ship 433575 27
+remove_pirate 74924
+get_treasure 154554
+update_pirate_treasure 280227 18
+get_cannons 313954
+update_pirate_treasure 419142 28
+get_treasure 74924
+remove_ship 127002
+add_pirate 491943 263587 18
+get_cannons 77036
+add_ship 101797 14
+add_ship 407126 24
+get_richest_pirate 5758
+add_ship 254732 1
+remove_pirate 135531
+get_richest_pirate 239806
+get_treasure 374819
+get_cannons 17110
+remove_pirate 4950
+remove_pirate 123172
+remove_ship 440197
+get_cannons 26233
+remove_ship 232747
+remove_ship 313954
+get_richest_pirate 238604
+get_cannons 144124
+remove_pirate 117134
+update_pirate_treasure 27642 25
+update_pirate_treasure 437608 -1
+remove_ship 72900
+add_ship 317906 17
+add_pirate 197002 517249 0
+get_treasure 410030
+remove_pirate 103929
+get_richest_pirate 263464
+add_pirate 48836 246623 8
+get_cannons 212387
+add_pirate 10096 161316 10
+add_ship 296957 27
+add_pirate 28299 359767 17
+get_cannons 83635
+add_pirate 230987 218193 17
+get_treasure 278203
+remove_pirate 374819
+add_ship 415867 0
+update_pirate_treasure 193652 23
+add_ship 456326 10
+remove_ship 263587
+add_pirate 437159 286503 10
+add_ship 289863 11
+add_ship 159770 6
+update_pirate_treasure 94974 9
+update_pirate_treasure 447198 8
+remove_pirate 48836
+add_pirate 112381 154613 6
+get_richest_pirate 400182
+get_richest_pirate 136649
+add_pirate 133131 333680 23
+get_cannons 154492
+update_pirate_treasure 447198 8
+remove_ship 4089
+remove_pirate 52927
+get_richest_pirate 216981
+get_cannons 293924
+add_ship 93640 10
+get_cannons 263587
+add_pirate 33982 432694 20
+add_ship 419658 16
+get_richest_pirate 313954
+remove_ship 316059
+add_pirate 68932 437699 13
+add_pirate 514788 66877 6
+update_pirate_treasure 514788 10
+add_pirate 478002 178133 10
+add_ship 423322 18
+add_ship 38112 0
+remove_pirate 473629
+remove_ship 35444
+get_richest_pirate 286503
+get_cannons 415867
+add_ship 293140 29
+add_ship 175050 6
+get_richest_pirate 517249
+update_pirate_treasure 186086 13
+get_richest_pirate 517903
+remove_pirate 52927
+get_cannons 405615
+get_cannons 137200
+remove_pirate 282801
+add_ship 174316 9
+add_ship 125307 10
+add_ship 250918 29
+update_pirate_treasure 350713 24
+get_richest_pirate 430431
+get_cannons 373879
+add_ship 422909 22
+add_pirate 203858 66877 4
+update_pirate_treasure 318949 17
+add_ship 421461 22
+get_richest_pirate 435825
+add_ship 286905 21
+get_richest_pirate 66877
+add_pirate 258031 50494 11
+get_richest_pirate 403558
+get_richest_pirate 8817
+remove_ship 286905
+add_ship 101025 2
+add_ship 63095 22
+add_ship 450054 29
+remove_ship 293924
+get_cannons 64964
+remove_ship 407126
+remove_ship 422909
+get_cannons 174316
+add_ship 172410 5
+update_pirate_treasure 112381 9
+add_ship 279782 -1
+add_ship 474933 3
+update_pirate_treasure 350713 30
+add_ship 292518 17
+add_ship 416039 5
+get_treasure 10096
+add_pirate 376533 331115 22
+remove_pirate 308264
+get_cannons 172410
+add_pirate 135438 21479 21
+remove_pirate 489746
+add_ship 470803 30
+remove_pirate 10096
+remove_pirate 428608
+update_pirate_treasure 318949 27
+remove_pirate 186086
+add_pirate 275781 345496 25
+get_richest_pirate 422909
+remove_pirate 37383
+add_ship 108038 17
+get_richest_pirate 416039
+add_ship 341765 28
+remove_ship 101025
+remove_ship 341765
+update_pirate_treasure 29560 15
+add_ship 51546 6
+update_pirate_treasure 399251 2
+get_treasure 33982
+update_pirate_treasure 437608 26
+remove_pirate 280227
+get_treasure 35400
+add_ship 450364 9
+remove_pirate 478002
+remove_ship 232747
+remove_ship 470803
+add_ship 508151 8
+get_treasure 37383
+add_ship 267446 20
+add_ship 149762 14
+add_pirate 165350 149762 9
+update_pirate_treasure 200782 -1
+add_ship 128836 21
+add_ship 91280 21
+update_pirate_treasure 33982 30
+remove_pirate 258031
+remove_ship 304152
+get_cannons 373879
+add_pirate 388256 315462 29
+remove_pirate 523316
+add_pirate 515000 137200 5
+add_ship 33849 7
+get_richest_pirate 149762
+get_cannons 59184
+get_richest_pirate 120767
+add_ship 9786 27
+add_pirate 340364 18246 22
+get_richest_pirate 39566
+add_ship 473562 9
+add_ship 80181 15
+remove_ship 204136
+get_richest_pirate 39566
+remove_ship 239806
+add_ship 357838 3
+get_richest_pirate 205519
+get_richest_pirate 485085
+update_pirate_treasure 106108 14
+add_ship 187515 5
+get_treasure 441316
+get_cannons 49102
+get_treasure 186086
+get_treasure 49607
+get_treasure 428608
+remove_pirate 410030
+get_richest_pirate 517249
+add_ship 279501 21
+remove_ship 71485
+get_cannons 473562
+add_ship 164355 25
+get_treasure 201026
+remove_pirate 467326
+get_richest_pirate 520064
+get_cannons 64964
+add_pirate 321000 128473 27
+remove_ship 357838
+remove_pirate 135438
+add_pirate 126608 95584 12
+update_pirate_treasure 192871 16
+add_pirate 294101 359767 19
+get_cannons 114853
+add_pirate 430527 238604 30
+get_cannons 440603
+add_ship 504117 16
+add_ship 414457 14
+get_richest_pirate 517903
+remove_pirate 289797
+remove_ship 18246
+remove_ship 143568
+add_ship 481302 2
+add_ship 514757 29
+add_pirate 294329 504117 25
+remove_ship 433575
+add_ship 351975 29
+get_richest_pirate 376467
+get_treasure 8385
+get_treasure 51789
+get_cannons 504117
+add_ship 199366 21
+add_ship 155475 26
+get_treasure 463320
+remove_ship 450364
+remove_ship 59184
+get_richest_pirate 18011
+get_cannons 118356
+add_pirate 381556 125307 14
+get_treasure 190919
+remove_ship 279782
+remove_ship 175913
+get_cannons 218193
+add_pirate 262838 333680 16
+add_pirate 185262 429532 19
+remove_ship 255768
+add_ship 208464 16
+remove_ship 227598
+update_pirate_treasure 68932 30
+get_cannons 286503
+get_cannons 47693
+update_pirate_treasure 126608 21
+get_cannons 288006
+remove_pirate 197002
+update_pirate_treasure 376533 5
+update_pirate_treasure 489746 26
+remove_pirate 350713
+remove_ship 419658
+add_ship 43990 14
+update_pirate_treasure 273859 20
+add_ship 89238 19
+add_ship 344028 30
+get_richest_pirate 456326
+get_cannons 447836
+get_cannons 403558
+remove_pirate 203858
+update_pirate_treasure 106108 27
+get_richest_pirate 355011
+remove_ship 422909
+get_cannons 174316
+get_richest_pirate 168846
+get_treasure 94974
+update_pirate_treasure 196420 2
+add_pirate 466853 400182 6
+get_richest_pirate 66877
+remove_ship 246263
+add_ship 119240 18
+get_treasure 399251
+add_ship 12281 9
+add_ship 299743 4
+get_cannons 122830
+add_pirate 192794 121471 24
+remove_ship 9786
+get_cannons 154613
+get_treasure 356163
+add_ship 94918 1
+remove_ship 407126
+update_pirate_treasure 79637 16
+remove_pirate 274634
+remove_ship 423322
+get_richest_pirate 52720
+add_ship 55280 19
+add_pirate 283713 27153 30
+remove_ship 52720
+remove_ship 289863
+get_richest_pirate 149762
+add_ship 337151 18
+get_treasure 428608
+get_treasure 271611
+remove_pirate 28299
+add_ship 274132 -1
+get_cannons 414457
+add_ship 434084 16
+add_pirate 505687 91280 23
+add_ship 61732 30
+get_treasure 201539
+remove_pirate 8385
+update_pirate_treasure 330233 10
+add_ship 472708 14
+remove_ship 61732
+remove_ship 89238
+get_treasure 370948
+get_cannons 287511
+remove_ship 272779
+update_pirate_treasure 311653 25
+remove_pirate 330233
+get_richest_pirate 86773
+add_pirate 93912 155475 21
+get_cannons 125307
+add_ship 206545 1
+remove_pirate 294329
+get_treasure 410154
+remove_pirate 275781
+get_cannons 296957
+remove_pirate 463320
+get_cannons 233381
+get_richest_pirate 437699
+add_pirate 229207 331115 18
+add_ship 430305 13
+update_pirate_treasure 229207 28
+add_ship 24676 22
+get_richest_pirate 154613
+get_cannons 361235
+add_pirate 359637 508151 23
+update_pirate_treasure 170519 10
+get_richest_pirate 265136
+get_cannons 450054
+update_pirate_treasure 61773 24
+remove_ship 473562
+get_treasure 463320
+get_treasure 225257
+get_treasure 230987
+add_ship 218925 7
+remove_ship 24676
+get_cannons 206545
+get_cannons 144124
+remove_ship 94918
+add_pirate 364117 359767 27
+remove_pirate 35400
+get_treasure 192794
+add_ship 107433 1
+get_treasure 481723
+get_treasure 486359
+add_pirate 358493 64728 8
+get_cannons 80181
+get_cannons 21479
+get_richest_pirate 161316
+add_pirate 326968 52720 24
+get_treasure 428666
+get_cannons 265136
+add_pirate 413136 339844 22
+get_treasure 230987
+add_pirate 483912 118356 28
+remove_ship 450054
+add_ship 279872 13
+get_richest_pirate 316059
+add_pirate 23173 155371 7
+add_ship 424758 25
+get_richest_pirate 155475
+update_pirate_treasure 123172 5
+remove_ship 178133
+add_ship 458387 11
+remove_ship 18011
+remove_ship 424758
+remove_pirate 410030
+add_ship 268380 9
+add_ship 70881 27
+add_ship 437552 3
+add_pirate 32098 446261 2
+get_treasure 410030
+remove_pirate 79637
+get_treasure 462758
+get_cannons 174316
+get_richest_pirate 159770
+get_treasure 229207
+remove_pirate 268725
+get_treasure 51789
+update_pirate_treasure 463320 15
+get_treasure 514788
+update_pirate_treasure 61773 15
+get_cannons 351975
+remove_ship 238604
+get_cannons 233381
+add_ship 96479 2
+get_cannons 339010
+remove_pirate 133131
+remove_ship 293140
+remove_ship 440603
+get_richest_pirate 63841
+add_pirate 265394 415867 12
+get_richest_pirate 122830
+get_cannons 403558
+get_treasure 273859
+get_cannons 5758
+get_cannons 96479
+get_treasure 393562
+add_pirate 162420 263587 24
+add_ship 191191 22
+update_pirate_treasure 192794 27
+get_cannons 342070
+remove_pirate 376533
+update_pirate_treasure 447198 6
+add_ship 320151 14
+add_ship 76072 16
+add_pirate 165920 49069 26
+add_pirate 388799 279872 11
+update_pirate_treasure 344497 10
+add_ship 313337 25
+add_ship 10476 13
+get_richest_pirate 27153
+add_pirate 168825 172410 3
+add_pirate 155928 414457 11
+remove_ship 372236
+remove_pirate 360713
+add_ship 108420 21
+remove_pirate 230987
+remove_ship 254732
+get_treasure 364117
+add_ship 306215 7
+add_ship 176242 28
+remove_ship 148721
+add_ship 176022 0
+remove_ship 306215
+get_cannons 320151
+add_pirate 181980 211925 25
+remove_ship 341765
+add_pirate 367611 55280 30
+add_ship 156470 9
+add_pirate 77424 144124 28
+add_pirate 311425 504117 10
+get_cannons 24676
+update_pirate_treasure 100529 19
+get_cannons 292518
+add_ship 180070 30
+add_pirate 70070 510965 24
+get_richest_pirate 118356
+get_richest_pirate 27153
+add_ship 63125 28
+get_treasure 428608
+add_pirate 395477 108420 0
+add_pirate 120841 44421 6
+remove_ship 272126
+add_ship 416040 0
+remove_ship 224993
+remove_ship 403558
+remove_ship 357056
+get_cannons 416040
+add_pirate 289335 155475 0
+add_pirate 323972 63125 16
+add_pirate 295532 26233 4
+get_cannons 331115
+get_treasure 162420
+update_pirate_treasure 447198 21
+add_ship 241016 28
+get_cannons 51546
+add_pirate 451482 331115 30
+remove_pirate 24736
+get_richest_pirate 101797
+remove_ship 317906
+add_ship 338677 21
+get_treasure 323972
+get_treasure 164466
+get_richest_pirate 446261
+add_ship 488190 26
+add_pirate 101838 175050 17
+update_pirate_treasure 500450 18
+remove_pirate 447198
+add_ship 386298 26
+add_pirate 285155 127382 15
+remove_pirate 281047
+remove_ship 122830
+get_cannons 114853
+add_ship 260093 27
+remove_pirate 384046
+add_pirate 42823 101797 30
+add_ship 489154 20
+remove_ship 27153
+remove_ship 344718
+remove_pirate 413136
+add_pirate 444335 128836 14
+get_cannons 419658
+get_cannons 176022
+get_richest_pirate 419710
+add_pirate 245377 267446 24
+update_pirate_treasure 211730 12
+get_treasure 441853
+add_ship 406248 15
+remove_ship 159770
+get_richest_pirate 338677
+add_ship 225727 28
+remove_pirate 33982
+add_ship 369736 17
+get_cannons 508151
+add_pirate 350548 227598 2
+remove_pirate 48836
+add_pirate 472482 315462 24
+add_pirate 221584 405615 21
+add_pirate 348900 208464 -1
+add_ship 192851 30
+add_pirate 286879 107974 5
+add_pirate 369856 44421 28
+update_pirate_treasure 285155 2
+update_pirate_treasure 340364 24
+add_pirate 127118 246263 1
+remove_ship 127002
+get_richest_pirate 266029
+get_cannons 263574
+add_ship 384056 17
+update_pirate_treasure 475984 19
+get_treasure 68932
+add_ship 163211 3
+get_cannons 238604
+remove_ship 447836
+add_pirate 332391 434084 8
+remove_pirate 428608
+remove_pirate 441853
+get_cannons 333680
+add_pirate 259754 1425 24
+add_pirate 476369 437699 16
+remove_ship 114853
+add_ship 146230 6
+get_cannons 70881
+update_pirate_treasure 295532 30
+remove_pirate 126608
+get_treasure 301045
+add_ship 475078 3
+add_ship 157402 29
+get_treasure 200782
+get_cannons 66877
+get_richest_pirate 241017
+remove_ship 164355
+get_treasure 192794
+add_ship 447277 26
+remove_pirate 21687
+get_treasure 483060
+get_cannons 437699
+remove_ship 338677
+add_pirate 414542 429532 10
+update_pirate_treasure 262838 6
+get_cannons 429532
+get_cannons 341765
+add_ship 65602 12
+remove_pirate 26161
+update_pirate_treasure 49259 25
+get_treasure 168825
+add_ship 126998 24
+add_ship 366361 7
+get_cannons 351975
+get_cannons 434084
+add_ship 14208 19
+get_cannons 191191
+add_ship 275069 28
+add_ship 310933 30
+get_cannons 47693
+add_ship 484117 23
+get_cannons 429532
+add_ship 357955 9
+get_cannons 108420
+update_pirate_treasure 165920 3
+add_pirate 179760 299743 8
+update_pirate_treasure 466853 24
+get_cannons 239806
+get_richest_pirate 99787
+get_treasure 388799
+add_pirate 37148 180070 11
+get_treasure 476369
+remove_ship 174316
+add_ship 68146 9
+update_pirate_treasure 364117 22
+add_pirate 395329 94576 15
+add_pirate 169222 108420 15
+get_treasure 262838
+add_pirate 194484 94576 25
+get_treasure 295532
+get_cannons 250918
+add_pirate 287587 517903 21
+get_cannons 206545
+get_cannons 35444
+remove_pirate 96330
+add_ship 59637 17
+add_pirate 404793 450364 22
+add_ship 230441 8
+get_richest_pirate 91280
+remove_pirate 93912
+remove_pirate 491943
+remove_ship 187515
+get_richest_pirate 107433
+add_pirate 241346 4089 28
+get_treasure 165350
+add_pirate 304670 405615 1
+remove_ship 386298
+get_cannons 18011
+add_ship 117570 7
+get_cannons 317600
+add_ship 431369 24
+update_pirate_treasure 472482 25
+add_ship 413343 5
+get_cannons 279782
+remove_pirate 445655
+get_treasure 283713
+update_pirate_treasure 344218 10
+add_pirate 450994 64728 21
+remove_ship 154492
+get_cannons 211925
+get_cannons 18011
+add_ship 443047 0
+add_ship 509061 19
+add_ship 396745 11
+get_richest_pirate 174316
+get_treasure 61773
+add_pirate 277936 192851 23
+get_treasure 289335
+update_pirate_treasure 295532 18
+add_ship 42687 16
+add_ship 325483 11
+add_ship 211528 23
+get_richest_pirate 144124
+update_pirate_treasure 369008 12
+remove_ship 504117
+get_treasure 476369
+add_pirate 339659 127382 17
+get_treasure 376533
+get_cannons 77036
+update_pirate_treasure 413136 20
+get_cannons 437552
+get_treasure 295532
+remove_ship 337151
+add_pirate 66513 250918 5
+get_cannons 371130
+add_pirate 318721 286920 12
+update_pirate_treasure 454837 12
+update_pirate_treasure 441316 4
+remove_ship 440197
+get_cannons 206545
+get_treasure 348900
+remove_pirate 311425
+get_treasure 261964
+remove_ship 117570
+get_treasure 126608
+get_cannons 437699
+remove_pirate 181980
+update_pirate_treasure 451482 20
+remove_ship 76072
+add_ship 233559 18
+remove_ship 504117
+get_richest_pirate 108392
+remove_ship 313337
+update_pirate_treasure 356163 25
+add_pirate 440677 472708 28
+add_ship 305127 27
+add_ship 337272 23
+get_richest_pirate 154613
+update_pirate_treasure 364717 -1
+add_ship 119988 1
+get_richest_pirate 373879
+add_ship 154577 23
+add_pirate 292099 119988 19
+add_ship 421353 3
+get_cannons 373879
+get_cannons 99787
+get_treasure 326874
+add_ship 81481 14
+update_pirate_treasure 168825 20
+remove_ship 68146
+get_cannons 5758
+add_ship 497468 26
+get_richest_pirate 286920
+remove_ship 520064
+get_cannons 338677
+update_pirate_treasure 23173 21
+remove_pirate 68932
+update_pirate_treasure 483912 5
+add_ship 71520 0
+get_richest_pirate 475078
+get_treasure 181980
+add_pirate 311415 406248 21
+get_cannons 155371
+get_cannons 241016
+update_pirate_treasure 190919 15
+get_richest_pirate 192851
+update_pirate_treasure 451482 6
+remove_ship 268380
+get_cannons 286905
+get_cannons 179708
+remove_ship 211925
+get_cannons 371810
+update_pirate_treasure 358493 8
+add_pirate 471355 508151 17
+remove_ship 216981
+remove_ship 366361
+add_pirate 409105 293924 15
+update_pirate_treasure 176568 27
+get_cannons 149344
+add_pirate 317273 470803 10
+remove_pirate 326874
+add_pirate 518549 91280 27
+remove_pirate 96330
+get_cannons 227598
+get_cannons 230441
+get_cannons 155371
+remove_ship 263587
+add_pirate 179312 191191 6
+remove_pirate 94974
+add_pirate 234847 126998 14
+get_richest_pirate 357838
+get_richest_pirate 299743
+update_pirate_treasure 359637 26
+get_richest_pirate 366361
+add_pirate 54904 120767 16
+add_pirate 240818 194760 14
+get_richest_pirate 208464
+add_pirate 228917 369736 23
+get_treasure 149895
+add_pirate 506952 10476 16
+add_pirate 319451 339010 4
+update_pirate_treasure 353653 30
+add_pirate 437883 372236 25
+add_pirate 410707 120767 2
+update_pirate_treasure 37148 4
+add_ship 146526 20
+update_pirate_treasure 194484 13
+update_pirate_treasure 370948 27
+add_ship 442908 12
+add_ship 218677 6
+remove_pirate 428608
+add_ship 471223 22
+get_cannons 154577
+get_richest_pirate 359767
+update_pirate_treasure 381556 29
+remove_ship 146230
+add_pirate 358469 286503 1
+update_pirate_treasure 10096 25
+get_richest_pirate 144124
+add_pirate 192747 320151 0
+add_ship 505344 24
+get_cannons 390710
+add_ship 349866 15
+add_ship 92765 24
+update_pirate_treasure 96330 22
+get_richest_pirate 472708
+remove_pirate 445655
+get_treasure 350713
+add_pirate 24504 39566 11
+add_pirate 471063 400182 27
+add_pirate 270594 263587 13
+get_cannons 35444
+get_treasure 494424
+get_richest_pirate 339844
+update_pirate_treasure 240818 22
+get_cannons 279782
+update_pirate_treasure 284932 22
+get_richest_pirate 475078
+add_ship 75777 2
+add_ship 259093 22
+add_ship 473707 18
+get_richest_pirate 263587
+add_ship 171433 6
+add_ship 516016 5
+get_treasure 396645
+add_ship 348021 4
+get_treasure 133131
+update_pirate_treasure 240818 0
+get_cannons 263587
+get_richest_pirate 63125
+get_cannons 405615
+add_ship 425171 4
+update_pirate_treasure 477634 28
+add_pirate 199530 126998 28
+remove_pirate 168825
+remove_pirate 185262
+update_pirate_treasure 270594 20
+get_treasure 112381
+remove_ship 206545
+update_pirate_treasure 364117 9
+get_richest_pirate 272779
+get_cannons 413343
+remove_ship 274132
+update_pirate_treasure 29560 20
+add_ship 256902 18
+get_cannons 424758
+get_cannons 505344
+update_pirate_treasure 245377 11
+get_treasure 304670
+add_pirate 22376 21479 27
+get_cannons 148721
+remove_pirate 512628
+get_richest_pirate 5758
+get_richest_pirate 208464
+get_cannons 180070
+add_ship 345356 14
+get_treasure 437159
+add_pirate 454092 218535 17
+add_ship 310250 7
+add_ship 515301 16
+get_treasure 49259
+get_treasure 318721
+remove_pirate 395329
+get_cannons 443047
+get_cannons 488190
+add_ship 150842 -1
+update_pirate_treasure 169222 15
+remove_ship 199366
+update_pirate_treasure 32098 26
+add_ship 244712 4
+get_richest_pirate 405615
+add_ship 115792 16
+get_cannons 250918
+add_pirate 375523 214774 28
+get_richest_pirate 191191
+add_pirate 247139 122830 7
+add_ship 486217 5
+add_pirate 244248 260093 21
+remove_pirate 32098
+update_pirate_treasure 451482 19
+add_ship 381679 26
+add_pirate 262899 400182 29
+get_treasure 102226
+get_cannons 233381
+remove_ship 59637
+remove_pirate 199530
+add_ship 53907 8
+add_pirate 12135 55280 6
+add_ship 27687 10
+get_richest_pirate 119988
+get_cannons 333680
+get_richest_pirate 194760
+add_pirate 416189 272779 25
+get_cannons 5758
+get_treasure 406744
+add_ship 143670 9
+remove_pirate 66513
+remove_pirate 364117
+get_richest_pirate 168846
+get_richest_pirate 424362
+get_richest_pirate 176242
+add_ship 368350 3
+remove_pirate 240818
+add_ship 404035 4
+get_cannons 192851
+add_ship 131303 2
+get_treasure 318949
+add_pirate 77758 26233 3
+update_pirate_treasure 344218 6
+add_pirate 292482 509061 20
+remove_ship 265136
+add_pirate 101448 9571 24
+add_pirate 231418 331115 10
+remove_ship 171433
+remove_pirate 54904
+remove_ship 186971
+get_cannons 357955
+get_cannons 125307
+get_treasure 192794
+add_ship 314234 21
+get_richest_pirate 52720
+get_treasure 350713
+get_treasure 420349
+get_treasure 470426
+get_cannons 389126
+add_pirate 119773 218535 15
+add_pirate 334344 351975 6
+remove_pirate 322538
+add_pirate 4969 101797 10
+remove_ship 115792
+add_ship 475731 0
+add_ship 501539 21
+get_richest_pirate 24277
+get_cannons 164355
+add_ship 338829 9
+remove_ship 338677
+remove_ship 204734
+remove_pirate 42823
+get_treasure 295532
+remove_ship 156840
+get_richest_pirate 52720
+remove_ship 211925
+remove_ship 514757
+get_treasure 229207
+add_ship 28862 17
+get_treasure 478779
+remove_ship 279782
+remove_pirate 155928
+add_ship 333201 8
+update_pirate_treasure 196420 4
+get_cannons 108038
+get_cannons 208464
+update_pirate_treasure 476369 2
+add_ship 409782 11
+remove_pirate 506952
+add_ship 110406 2
+add_ship 121695 18
+remove_pirate 367900
+remove_ship 119240
+get_cannons 176022
+add_ship 458303 12
+add_pirate 76326 70881 0
+get_cannons 458387
+add_ship 126393 30
+update_pirate_treasure 471063 2
+remove_ship 64964
+add_ship 470695 30
+add_ship 408962 10
+remove_ship 80181
+add_ship 101766 4
+add_ship 458894 18
+get_richest_pirate 155475
+remove_pirate 451482
+add_pirate 137199 263587 -1
+add_ship 140746 25
+add_ship 170836 6
+add_pirate 410562 472708 8
+remove_ship 119240
+get_cannons 493339
+update_pirate_treasure 181980 7
+get_treasure 358493
+get_richest_pirate 263587
+remove_ship 14208
+add_ship 367631 22
+get_cannons 27340
+get_richest_pirate 171433
+add_pirate 229803 381679 25
+get_treasure 470426
+remove_ship 114853
+update_pirate_treasure 179760 27
+add_ship 436114 29
+remove_pirate 4950
+update_pirate_treasure 229803 13
+add_ship 40974 27
+get_cannons 272779
+add_pirate 510781 485085 27
+update_pirate_treasure 145152 27
+get_cannons 1425
+get_cannons 35444
+get_cannons 339844
+add_pirate 322469 515301 21
+add_ship 191748 23
+add_ship 147830 29
+remove_pirate 28299
+add_ship 457016 26
+remove_pirate 37148
+update_pirate_treasure 375523 6
+add_ship 506041 21
+remove_ship 163211
+get_richest_pirate 497468
+update_pirate_treasure 169040 10
+get_cannons 250918
+add_ship 252398 6
+get_richest_pirate 279501
+get_cannons 76072
+add_ship 396085 16
+get_cannons 409782
+remove_ship 399216
+remove_ship 63125
+get_treasure 16411
+update_pirate_treasure 244248 5
+get_cannons 128836
+get_treasure 491943
+get_richest_pirate 434084
+get_cannons 126393
+get_richest_pirate 120767
+add_ship 507396 19
+add_pirate 342390 119240 20
+add_ship 62517 9
+get_richest_pirate 272779
+get_treasure 103929
+get_cannons 155371
+update_pirate_treasure 348900 -1
+remove_ship 316059
+get_richest_pirate 416040
+add_pirate 346222 263587 25
+remove_pirate 510781
+add_pirate 234426 425171 12
+update_pirate_treasure 414737 27
+add_ship 155544 6
+get_cannons 406248
+remove_pirate 265394
+add_ship 345497 19
+update_pirate_treasure 28299 30
+add_ship 389615 5
+get_treasure 311415
+get_richest_pirate 108420
+get_treasure 422639
+get_treasure 196420
+get_cannons 473707
+add_pirate 83296 489154 28
+remove_pirate 112381
+get_cannons 485085
+remove_ship 431369
+update_pirate_treasure 244248 10
+remove_pirate 344218
+get_cannons 310933
+add_ship 104591 2
+update_pirate_treasure 244248 21
+remove_pirate 277936
+get_richest_pirate 126998
+add_ship 479339 6
+update_pirate_treasure 441853 22
+get_treasure 222265
+add_ship 32861 16
+remove_ship 233559
+get_richest_pirate 406248
+remove_pirate 348900
+add_pirate 518679 286920 12
+get_treasure 262838
+get_cannons 95584
+get_cannons 481302
+update_pirate_treasure 259754 8
+get_cannons 146526
+remove_ship 508151
+add_ship 472898 12
+add_pirate 146694 351975 1
+remove_pirate 229207
+get_cannons 17110
+update_pirate_treasure 308264 16
+update_pirate_treasure 500450 30
+update_pirate_treasure 190919 4
+add_pirate 400057 359767 3
+remove_ship 146526
+get_cannons 472708
+update_pirate_treasure 524245 28
+remove_pirate 12135
+remove_ship 170836
+add_pirate 479814 78376 22
+add_ship 398602 30
+get_cannons 390710
+add_ship 455264 7
+add_ship 260376 17
+get_cannons 504117
+remove_pirate 410154
+get_cannons 154577
+update_pirate_treasure 127118 29
+remove_pirate 100529
+get_treasure 396562
+get_cannons 474933
+update_pirate_treasure 381556 4
+update_pirate_treasure 165350 24
+get_cannons 161316
+add_pirate 362987 194760 24
+update_pirate_treasure 135438 29
+update_pirate_treasure 281047 30
+add_ship 329904 26
+get_treasure 27642
+get_richest_pirate 180070
+get_cannons 455264
+remove_ship 286905
+update_pirate_treasure 437159 13
+get_treasure 413136
+remove_ship 293140
+remove_ship 398602
+update_pirate_treasure 185262 11
+add_ship 330762 20
+get_richest_pirate 429532
+get_treasure 450994
+add_pirate 58098 412059 27
+add_ship 474942 12
+remove_ship 131303
+add_ship 37836 22
+remove_pirate 483060
+get_treasure 307192
+add_ship 290339 16
+update_pirate_treasure 120841 -1
+get_richest_pirate 99787
+get_treasure 419142
+add_ship 94493 20
+get_richest_pirate 176242
+remove_pirate 282801
+remove_pirate 192871
+get_cannons 447277
+add_ship 278791 13
+get_cannons 218677
+add_pirate 121711 497468 12
+add_ship 55557 19
+add_ship 523356 4
+remove_ship 155475
+get_cannons 474933
+remove_ship 62102
+remove_ship 505344
+add_ship 369840 8
+add_ship 352890 20
+get_treasure 101838
+add_ship 486782 26
+get_richest_pirate 333680
+get_cannons 288006
+add_ship 136797 8
+remove_ship 440603
+add_pirate 111136 119988 -1
+add_pirate 450824 456326 5
+remove_ship 241017
+add_ship 228671 21
+add_pirate 103633 315462 15
+add_ship 524179 12
+add_ship 70826 2
+update_pirate_treasure 101448 1
+add_ship 494473 28
+add_ship 455254 18
+add_pirate 392106 55557 10
+add_ship 111935 14
+get_cannons 488190
+get_cannons 119240
+add_ship 33279 15
+add_ship 118924 5
+get_richest_pirate 94918
+add_ship 277589 16
+remove_ship 457016
+get_richest_pirate 416039
+remove_ship 455264
+remove_ship 265136
+add_ship 3371 8
+update_pirate_treasure 437608 5
+add_pirate 65582 429532 21
+remove_pirate 286879
+get_treasure 437608
+add_ship 360432 24
+get_treasure 463320
+get_treasure 413136
+add_ship 510124 10
+add_ship 90558 28
+remove_ship 337272
+add_pirate 477052 446261 9
+update_pirate_treasure 101838 12
+get_cannons 99787
+get_richest_pirate 111935
+get_cannons 176242
+remove_ship 517903
+remove_ship 155544
+add_pirate 11833 360432 11
+get_treasure 339659
+add_ship 333765 8
+add_pirate 241621 62713 23
+update_pirate_treasure 505687 7
+add_pirate 34677 498410 18
+get_treasure 234847
+add_pirate 144535 118356 14
+get_cannons 306215
+add_ship 288285 6
+add_pirate 38197 170836 26
+remove_ship 211528
+add_pirate 296833 429532 1
+add_pirate 490578 263587 7
+add_ship 26212 3
+remove_pirate 491943
+get_cannons 147830
+get_richest_pirate 509061
+add_ship 75791 17
+get_richest_pirate 49069
+add_ship 80670 19
+remove_pirate 395477
+add_ship 188641 20
+remove_pirate 234598
+add_ship 407613 15
+add_pirate 515522 65602 29
+get_richest_pirate 32861
+get_treasure 221584
+add_ship 60262 7
+get_cannons 81481
+add_ship 219218 3
+get_cannons 313954
+remove_pirate 213128
+get_richest_pirate 108038
+get_cannons 176242
+add_pirate 457283 505344 12
+get_cannons 198729
+get_treasure 471063
+add_pirate 359120 442908 26
+add_pirate 504484 373879 4
+add_pirate 251124 244712 11
+add_ship 292852 2
+update_pirate_treasure 304670 3
+add_ship 89495 28
+add_pirate 387916 218193 0
+get_richest_pirate 194760
+add_ship 314010 14
+get_cannons 489999
+get_cannons 315462
+add_ship 334284 16
+add_pirate 464366 447277 27
+get_richest_pirate 218193
+update_pirate_treasure 12812 22
+get_cannons 515301
+remove_pirate 27642
+add_ship 143497 0
+remove_ship 523356
+get_cannons 344028
+get_cannons 263587
+add_pirate 333762 443047 28
+remove_ship 277589
+add_pirate 228340 279872 26
+add_pirate 167029 154613 16
+add_ship 80306 17
+remove_ship 338829
+get_treasure 262838
+update_pirate_treasure 221584 15
+get_richest_pirate 432280
+get_richest_pirate 218535
+add_ship 161615 2
+get_cannons 357955
+get_cannons 351975
+remove_ship 51546
+update_pirate_treasure 463320 2
+get_richest_pirate 304152
+add_pirate 12507 416040 28
+get_treasure 144535
+add_ship 510081 21
+get_treasure 245377
+add_ship 397841 3
+add_pirate 194898 369840 2
+update_pirate_treasure 23173 24
+remove_ship 292852
+add_pirate 487247 32861 24
+update_pirate_treasure 348290 30
+add_pirate 211500 94493 16
+get_cannons 284527
+remove_ship 288006
+add_ship 180830 18
+add_pirate 81850 4089 -1
+add_ship 387013 10
+get_cannons 66877
+update_pirate_treasure 476369 17
+remove_pirate 76326
+remove_pirate 121711
+remove_ship 174316
+get_cannons 389615
+add_ship 375610 15
+get_cannons 219218
+get_cannons 357056
+remove_ship 523356
+add_pirate 495498 443047 12
+get_cannons 472678
+update_pirate_treasure 296833 29
+add_ship 358376 10
+get_cannons 486217
+add_ship 242964 11
+get_richest_pirate 400182
+update_pirate_treasure 396645 27
+get_richest_pirate 442908
+update_pirate_treasure 354391 25
+add_pirate 446700 484117 3
+update_pirate_treasure 464366 27
+get_richest_pirate 198729
+get_cannons 80670
+add_ship 218725 12
+get_cannons 77036
+add_ship 136820 28
+get_richest_pirate 149762
+remove_ship 148723
+get_cannons 21479
+get_treasure 123172
+update_pirate_treasure 106108 22
+remove_pirate 387916
+add_ship 281130 25
+add_pirate 252113 292518 3
+add_ship 117490 15
+add_pirate 85049 191748 3
+add_pirate 49489 192851 27
+add_ship 87830 19
+remove_ship 63095
+remove_ship 156470
+remove_ship 272126
+update_pirate_treasure 446700 30
+get_cannons 32861
+remove_ship 172410
+get_treasure 385590
+add_ship 361242 0
+add_pirate 518106 136820 12
+get_treasure 500450
+add_pirate 186038 81481 24
+get_cannons 424362
+get_cannons 66877
+remove_pirate 211730
+update_pirate_treasure 49489 18
+remove_pirate 294101
+get_cannons 349866
+get_richest_pirate 442908
+add_ship 502342 5
+add_ship 106812 30
+remove_ship 27687
+update_pirate_treasure 194898 13
+add_ship 451091 4
+add_pirate 298937 33849 7
+remove_pirate 221584
+add_ship 165412 23
+add_pirate 98795 475731 4
+add_ship 166576 22
+get_cannons 218925
+remove_pirate 450824
+add_ship 445704 0
+add_ship 507535 4
+remove_pirate 400057
+get_richest_pirate 136820
+update_pirate_treasure 483060 24
+get_richest_pirate 191748
+remove_ship 296957
+get_cannons 375610
+remove_ship 281130
+add_pirate 157141 524179 14
+get_richest_pirate 436114
+add_ship 76028 6
+add_ship 460087 1
+add_pirate 32148 33279 6
+remove_ship 501539
+add_ship 240392 5
+get_cannons 263587
+remove_ship 445704
+add_ship 54286 19
+remove_ship 90558
+update_pirate_treasure 388256 19
+get_cannons 361242
+get_cannons 12281
+remove_pirate 10096
+remove_pirate 167029
+get_cannons 429532
+get_cannons 263587
+add_ship 400883 13
+get_cannons 89238
+update_pirate_treasure 514788 10
+remove_ship 278791
+add_ship 121944 19
+get_cannons 126393
+add_pirate 512245 143670 16
+add_pirate 284023 63125 -1
+remove_ship 76028
+add_ship 480035 5
+add_ship 321705 24
+get_richest_pirate 206931
+add_pirate 431808 510124 12
+get_cannons 93640
+add_ship 99545 17
+get_treasure 471063
+add_pirate 51708 260093 14
+get_cannons 65602
+get_cannons 437699
+remove_ship 293924
+add_ship 128967 24
+add_ship 217146 2
+remove_pirate 410562
+add_pirate 434031 515301 0
+remove_ship 352890
+get_richest_pirate 349866
+update_pirate_treasure 437608 4
+update_pirate_treasure 285155 5
+add_ship 385128 23
+update_pirate_treasure 514175 4
+update_pirate_treasure 404793 3
+get_richest_pirate 62713
+add_ship 85339 5
+remove_pirate 15357
+get_richest_pirate 114853
+add_pirate 214137 442908 25
+add_pirate 394055 310933 0
+remove_pirate 289335
+get_cannons 378802
+add_pirate 274463 136649 23
+get_treasure 478002
+get_treasure 296833
+add_pirate 152927 330762 27
+add_ship 156736 6
+remove_ship 94576
+add_ship 357049 26
+update_pirate_treasure 111136 22
+update_pirate_treasure 466853 22
+update_pirate_treasure 428666 25
+add_pirate 203358 333765 18
+get_treasure 213128
+add_pirate 397118 233381 29
+update_pirate_treasure 106108 3
+get_cannons 143670
+add_pirate 490382 89238 25
+get_richest_pirate 397841
+add_ship 231026 21
+get_cannons 89495
+add_ship 298685 1
+remove_ship 198729
+add_pirate 410899 149344 0
+add_ship 366461 14
+add_ship 188296 25
+remove_pirate 350713
+remove_pirate 147045
+get_cannons 275069
+get_cannons 472898
+remove_ship 147830
+get_richest_pirate 286905
+update_pirate_treasure 487247 6
+remove_pirate 157141
+add_pirate 126735 208464 0
+get_cannons 126998
+add_pirate 225801 12281 2
+get_richest_pirate 165412
+add_pirate 50701 406248 19
+remove_pirate 51708
+remove_pirate 61900
+get_cannons 471223
+get_richest_pirate 155371
+add_pirate 310929 416039 3
+get_richest_pirate 94918
+add_ship 322920 20
+get_cannons 204136
+add_pirate 464059 121471 18
+add_ship 274549 30
+remove_ship 272126
+add_pirate 447855 325483 22
+remove_pirate 330233
+get_richest_pirate 279872
+get_cannons 369840
+get_treasure 468015
+get_richest_pirate 315462
+add_pirate 493757 218535 19
+get_cannons 110406
+remove_ship 225727
+get_treasure 354391
+get_cannons 314010
+remove_ship 80181
+remove_ship 404035
+remove_ship 470418
+get_richest_pirate 126998
+add_ship 359186 17
+remove_pirate 61773
+update_pirate_treasure 102226 0
+update_pirate_treasure 137199 20
+add_ship 146813 8
+add_pirate 103069 480035 -1
+get_treasure 375523
+get_treasure 274634
+add_ship 474353 3
+get_cannons 416040
+get_cannons 26212
+add_pirate 385889 422909 24
+add_ship 201980 28
+remove_ship 85339
+update_pirate_treasure 234426 21
+add_pirate 119679 252398 12
+add_ship 358856 2
+get_treasure 252113
+remove_pirate 29560
+update_pirate_treasure 234847 12
+add_ship 152459 7
+add_pirate 34727 413343 27
+get_richest_pirate 205519
+add_ship 305403 3
+get_richest_pirate 81481
+remove_pirate 228917
+remove_pirate 101838
+update_pirate_treasure 332391 27
+add_ship 247791 13
+add_pirate 515815 445704 7
+remove_ship 460087
+remove_pirate 450994
+add_ship 160140 20
+update_pirate_treasure 192747 6
+add_pirate 243351 107974 26
+remove_ship 333201
+get_richest_pirate 361235
+add_ship 482480 1
+get_cannons 486217
+update_pirate_treasure 440677 24
+add_ship 331497 0
+add_pirate 438167 44239 10
+add_ship 10648 24
+add_pirate 224452 274549 0
+add_pirate 382921 63125 2
+update_pirate_treasure 54904 25
+get_richest_pirate 405615
+remove_ship 128967
+remove_ship 305403
+get_treasure 378788
+get_cannons 348021
+add_ship 219556 15
+add_ship 478598 6
+get_cannons 345356
+get_cannons 458303
+remove_ship 424362
+get_cannons 94493
+get_richest_pirate 80670
+get_treasure 128927
+get_treasure 273859
+add_ship 293053 15
+add_pirate 410686 176022 18
+update_pirate_treasure 454993 4
+add_ship 198043 30
+add_ship 77545 21
+add_ship 217366 5
+add_ship 345159 27
+get_richest_pirate 474933
+get_treasure 384046
+update_pirate_treasure 348900 8
+add_ship 182285 9
+add_ship 263325 11
+add_ship 142413 27
+get_treasure 157141
+get_cannons 156470
+add_ship 113586 6
+get_cannons 507535
+add_ship 233943 18
+add_ship 122017 22
+update_pirate_treasure 447855 21
+remove_pirate 367900
+get_cannons 482480
+add_ship 323867 29
+add_pirate 120336 496824 29
+get_treasure 342476
+remove_ship 72265
+update_pirate_treasure 512245 3
+get_treasure 455412
+remove_pirate 23173
+get_cannons 110406
+add_pirate 36884 478598 15
+remove_ship 99545
+get_richest_pirate 127382
+add_pirate 232991 267446 8
+add_ship 170101 8
+get_cannons 274132
+remove_ship 119988
+remove_ship 219218
+get_treasure 241346
+add_pirate 9506 3371 17
+get_richest_pirate 316059
+update_pirate_treasure 179760 28
+add_ship 254084 15
+add_ship 169225 17
+update_pirate_treasure 268725 23
+update_pirate_treasure 252113 17
+add_ship 255962 30
+add_pirate 464178 494473 4
+add_ship 369001 30
+get_cannons 198043
+remove_pirate 22376
+add_ship 468383 16
+get_cannons 71520
+remove_ship 431369
+add_ship 14971 21
+remove_ship 5758
+update_pirate_treasure 123488 3
+add_pirate 120507 468383 6
+get_treasure 137199
+add_ship 352989 5
+update_pirate_treasure 165350 11
+get_richest_pirate 94493
+get_richest_pirate 279705
+update_pirate_treasure 244248 4
+remove_ship 338677
+get_treasure 273859
+get_cannons 437552
+add_pirate 109612 351975 -1
+update_pirate_treasure 33982 5
+update_pirate_treasure 261964 2
+add_ship 465844 19
+update_pirate_treasure 295532 14
+add_ship 503406 9
+update_pirate_treasure 60071 13
+add_ship 442120 20
+update_pirate_treasure 477634 18
+remove_pirate 256504
+get_treasure 162420
+add_ship 100288 16
+get_treasure 518549
+add_ship 63963 2
+get_cannons 524179
+remove_ship 224220
+get_richest_pirate 424362
+get_richest_pirate 274549
+add_ship 198535 0
+remove_ship 218925
+get_cannons 55280
+add_ship 60823 7
+add_ship 430367 16
+get_cannons 405615
+remove_pirate 424815
+add_ship 93339 8
+get_cannons 413343
+remove_ship 486217
+get_richest_pirate 466863
+remove_ship 104591
+add_pirate 478546 384056 27
+get_treasure 318721
+remove_pirate 307192
+get_treasure 245377
+add_ship 136181 11
+add_ship 510002 22
+add_pirate 386028 458894 22
+get_cannons 230441
+add_ship 119392 9
+get_richest_pirate 94493
+get_cannons 314010
+get_treasure 196420
+update_pirate_treasure 85049 14
+add_pirate 325339 345497 24
+add_pirate 446789 27687 28
+get_cannons 231026
+remove_ship 32861
+update_pirate_treasure 186038 4
+get_cannons 60262
+add_pirate 334631 188296 19
+get_richest_pirate 510124
+add_ship 52948 2
+add_ship 369306 7
+add_pirate 437568 331497 3
+get_richest_pirate 66877
+add_ship 349885 6
+get_treasure 34677
+get_cannons 275069
+add_ship 310043 2
+get_richest_pirate 146230
+add_pirate 313717 474353 10
+add_pirate 64504 198043 29
+get_treasure 437568
+get_cannons 339010
+update_pirate_treasure 393562 1
+get_richest_pirate 355011
+add_ship 213093 15
+add_pirate 98219 110406 24
+add_ship 99093 26
+add_ship 7489 14
+get_cannons 430431
+update_pirate_treasure 437159 11
+remove_pirate 224452
+remove_ship 154577
+get_cannons 389615
+remove_ship 71520
+get_cannons 333765
+add_ship 407271 27
+get_treasure 287587
+get_richest_pirate 331497
+update_pirate_treasure 333762 16
+update_pirate_treasure 241855 21
+get_treasure 358493
+update_pirate_treasure 395329 15
+remove_pirate 414542
+add_ship 321587 15
+remove_ship 474942
+get_richest_pirate 62517
+add_ship 249476 1
+add_pirate 110109 198729 18
+update_pirate_treasure 221584 6
+remove_ship 255962
+get_richest_pirate 267446
+add_pirate 306386 94576 23
+add_ship 188995 17
+get_richest_pirate 66877
+remove_ship 349866
+get_cannons 348021
+add_ship 281529 19
+remove_ship 274549
+get_cannons 64964
+add_ship 72315 11
+remove_pirate 49489
+update_pirate_treasure 392106 22
+remove_ship 455254
+get_richest_pirate 397823
+remove_ship 349885
+add_pirate 311739 115792 10
+add_ship 483736 7
+remove_ship 371810
+remove_ship 92765
+get_richest_pirate 416039
+remove_pirate 194898
+add_ship 479687 27
+update_pirate_treasure 61773 28
+remove_ship 118356
+add_pirate 71570 91280 4
+get_richest_pirate 436114
+get_richest_pirate 125307
+add_ship 333742 2
+add_ship 253021 27
+update_pirate_treasure 229803 11
+get_cannons 446261
+remove_ship 146813
+update_pirate_treasure 119679 27
+add_ship 375456 30
+add_pirate 332492 219218 30
+remove_pirate 473629
+update_pirate_treasure 364117 22
+add_ship 379458 10
+update_pirate_treasure 144535 8
+add_ship 440527 30
+get_cannons 368350
+get_cannons 457016
+get_cannons 246263
+add_pirate 22867 142413 14
+get_cannons 310933
+update_pirate_treasure 241346 24
+remove_pirate 339659
+get_treasure 48776
+get_richest_pirate 53907
+get_cannons 400182
+update_pirate_treasure 251124 29
+get_cannons 191749
+remove_ship 218677
+get_cannons 259093
+add_ship 465172 24
+remove_pirate 416189
+get_richest_pirate 306215
+update_pirate_treasure 359120 25
+add_ship 112090 21
+add_ship 17522 13
+add_ship 450306 6
+add_ship 267463 24
+add_ship 280177 11
+get_treasure 292482
+get_treasure 29560
+remove_pirate 364117
+update_pirate_treasure 523392 19
+add_pirate 58053 400883 4
+get_treasure 524245
+remove_ship 72315
+get_richest_pirate 475731
+update_pirate_treasure 468000 12
+add_ship 333009 8
+update_pirate_treasure 34727 4
+remove_pirate 394055
+update_pirate_treasure 81850 25
+remove_pirate 429183
+update_pirate_treasure 24864 9
+add_ship 308735 29
+get_cannons 451091
+update_pirate_treasure 472482 26
+remove_ship 206931
+get_cannons 160349
+get_treasure 6869
+get_cannons 472708
+get_richest_pirate 317906
+update_pirate_treasure 109612 27
+add_pirate 411095 219556 24
+get_richest_pirate 330762
+add_pirate 293096 345497 11
+add_pirate 324525 152459 -1
+remove_pirate 334344
+remove_pirate 514849
+add_ship 487581 15
+add_pirate 293703 63963 13
+add_ship 9647 6
+get_cannons 205725
+add_ship 18779 11
+get_cannons 180070
+get_treasure 268725
+remove_pirate 120507
+get_treasure 306386
+add_ship 138006 8
+add_ship 444505 29
+update_pirate_treasure 450994 20
+get_richest_pirate 12281
+get_treasure 478681
+get_richest_pirate 419710
+remove_ship 277798
+add_ship 16061 23
+get_richest_pirate 361235
+add_ship 488360 10
+add_pirate 149276 455798 15
+add_ship 331328 12
+get_treasure 296833
+add_pirate 170617 472678 5
+add_pirate 522563 198729 18
+add_pirate 95948 310933 23
+update_pirate_treasure 241621 7
+get_richest_pirate 488190
+remove_pirate 4969
+get_cannons 403558
+remove_ship 314234
+add_ship 168976 23
+update_pirate_treasure 119679 4
+remove_ship 493339
+add_ship 291811 20
+get_richest_pirate 381679
+get_treasure 301045
+remove_pirate 382921
+add_ship 507739 28
+update_pirate_treasure 375523 26
+get_richest_pirate 282905
+remove_pirate 313717
+get_treasure 245885
+remove_ship 76072
+get_treasure 487247
+add_ship 155192 10
+add_ship 165631 1
+update_pirate_treasure 440677 21
+remove_ship 415867
+get_treasure 9506
+add_ship 246901 24
+get_cannons 443047
+add_ship 417822 18
+add_pirate 503649 321587 8
+add_pirate 64378 18779 18
+add_pirate 91071 126393 5
+get_treasure 410707
+add_ship 471818 23
+add_pirate 505661 475078 25
+add_ship 310604 7
+update_pirate_treasure 286879 24
+add_pirate 424784 95584 23
+update_pirate_treasure 441853 16
+add_ship 198673 9
+get_cannons 176022
+get_treasure 414542
+add_ship 230205 6
+remove_ship 247791
+remove_pirate 478964
+remove_pirate 71682
+add_ship 42777 1
+get_richest_pirate 94493
+add_pirate 514000 198535 12
+update_pirate_treasure 346222 19
+add_ship 51949 27
+get_treasure 306386
+remove_ship 17522
+update_pirate_treasure 493757 6
+add_pirate 117821 99545 4
+add_ship 397449 26
+get_richest_pirate 149762
+remove_pirate 379860
+remove_pirate 66513
+add_ship 54722 22
+update_pirate_treasure 478546 30
+remove_ship 122830
+get_cannons 211528
+add_pirate 90052 259093 11
+add_ship 289556 23
+update_pirate_treasure 358493 21
+add_pirate 368833 154613 21
+get_cannons 112090
+add_ship 163446 16
+add_ship 18832 20
+remove_ship 348021
+add_ship 201718 27
+add_pirate 58821 510002 27
+add_ship 244177 8
+remove_ship 479339
+get_treasure 103069
+add_pirate 193730 330762 21
+add_ship 369654 6
+add_ship 425196 25
+remove_ship 241016
+get_cannons 290339
+add_ship 211981 6
+add_ship 327105 1
+remove_pirate 451482
+get_cannons 483736
+add_ship 484026 21
+remove_ship 38112
+add_ship 153526 15
+get_cannons 310043
+remove_pirate 112381
+get_richest_pirate 264484
+get_cannons 510081
+remove_pirate 326968
+update_pirate_treasure 293096 27
+add_pirate 231406 470418 24
+add_ship 308715 24
+update_pirate_treasure 125456 21
+get_cannons 296957
+add_pirate 95146 267463 12
+get_cannons 160349
+add_ship 119371 13
+get_cannons 49069
+update_pirate_treasure 386017 9
+update_pirate_treasure 483912 15
+get_cannons 510002
+update_pirate_treasure 483250 6
+get_cannons 361242
+remove_ship 325483
+get_cannons 107433
+get_cannons 384056
+get_cannons 278791
+add_pirate 467140 198729 11
+add_ship 327360 19
+update_pirate_treasure 512628 30
+get_treasure 514788
+remove_pirate 194484
+remove_ship 64728
+get_treasure 326968
+update_pirate_treasure 323972 28
+add_pirate 75222 443047 22
+remove_pirate 515000
+add_ship 226661 1
+get_treasure 232991
+add_ship 73123 12
+get_richest_pirate 128836
+get_cannons 99787
+add_pirate 117431 199366 11
+get_cannons 90558
+get_richest_pirate 286920
+add_pirate 461180 288285 14
+get_cannons 143568
+update_pirate_treasure 343622 5
+add_ship 514671 0
+add_ship 239629 24
+remove_pirate 475984
+update_pirate_treasure 229803 13
+get_richest_pirate 425171
+remove_ship 470695
+get_treasure 340878
+get_cannons 398602
+update_pirate_treasure 137199 16
+add_ship 330100 24
+add_ship 147368 30
+add_pirate 446014 308735 22
+get_cannons 175050
+get_cannons 381679
+get_treasure 95948
+remove_ship 100288
+add_pirate 326569 310250 8
+get_cannons 348021
+remove_ship 357049
+remove_pirate 234598
+remove_ship 520064
+get_cannons 465844
+add_pirate 29041 474933 19
+add_ship 16806 30
+update_pirate_treasure 126735 27
+get_cannons 60262
+update_pirate_treasure 225801 20
+get_treasure 523316
+add_pirate 486175 323867 14
+get_treasure 505661
+get_cannons 136181
+remove_ship 358376
+add_ship 472745 1
+remove_ship 345159
+add_ship 379148 20
+update_pirate_treasure 468015 1
+add_ship 33535 15
+get_cannons 253021
+get_treasure 29041
+add_pirate 310492 470695 1
+get_cannons 486782
+add_pirate 275635 118924 15
+update_pirate_treasure 203358 21
+add_ship 423150 30
+add_pirate 345345 239629 27
+get_treasure 405668
+add_ship 90011 28
+get_cannons 71485
+add_ship 366949 8
+get_cannons 50494
+remove_ship 472745
+get_treasure 275635
+add_ship 462258 26
+add_ship 338609 14
+get_richest_pirate 66877
+add_ship 321093 30
+add_pirate 243688 55557 23
+add_ship 14726 26
+get_cannons 470803
+get_cannons 397449
+add_pirate 165151 431369 26
+get_treasure 325339
+remove_ship 99093
+update_pirate_treasure 228917 15
+add_ship 210902 17
+remove_pirate 472482
+get_treasure 334344
+add_pirate 249559 397841 6
+add_ship 23403 3
+remove_ship 430305
+get_cannons 516016
+add_pirate 472741 278791 21
+add_ship 72973 6
+update_pirate_treasure 495498 20
+remove_ship 320022
+update_pirate_treasure 397118 15
+get_richest_pirate 252398
+get_cannons 63095
+get_cannons 176022
+add_pirate 44431 389615 18
+add_ship 225917 13
+add_ship 397317 27
+add_pirate 256774 321587 9
+get_treasure 22867
+add_ship 341425 20
+get_cannons 218535
+add_pirate 295556 379458 28
+get_treasure 152927
+remove_pirate 464178
+get_richest_pirate 455264
+add_ship 263090 14
+add_pirate 516918 503406 13
+add_ship 169648 25
+add_ship 361043 28
+add_pirate 130564 23403 -1
+add_ship 429496 7
+get_richest_pirate 156470
+remove_pirate 196420
+add_ship 464735 8
+get_richest_pirate 422909
+update_pirate_treasure 310929 -1
+get_cannons 293924
+add_pirate 54240 169648 16
+get_cannons 191748
+add_ship 12115 18
+add_ship 311808 15
+add_ship 339870 12
+get_cannons 188296
+add_pirate 199989 72973 19
+add_ship 450978 8
+add_ship 447046 5
+add_ship 436626 25
+add_ship 349761 28
+get_cannons 142413
+remove_ship 146526
+remove_pirate 516918
+get_richest_pirate 339844
+remove_pirate 120336
+remove_ship 12115
+get_richest_pirate 119371
+get_treasure 304670
+remove_ship 479339
+update_pirate_treasure 28435 8
+add_ship 285339 14
+add_pirate 341428 442908 5
+get_cannons 464735
+get_treasure 98219
+add_ship 398429 30
+get_treasure 340878
+update_pirate_treasure 524245 11
+add_ship 120839 7
+get_richest_pirate 99545
+remove_ship 321093
+get_treasure 111136
+get_cannons 12115
+remove_ship 501539
+remove_ship 70881
+update_pirate_treasure 447198 10
+remove_pirate 342476
+remove_pirate 11833
+remove_ship 442120
+get_cannons 409782
+remove_ship 373879
+get_richest_pirate 451091
+add_pirate 201551 366461 2
+get_cannons 192851
+get_richest_pirate 121695
+get_cannons 157402
+get_treasure 348290
+get_treasure 350548
+get_treasure 318721
+add_pirate 89184 514671 16
+get_cannons 357049
+update_pirate_treasure 512245 17
+get_treasure 95146
+add_ship 105237 4
+remove_ship 101797
+get_cannons 339844
+update_pirate_treasure 297749 11
+add_ship 343405 15
+get_richest_pirate 191748
+add_ship 427872 28
+get_treasure 354391
+remove_pirate 83296
+get_treasure 103069
+get_cannons 208464
+get_richest_pirate 472678
+remove_ship 152915
+get_richest_pirate 100288
+get_treasure 310229
+get_cannons 361242
+get_treasure 434031
+add_ship 399330 26
+add_ship 382906 23
+get_treasure 157141
+get_cannons 357838
+get_cannons 161615
+remove_ship 42777
+remove_ship 86773
+add_pirate 20056 333201 21
+add_ship 35821 18
+update_pirate_treasure 71570 0
+get_cannons 416040
+remove_ship 267463
+get_treasure 245377
+get_treasure 93912
+remove_pirate 497522
+get_cannons 50494
+add_pirate 302689 119240 -1
+add_ship 495944 26
+add_ship 372943 20
+remove_pirate 514788
+get_cannons 281130
+add_ship 226320 23
+add_pirate 213072 472678 8
+update_pirate_treasure 490382 12
+remove_ship 485085
+add_pirate 371558 198043 13
+get_cannons 325483
+get_treasure 167029
+add_ship 225471 6
+add_pirate 203946 450306 17
+get_cannons 288285
+remove_pirate 214137
+add_ship 108012 14
+update_pirate_treasure 326968 19
+add_ship 46836 10
+remove_ship 310604
+get_cannons 507396
+add_ship 333267 7
+update_pirate_treasure 109612 20
+add_pirate 335074 122830 1
+add_pirate 212983 339010 24
+remove_pirate 461180
+add_ship 487366 0
+get_treasure 273308
+add_ship 179823 4
+add_pirate 419012 156736 23
+get_treasure 356449
+update_pirate_treasure 424720 0
+add_ship 321360 10
+remove_ship 366949
+add_ship 122689 21
+get_cannons 62517
+update_pirate_treasure 229803 21
+get_cannons 7489
+remove_ship 175913
+add_pirate 201547 444505 19
+remove_pirate 49489
+remove_ship 369001
+update_pirate_treasure 301045 1
+get_cannons 191191
+get_cannons 386298
+add_ship 86747 16
+add_ship 24569 0
+add_pirate 92912 369736 20
+remove_ship 488190
+update_pirate_treasure 207417 28
+update_pirate_treasure 274463 19
+get_treasure 243688
+get_treasure 392106
+remove_ship 415867
+get_treasure 94974
+add_ship 13859 2
+add_ship 341591 27
+add_ship 352302 29
+get_richest_pirate 487581
+add_ship 127720 1
+get_richest_pirate 267463
+remove_pirate 131487
+add_ship 471937 17
+remove_ship 211981
+get_cannons 239806
+remove_pirate 165350
+update_pirate_treasure 478779 25
+get_treasure 179312
+remove_ship 106812
+add_ship 296954 24
+update_pirate_treasure 117134 9
+remove_pirate 275635
+remove_ship 357049
+get_treasure 119679
+remove_ship 149762
+add_ship 330198 7
+remove_ship 417822
+get_richest_pirate 397841
+get_cannons 233381
+update_pirate_treasure 274463 11
+update_pirate_treasure 394694 1
+get_cannons 45386
+remove_pirate 451482
+add_pirate 91358 99787 0
+remove_pirate 231418
+get_cannons 494473
+get_richest_pirate 425171
+remove_pirate 410707
+get_treasure 475984
+get_richest_pirate 247791
+remove_ship 479339
+add_ship 367908 15
+add_ship 372040 7
+update_pirate_treasure 119773 29
+add_pirate 8315 494473 2
+add_pirate 135333 407271 13
+get_richest_pirate 472708
+add_pirate 109554 33849 18
+remove_ship 396085
+remove_pirate 378788
+get_cannons 27153
+remove_ship 14726
+remove_pirate 424784
+add_ship 198631 15
+add_pirate 120265 233943 8
+add_ship 153542 7
+add_ship 112833 6
+get_treasure 77758
+remove_ship 517249
+update_pirate_treasure 128927 -1
+update_pirate_treasure 348290 9
+get_treasure 92912
+add_ship 176894 2
+add_ship 94982 6
+add_ship 65996 3
+add_ship 329374 4
+get_treasure 95146
+update_pirate_treasure 65564 10
+add_pirate 251607 385128 19
+update_pirate_treasure 446030 17
+update_pirate_treasure 454092 4
+get_richest_pirate 339010
+remove_ship 5758
+add_ship 347976 10
+add_ship 462138 18
+add_ship 113300 17
+add_ship 325026 27
+add_ship 296295 10
+update_pirate_treasure 428666 26
+add_ship 30125 22
+add_ship 264580 29
+update_pirate_treasure 371558 13
+add_ship 503713 14
+add_pirate 305388 343405 9
+get_richest_pirate 323867
+get_cannons 330762
+update_pirate_treasure 478546 8
+get_cannons 244858
+add_ship 20056 3
+add_ship 223456 7
+get_treasure 424720
+remove_pirate 287826
+add_ship 269631 9
+add_pirate 215436 503406 17
+update_pirate_treasure 304670 3
+add_pirate 63733 121944 8
+add_pirate 269543 330100 27
+add_ship 320077 25
+get_treasure 375430
+add_ship 229863 8
+add_ship 116305 27
+update_pirate_treasure 381556 26
+remove_ship 390710
+update_pirate_treasure 503649 17
+add_ship 246032 6
+get_treasure 285155
+remove_pirate 399965
+get_richest_pirate 127382
+get_treasure 370948
+remove_pirate 334631
+add_pirate 154338 254084 25
+add_ship 42087 13
+get_cannons 434084
+get_richest_pirate 172155
+get_treasure 135531
+update_pirate_treasure 33982 9
+get_cannons 299743
+add_ship 24670 20
+get_richest_pirate 163446
+remove_ship 244177
+get_treasure 512245
+update_pirate_treasure 90052 28
+remove_ship 358856
+add_pirate 112998 313337 4
+add_ship 94983 26
+update_pirate_treasure 473629 27
+update_pirate_treasure 446014 -1
+get_richest_pirate 311808
+remove_ship 382906
+get_cannons 286503
+get_treasure 211500
+add_pirate 320856 450978 30
+update_pirate_treasure 447198 8
+add_ship 271057 26
+update_pirate_treasure 130564 27
+add_ship 229948 2
+add_ship 75104 9
+remove_ship 333267
+add_ship 381975 19
+add_ship 512103 29
+update_pirate_treasure 243351 28
+add_pirate 89516 17110 0
+get_treasure 503649
+add_pirate 235441 473707 8
+get_cannons 355011
+add_ship 397507 12
+add_ship 78231 16
+add_ship 520631 26
+get_cannons 42687
+remove_ship 263090
+add_pirate 985 198535 6
+remove_ship 359186
+get_richest_pirate 81481
+update_pirate_treasure 79786 5
+remove_ship 366949
+add_pirate 232353 179708 29
+remove_pirate 441853
+get_cannons 77036
+remove_pirate 493757
+remove_ship 95584
+get_cannons 240392
+update_pirate_treasure 259754 18
+remove_ship 35821
+update_pirate_treasure 247139 4
+get_cannons 349761
+get_cannons 339870
+add_ship 313776 9
+remove_ship 155371
+add_ship 314792 30
+add_pirate 297851 94982 21
+get_cannons 127720
+add_pirate 204089 355011 9
+get_treasure 424815
+add_ship 48403 30
+add_pirate 363609 250918 27
+add_pirate 176677 488190 27
+remove_pirate 298937
+add_ship 458307 19
+get_richest_pirate 286503
+add_pirate 287287 46836 2
+get_cannons 136820
+get_cannons 68146
+remove_pirate 45715
+add_pirate 335350 250918 26
+add_pirate 5420 446261 20
+get_cannons 359186
+add_pirate 144849 399330 26
+add_pirate 372451 48403 2
+add_ship 316072 14
+get_cannons 349761
+add_ship 67067 12
+remove_ship 153526
+add_pirate 118281 174316 21
+add_pirate 102520 230205 22
+get_cannons 223456
+remove_pirate 481535
+add_pirate 351989 108038 21
+get_richest_pirate 8817
+add_ship 290685 30
+add_ship 279068 27
+add_pirate 300044 12115 0
+update_pirate_treasure 297851 11
+update_pirate_treasure 164732 29
+remove_pirate 172322
+get_treasure 8385
+add_pirate 521475 40974 22
+update_pirate_treasure 386028 27
+add_pirate 426487 120839 25
+get_treasure 201551
+add_ship 314281 15
+remove_pirate 175068
+remove_ship 514757
+add_ship 265343 27
+update_pirate_treasure 437568 30
+get_cannons 153526
+add_ship 44304 16
+update_pirate_treasure 225801 11
+add_pirate 11806 62517 4
+add_pirate 324060 118356 30
+get_treasure 398726
+get_treasure 34727
+add_ship 211213 0
+remove_ship 279872
+remove_ship 241016
+get_richest_pirate 274549
+update_pirate_treasure 203358 0
+get_cannons 510124
+add_pirate 357670 397317 30
+remove_pirate 112998
+remove_pirate 234847
+get_richest_pirate 179708
+remove_ship 170101
+get_treasure 515000
+add_ship 386619 20
+remove_ship 458894
+add_ship 300509 27
+add_pirate 293019 194760 29
+get_cannons 264580
+get_richest_pirate 447277
+add_pirate 305628 107974 12
+get_cannons 406248
+add_ship 458319 25
+add_pirate 62492 229948 14
+get_treasure 201551
+get_cannons 149344
+add_ship 416446 8
+remove_ship 187515
+add_pirate 455500 99545 16
+remove_ship 296954
+add_pirate 127207 443047 8
+remove_ship 432694
+add_pirate 130825 253021 22
+remove_ship 436114
+get_treasure 464366
+remove_pirate 305388
+add_ship 97348 13
+get_treasure 179760
+update_pirate_treasure 283713 24
+remove_pirate 211730
+add_ship 79941 6
+get_cannons 330100
+add_ship 507818 27
+add_pirate 295341 208464 20
+add_pirate 346110 510002 22
+add_ship 12172 20
+remove_pirate 440515
+add_pirate 309256 265343 10
+remove_ship 345554
+get_cannons 289556
+remove_ship 486217
+remove_ship 171433
+get_richest_pirate 286920
+get_cannons 80306
+add_pirate 292326 188995 15
+get_cannons 322920
+get_treasure 273308
+add_pirate 77508 503406 11
+get_treasure 351989
+add_ship 3055 17
+add_ship 389258 5
+get_cannons 24867
+add_pirate 139950 315462 28
+get_cannons 71520
+add_ship 447619 1
+remove_ship 330198
+remove_pirate 322469
+remove_pirate 11806
+update_pirate_treasure 367611 9
+add_pirate 502737 505344 12
+get_cannons 33279
+add_pirate 458198 316072 15
+update_pirate_treasure 335350 14
+add_ship 465786 4
+remove_ship 63125
+get_treasure 229207
+add_pirate 506735 514757 5
+remove_pirate 34727
+update_pirate_treasure 64378 22
+remove_ship 462138
+add_ship 328219 17
+add_ship 96541 4
+remove_pirate 128927
+add_ship 363557 11
+add_pirate 259606 12281 16
+add_ship 472755 9
+get_richest_pirate 473562
+get_richest_pirate 218925
+update_pirate_treasure 203358 0
+update_pirate_treasure 466853 -1
+get_treasure 144849
+get_cannons 349733
+add_ship 67977 3
+get_treasure 326569
+add_ship 453372 0
+add_ship 443880 29
+remove_pirate 427149
+update_pirate_treasure 426487 15
+add_pirate 521385 101766 6
+get_cannons 176242
+add_pirate 260820 75791 2
+add_pirate 21201 18832 25
+get_cannons 361242
+get_treasure 186038
+add_ship 75002 0
+remove_ship 146526
+get_treasure 471063
+add_ship 127500 30
+remove_ship 352890
+add_pirate 320638 157402 26
+get_cannons 325026
+remove_pirate 125456
+get_richest_pirate 494473
+remove_pirate 292099
+add_pirate 39547 458319 14
+add_pirate 117090 7489 19
+update_pirate_treasure 326569 23
+get_cannons 44421
+add_ship 399374 18
+add_ship 503177 23
+add_ship 146780 7
+add_ship 314832 11
+add_ship 72287 6
+get_treasure 100529
+add_pirate 296870 176022 10
+get_richest_pirate 169648
+add_ship 356 21
+get_treasure 21201
+add_ship 282749 1
+remove_pirate 296833
+add_ship 11435 27
+update_pirate_treasure 137199 21
+get_richest_pirate 68146
+remove_pirate 262899
+remove_pirate 258031
+add_ship 512662 26
+add_ship 59378 30
+get_richest_pirate 389615
+remove_ship 23403
+get_cannons 78231
+remove_ship 345356
+update_pirate_treasure 199787 -1
+update_pirate_treasure 293703 11
+add_ship 432188 -1
+update_pirate_treasure 185262 19
+add_pirate 324923 286920 12
+remove_ship 49069
+update_pirate_treasure 334344 15
+remove_pirate 213726
+add_ship 455058 17
+get_richest_pirate 94576
+update_pirate_treasure 91071 15
+remove_ship 447619
+add_ship 175444 13
+add_ship 295537 14
+remove_ship 201718
+get_cannons 447277
+update_pirate_treasure 505661 19
+remove_ship 466863
+get_richest_pirate 3371
+get_treasure 203358
+get_richest_pirate 108038
+remove_pirate 39547
+add_pirate 248347 427872 25
+remove_pirate 1601
+get_treasure 120507
+add_ship 54116 1
+get_richest_pirate 450978
+get_cannons 290685
+get_richest_pirate 233943
+add_ship 618 9
+update_pirate_treasure 325339 26
+get_treasure 54240
+update_pirate_treasure 444335 12
+update_pirate_treasure 146260 7
+get_treasure 192794
+get_richest_pirate 267463
+update_pirate_treasure 120265 14
+get_richest_pirate 154613
+get_treasure 9506
+add_ship 106617 14
+add_pirate 190430 127382 7
+get_cannons 187515
+remove_ship 128967
+add_pirate 261372 179823 24
+get_richest_pirate 110406
+add_ship 401877 6
+get_richest_pirate 46836
+get_richest_pirate 65602
+get_treasure 117090
+get_treasure 72306
+get_richest_pirate 355011
+get_treasure 436637
+add_pirate 218538 402529 6
+get_richest_pirate 9571
+get_treasure 486175
+remove_pirate 261372
+update_pirate_treasure 213128 25
+add_pirate 394993 308715 6
+get_richest_pirate 240392
+add_pirate 519110 389258 25
+remove_pirate 29560
+get_treasure 295532
+get_cannons 269631
+update_pirate_treasure 120265 28
+add_ship 496107 12
+add_pirate 244530 136181 6
+get_treasure 120265
+add_pirate 273688 406248 28
+add_ship 160345 12
+add_ship 501340 1
+get_cannons 269631
+get_cannons 42687
+get_treasure 369008
+add_ship 236020 25
+update_pirate_treasure 276880 24
+get_cannons 9647
+remove_ship 161316
+get_richest_pirate 108038
+get_treasure 410707
+add_ship 211388 0
+get_treasure 505661
+add_pirate 233656 46836 21
+add_pirate 468527 249476 3
+get_treasure 54240
+get_cannons 363557
+add_pirate 379853 320077 12
+update_pirate_treasure 405668 7
+remove_ship 456326
+add_pirate 141008 405615 9
+get_treasure 386017
+get_richest_pirate 456658
+add_pirate 339327 286920 30
+get_richest_pirate 52720
+add_ship 481505 4
+get_treasure 222469
+add_ship 31238 29
+remove_pirate 50701
+get_richest_pirate 17110
+remove_pirate 241855
+get_treasure 164466
+remove_pirate 212983
+update_pirate_treasure 310929 1
+remove_ship 455058
+get_treasure 91071
+add_ship 126837 26
+add_ship 511272 29
+get_cannons 192778
+get_cannons 407271
+remove_pirate 245377
+get_cannons 475731
+get_treasure 457283
+add_ship 257074 17
+add_ship 80964 18
+remove_ship 396745
+add_pirate 317163 437699 11
+update_pirate_treasure 414737 30
+add_ship 313678 8
+get_treasure 225801
+update_pirate_treasure 392106 20
+get_richest_pirate 118356
+update_pirate_treasure 493757 18
+add_ship 503800 18
+remove_pirate 454092
+remove_pirate 54240
+update_pirate_treasure 174887 21
+get_treasure 318949
+remove_pirate 518549
+remove_ship 355011
+remove_ship 464735
+add_ship 43374 30
+add_pirate 211135 54286 11
+remove_ship 458319
+add_ship 27158 14
+update_pirate_treasure 451482 27
+remove_pirate 324525
+add_ship 203459 2
+remove_ship 279501
+get_cannons 265343
+get_cannons 271057
+add_pirate 273548 510002 -1
+remove_pirate 95146
+add_pirate 67932 9647 27
+get_richest_pirate 425171
+add_pirate 382549 314281 16
+get_cannons 369840
+add_ship 341476 0
+remove_ship 618
+add_ship 458370 2
+remove_pirate 241621
+remove_ship 291811
+remove_ship 333009
+add_pirate 422073 101766 15
+add_ship 441960 19
+add_ship 393227 21
+add_ship 126233 29
+get_treasure 119679
+update_pirate_treasure 98219 21
+add_pirate 279004 310933 8
+remove_pirate 382549
+remove_ship 271057
+add_ship 498552 9
+update_pirate_treasure 213128 26
+add_ship 95727 8
+get_richest_pirate 9647
+remove_pirate 437568
+get_richest_pirate 155475
+remove_ship 77545
+add_ship 492728 9
+remove_pirate 135333
+remove_ship 489654
+get_cannons 119988
+update_pirate_treasure 346222 21
+get_treasure 144535
+remove_ship 83635
+get_cannons 296476
+remove_ship 349733
+get_treasure 126735
+get_treasure 483709
+get_cannons 65602
+add_ship 468200 19
+remove_pirate 95146
+add_pirate 500820 481505 3
+add_pirate 190301 106617 -1
+add_pirate 490031 341476 9
+remove_pirate 22867
+get_richest_pirate 472678
+add_ship 350689 23
+update_pirate_treasure 161799 6
+remove_pirate 105404
+remove_ship 274549
+remove_pirate 48836
+add_ship 50109 16
+update_pirate_treasure 139950 10
+update_pirate_treasure 287587 20
+update_pirate_treasure 130564 10
+update_pirate_treasure 280227 7
+remove_ship 386619
+add_ship 357376 8
+add_ship 378468 16
+add_ship 523116 7
+add_pirate 218241 179823 30
+update_pirate_treasure 9506 23
+add_pirate 142464 50109 19
+remove_ship 289556
+get_cannons 169648
+add_ship 142416 20
+remove_pirate 464059
+get_cannons 255962
+add_ship 159186 12
+add_ship 75202 20
+get_cannons 331115
+add_ship 221368 4
+get_cannons 325483
+remove_ship 314234
+add_ship 138801 22
+update_pirate_treasure 190919 0
+get_treasure 446789
+get_cannons 117490
+update_pirate_treasure 444335 4
+get_treasure 52927
+add_ship 7836 10
+add_ship 104161 10
+update_pirate_treasure 194484 11
+add_ship 290274 29
+remove_ship 325026
+get_cannons 293053
+remove_ship 127382
+get_cannons 515301
+remove_pirate 76326
+add_ship 349787 14
+remove_ship 381975
+remove_pirate 296870
+get_cannons 314010
+add_pirate 461985 44239 9
+get_richest_pirate 289863
+add_ship 357703 23
+get_cannons 92765
+remove_pirate 275635
+get_cannons 62517
+get_cannons 142413
+add_pirate 153338 79941 10
+update_pirate_treasure 490031 27
+remove_pirate 334631
+add_pirate 254967 101766 7
+remove_pirate 147045
+update_pirate_treasure 98795 22
+remove_ship 211528
+get_richest_pirate 429532
+get_treasure 514000
+get_cannons 275069
+remove_pirate 252113
+add_ship 8566 29
+remove_pirate 144535
+remove_ship 428567
+add_pirate 112567 252398 10
+get_richest_pirate 108038
+update_pirate_treasure 524245 25
+add_ship 189902 24
+remove_ship 429496
+remove_pirate 487247
+remove_ship 72287
+add_pirate 448813 127382 -1
+remove_ship 75202
+add_ship 160499 25
+remove_ship 423322
+add_pirate 99256 446261 12
+add_pirate 15856 339010 3
+remove_pirate 487247
+update_pirate_treasure 254967 29
+add_pirate 215023 419929 -1
+remove_pirate 464178
+update_pirate_treasure 410686 9
+add_ship 468134 12
+remove_ship 397449
+remove_ship 115792
+add_pirate 66383 323867 16
+get_richest_pirate 369736
+get_treasure 320856
+remove_pirate 346110
+remove_ship 106617
+get_cannons 218677
+update_pirate_treasure 359935 12
+add_ship 149055 26
+add_ship 287897 29
+remove_ship 142413
+remove_ship 168976
+remove_ship 32861
+get_richest_pirate 279872
+get_richest_pirate 305127
+get_cannons 18779
+add_ship 346223 1
+get_cannons 515301
+add_ship 439380 19
+update_pirate_treasure 260820 24
+get_treasure 490578
+remove_ship 10648
+update_pirate_treasure 335350 24
+update_pirate_treasure 5420 18
+add_pirate 47088 474933 3
+get_treasure 428608
+remove_pirate 9506
+add_ship 171634 4
+add_pirate 160723 346223 30
+add_ship 504709 4
+get_cannons 256902
+get_cannons 378468
+get_treasure 254967
+get_cannons 341591
+add_ship 420725 -1
+add_ship 414789 13
+add_pirate 59030 458387 10
+remove_ship 327360
+add_pirate 7150 272126 17
+remove_pirate 16411
+add_pirate 469107 147368 24
+get_treasure 342162
+get_richest_pirate 119371
+add_pirate 334114 265343 17
+remove_pirate 444335
+get_cannons 170101
+add_pirate 275850 431369 29
+update_pirate_treasure 102520 12
+remove_pirate 523392
+remove_ship 430367
+update_pirate_treasure 232353 16
+get_cannons 429532
+add_pirate 419016 496824 24
+remove_pirate 358469
+add_ship 176157 13
+remove_pirate 224452
+remove_ship 176894
+get_cannons 24670
+add_ship 463796 4
+add_pirate 300635 282749 20
+get_richest_pirate 439380
+add_pirate 140313 342070 1
+update_pirate_treasure 70708 5
+get_richest_pirate 369654
+add_ship 247893 18
+add_ship 192144 25
+get_cannons 90558
+get_richest_pirate 308735
+get_cannons 101766
+get_treasure 120265
+get_treasure 319451
+get_cannons 108038
+update_pirate_treasure 273688 22
+remove_ship 217146
+get_richest_pirate 475731
+add_ship 465564 18
+add_ship 124753 13
+add_ship 10356 17
+get_cannons 187515
+add_ship 447840 27
+get_cannons 176242
+get_richest_pirate 87830
+add_ship 19734 3
+get_richest_pirate 144124
+remove_pirate 490031
+remove_ship 176157
+get_richest_pirate 21479
+remove_ship 97348
+get_richest_pirate 330762
+remove_ship 311808
+get_richest_pirate 290685
+add_ship 275124 18
+get_cannons 85369
+get_cannons 121944
+add_pirate 156517 290339 5
+get_cannons 246263
+get_cannons 298685
+remove_pirate 306386
+get_cannons 333680
+get_richest_pirate 19734
+add_ship 218266 14
+remove_ship 344028
+add_ship 159554 9
+remove_ship 331497
+add_ship 509884 24
+add_ship 267894 18
+add_ship 357453 23
+update_pirate_treasure 120265 22
+get_cannons 146780
+add_ship 139773 14
+add_ship 402715 27
+update_pirate_treasure 259606 9
+add_pirate 220918 458370 4
+add_pirate 374501 126837 17
+get_cannons 211528
+update_pirate_treasure 212983 20
+add_ship 106255 19
+get_cannons 163446
+add_ship 310633 24
+get_cannons 94982
+get_cannons 226320
+add_pirate 206605 64728 29
+remove_ship 296954
+add_pirate 76823 72973 1
+add_pirate 269030 341476 2
+add_ship 375492 17
+remove_pirate 193730
+add_pirate 368770 108038 8
+add_pirate 70438 399330 26
+remove_pirate 112567
+add_ship 209665 26
+add_pirate 342609 257074 17
+add_ship 194986 6
+update_pirate_treasure 243351 8
+remove_pirate 64504
+remove_pirate 354391
+add_ship 65189 16
+get_treasure 388446
+get_cannons 472898
+get_treasure 89184
+update_pirate_treasure 300635 19
+add_ship 225784 27
+update_pirate_treasure 117431 27
+add_pirate 10064 444505 5
+add_pirate 8369 143670 28
+get_cannons 27158
+get_richest_pirate 144124
+get_richest_pirate 331115
+get_cannons 59378
+add_ship 227717 8
+remove_pirate 259606
+add_pirate 85012 159186 6
+add_pirate 84041 501340 20
+update_pirate_treasure 474368 27
+update_pirate_treasure 518679 1
+add_ship 23471 1
+remove_pirate 229803
+get_cannons 7489
+add_ship 432731 14
+get_cannons 399330
+update_pirate_treasure 160723 30
+add_ship 13239 11
+remove_pirate 148231
+get_treasure 89184
+get_richest_pirate 204136
+update_pirate_treasure 165350 27
+get_cannons 187515
+get_cannons 13239
+get_treasure 239423
+add_ship 8085 2
+get_treasure 71570
+add_ship 119222 12
+add_pirate 386328 79941 5
+get_richest_pirate 263587
+add_ship 10517 10
+add_ship 505248 21
+get_treasure 285155
+add_ship 423063 26
+add_pirate 400067 236020 7
+add_pirate 220753 142416 4
+update_pirate_treasure 478546 3
+add_ship 172074 30
+remove_pirate 279004
+add_pirate 503947 523116 13
+add_ship 337170 22
+add_ship 339684 13
+get_treasure 425862
+get_treasure 248329
+get_cannons 59378
+remove_ship 397317
+add_pirate 214352 46836 14
+get_cannons 198535
+get_richest_pirate 495944
+add_pirate 416661 122830 22
+add_ship 60316 24
+add_ship 494643 15
+remove_ship 512103
+remove_ship 465172
+add_pirate 244341 51949 27
+get_cannons 328219
+add_ship 257217 8
+get_treasure 167029
+add_ship 246061 17
+get_richest_pirate 175913
+update_pirate_treasure 308264 24
+get_richest_pirate 120767
+get_treasure 156517
+remove_ship 13239
+get_richest_pirate 225784
+remove_ship 443047
+add_ship 364406 26
+get_richest_pirate 218677
+get_treasure 154338
+remove_pirate 319451
+update_pirate_treasure 419012 16
+add_pirate 172397 218535 26
+get_richest_pirate 292852
+get_treasure 77758
+get_cannons 153526
+update_pirate_treasure 422073 28
+remove_ship 54722
+remove_ship 462138
+add_ship 450398 27
+remove_pirate 519110
+remove_pirate 232991
+remove_pirate 490031
+update_pirate_treasure 154338 1
+remove_ship 408962
+get_richest_pirate 507396
+update_pirate_treasure 126735 4
+add_pirate 28545 507739 8
+add_ship 443112 4
+add_pirate 302517 484117 11
+add_ship 267736 6
+remove_ship 76028
+get_richest_pirate 458894
+add_ship 158583 11
+remove_ship 372943
+add_ship 117144 23
+remove_ship 175050
+add_ship 410886 17
+remove_ship 50109
+remove_ship 409782
+remove_ship 176022
+update_pirate_treasure 56534 19
+update_pirate_treasure 169040 26
+add_ship 296659 28
+remove_pirate 119679
+get_richest_pirate 156736
+add_ship 189483 7
+get_treasure 91358
+remove_ship 474353
+get_cannons 407271
+get_treasure 428666
+add_ship 360506 6
+get_treasure 10096
+add_pirate 195651 52948 21
+get_richest_pirate 23471
+get_richest_pirate 442120
+get_cannons 313954
+add_ship 118024 8
+add_pirate 152587 442908 8
+remove_pirate 362987
+remove_pirate 985
+get_richest_pirate 106617
+get_cannons 314010
+remove_ship 192144
+add_ship 485972 30
+remove_ship 520064
+get_cannons 108420
+get_treasure 345345
+get_cannons 468200
+add_ship 29406 5
+add_pirate 512415 147368 19
+remove_ship 350689
+add_ship 163802 2
+get_richest_pirate 286920
+add_ship 87145 26
+add_ship 469700 18
+get_richest_pirate 33279
+remove_pirate 239423
+get_richest_pirate 94493
+update_pirate_treasure 444335 -1
+get_richest_pirate 174316
+remove_pirate 280227
+add_ship 481109 18
+add_ship 447799 13
+remove_pirate 131752
+add_ship 508580 12
+add_pirate 108153 372040 17
+get_treasure 448813
+remove_ship 288285
+get_richest_pirate 63963
+get_treasure 100529
+remove_ship 127720
+get_cannons 153542
+remove_ship 286503
+update_pirate_treasure 412208 9
+get_cannons 21479
+update_pirate_treasure 287587 19
+add_pirate 308856 363557 27
+update_pirate_treasure 292326 10
+add_pirate 339948 503652 28
+remove_ship 188296
+get_cannons 257217
+add_ship 409855 21
+add_ship 442533 28
+remove_ship 10476
+add_pirate 430216 108420 10
+remove_pirate 213072
+add_ship 316147 4
+update_pirate_treasure 225801 11
+get_cannons 416039
+remove_ship 389126
+remove_pirate 60591
+remove_ship 61732
+add_ship 360775 23
+get_cannons 505248
+add_ship 171457 27
+add_pirate 281775 113586 11
+add_pirate 463547 146780 18
+add_pirate 105042 313337 4
+get_cannons 175913
+add_ship 87926 2
+get_treasure 218241
+add_ship 424116 26
+remove_ship 201980
+get_treasure 212563
+remove_pirate 13097
+add_pirate 141483 93640 25
+get_richest_pirate 299743
+remove_ship 292852
+remove_pirate 231948
+add_pirate 10899 447046 13
+get_cannons 446261
+update_pirate_treasure 225801 1
+get_cannons 27158
+get_cannons 67977
+add_ship 303922 14
+add_pirate 92932 295537 -1
+get_treasure 99256
+get_treasure 386028
+update_pirate_treasure 141008 2
+add_pirate 283006 146780 17
+add_ship 89970 23
+add_ship 340095 3
+add_pirate 377417 106255 23
+add_ship 293622 9
+remove_pirate 89184
+add_ship 466120 12
+get_treasure 270594
+get_cannons 455254
+get_cannons 174316
+remove_ship 328219
+get_treasure 324923
+get_treasure 352254
+update_pirate_treasure 521475 15
+get_cannons 310250
+get_richest_pirate 213093
+add_ship 35985 1
+add_pirate 456891 447799 20
+add_ship 139267 19
+remove_ship 118924
+remove_ship 146813
+add_ship 353498 1
+add_ship 335143 1
+add_pirate 205870 353498 15
+update_pirate_treasure 240777 25
+get_treasure 325339
+remove_pirate 262838
+get_cannons 503713
+update_pirate_treasure 172397 3
+get_richest_pirate 154577
+get_richest_pirate 425196
+add_pirate 505224 443047 26
+add_ship 348028 20
+get_richest_pirate 63963
+get_treasure 358606
+remove_pirate 259234
+add_pirate 39557 182285 14
+update_pirate_treasure 221584 15
+add_pirate 5824 333742 26
+remove_ship 517249
+remove_ship 497468
+remove_ship 179708
+update_pirate_treasure 152587 9
+get_cannons 333680
+add_pirate 408242 52720 24
+get_cannons 484117
+remove_pirate 441316
+get_richest_pirate 446261
+add_ship 228563 29
+remove_ship 104161
+get_cannons 257217
+add_pirate 174014 252398 22
+add_ship 457320 19
+add_ship 121165 9
+update_pirate_treasure 149276 27
+get_cannons 485618
+add_ship 4393 9
+get_treasure 441316
+add_ship 271183 29
+get_cannons 104591
+remove_pirate 515522
+get_cannons 406248
+get_treasure 190430
+get_cannons 503177
+remove_ship 163802
+add_pirate 254933 468134 2
+get_cannons 361235
+add_ship 378200 9
+get_cannons 4393
+update_pirate_treasure 98795 14
+remove_pirate 268725
+add_ship 257831 17
+add_ship 342535 4
+update_pirate_treasure 155928 15
+get_cannons 48403
+remove_ship 331115
+remove_ship 260376
+get_cannons 157402
+add_ship 277326 28
+add_pirate 180088 375610 30
+update_pirate_treasure 476369 21
+add_ship 79402 27
+add_ship 332336 29
+update_pirate_treasure 386028 5
+get_treasure 400067
+add_pirate 350755 136181 12
+add_ship 478578 16
+add_ship 399888 13
+remove_ship 24569
+get_treasure 240777
+get_cannons 217146
+remove_pirate 221584
+add_ship 59351 9
+get_cannons 8085
+add_ship 155034 18
+remove_ship 108392
+add_ship 247695 6
+get_treasure 179760
+get_cannons 341765
+get_treasure 141008
+update_pirate_treasure 211730 21
+add_pirate 421636 144124 30
+update_pirate_treasure 8369 11
+get_richest_pirate 308715
+add_ship 41648 18
+update_pirate_treasure 292099 0
+remove_pirate 411095
+get_treasure 512245
+add_ship 333412 20
+remove_pirate 320856
+get_richest_pirate 228563
+get_cannons 116305
+update_pirate_treasure 110109 5
+remove_ship 165412
+get_richest_pirate 158583
+remove_ship 507334
+get_treasure 23173
+add_pirate 463286 160345 20
+get_cannons 333765
+update_pirate_treasure 367900 3
+add_pirate 319674 442533 11
+get_richest_pirate 182285
+add_pirate 16750 407613 4
+update_pirate_treasure 367611 7
+add_ship 184077 2
+remove_ship 369001
+get_cannons 447277
+remove_ship 119222
+update_pirate_treasure 199989 30
+get_treasure 455500
+get_treasure 430216
+remove_ship 4089
+get_cannons 267446
+add_ship 135022 23
+get_richest_pirate 159554
+add_ship 136542 20
+get_treasure 310492
+get_cannons 298685
+get_treasure 440677
+add_ship 322749 22
+remove_pirate 311415
+get_cannons 4393
+remove_pirate 500820
+get_richest_pirate 407613
+add_pirate 125150 320151 17
+remove_ship 139773
+add_ship 301770 3
+remove_pirate 38197
+add_ship 390828 25
+remove_pirate 62492
+add_ship 232307 2
+add_pirate 373786 357453 29
+remove_pirate 65582
+add_ship 41349 11
+add_ship 352859 0
+get_treasure 446014
+add_pirate 323228 314281 3
+get_richest_pirate 385128
+get_richest_pirate 54722
+add_ship 173923 2
+add_ship 441806 -1
+update_pirate_treasure 121819 2
+get_richest_pirate 355011
+get_cannons 111935
+update_pirate_treasure 24504 12
+remove_pirate 85012
+remove_pirate 468527
+get_treasure 275781
+remove_ship 410886
+get_cannons 514757
+get_richest_pirate 442533
+add_ship 371784 7
+get_treasure 302517
+add_pirate 86143 296957 16
+remove_pirate 367611
+add_ship 497878 6
+get_cannons 369736
+add_ship 129786 13
+get_cannons 77036
+get_cannons 301770
+add_pirate 221915 78231 2
+add_ship 299263 5
+update_pirate_treasure 270594 19
+add_ship 336089 23
+update_pirate_treasure 206605 18
+add_ship 448821 26
+get_treasure 215436
+remove_pirate 392106
+update_pirate_treasure 254967 30
+add_ship 145273 1
+remove_ship 290274
+add_pirate 374966 155192 25
+add_ship 498800 18
+remove_ship 90011
+add_ship 306329 20
+get_richest_pirate 317215
+get_treasure 216563
+add_ship 301296 23
+remove_pirate 169222
+remove_pirate 512943
+update_pirate_treasure 331252 10
+get_treasure 243351
+update_pirate_treasure 500450 17
+add_ship 128181 18
+get_treasure 429183
+remove_pirate 495555
+remove_ship 127500
+add_pirate 233057 189902 6
+get_richest_pirate 372040
+remove_ship 443880
+add_ship 452685 14
+update_pirate_treasure 109554 3
+get_richest_pirate 515301
+get_richest_pirate 359767
+get_treasure 37383
+add_pirate 106738 315462 7
+remove_ship 160140
+add_pirate 417501 80670 9
+add_ship 181114 1
+get_richest_pirate 444505
+get_richest_pirate 54286
+get_treasure 441853
+add_ship 9748 13
+update_pirate_treasure 448813 18
+remove_pirate 121819
+remove_ship 428661
+add_ship 256521 30
+remove_ship 436044
+remove_ship 279782
+get_cannons 160345
+get_cannons 13859
+get_treasure 342476
+get_cannons 75104
+remove_ship 255962
+add_ship 385321 16
+remove_ship 18779
+update_pirate_treasure 185262 12
+get_richest_pirate 188995
+add_ship 501982 26
+add_ship 205811 16
+remove_ship 337170
+add_pirate 91858 306329 7
+get_richest_pirate 233381
+get_treasure 483709
+add_ship 293859 6
+remove_ship 512662
+get_treasure 75222
+get_cannons 315462
+get_cannons 390828
+get_treasure 505224
+remove_pirate 374819
+add_ship 128872 30
+add_ship 48036 10
+get_treasure 413805
+remove_ship 128872
+add_ship 401189 3
+get_treasure 512415
+get_richest_pirate 35985
+add_ship 320843 28
+add_pirate 225153 279068 30
+update_pirate_treasure 258031 25
+update_pirate_treasure 320951 5
+get_cannons 436626
+update_pirate_treasure 438167 25
+update_pirate_treasure 454092 28
+add_ship 294052 12
+get_treasure 437608
+add_ship 353810 23
+add_pirate 35570 367908 5
+add_pirate 338491 416040 19
+update_pirate_treasure 377417 4
+get_treasure 170596
+remove_ship 396085
+update_pirate_treasure 332391 30
+update_pirate_treasure 326874 11
+add_ship 53788 12
+add_pirate 477598 52948 23
+get_cannons 161615
+get_cannons 487366
+remove_pirate 170023
+get_richest_pirate 115792
+add_ship 175889 11
+remove_pirate 155928
+add_pirate 182101 96479 24
+remove_pirate 351989
+update_pirate_treasure 495498 5
+get_treasure 304670
+add_ship 58104 21
+get_treasure 203358
+get_richest_pirate 18832
+update_pirate_treasure 50353 15
+add_pirate 76931 361043 2
+add_ship 276202 21
+add_pirate 495972 378802 13
+remove_pirate 287587
+remove_pirate 357670
+remove_ship 468383
+remove_pirate 405668
+add_pirate 6941 53788 22
+get_richest_pirate 81481
+remove_ship 105237
+get_richest_pirate 501340
+add_ship 369555 6
+remove_ship 439380
+add_pirate 52562 250918 13
+get_treasure 510781
+add_pirate 499556 254732 14
+remove_ship 465564

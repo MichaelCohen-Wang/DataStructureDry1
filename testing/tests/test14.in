@@ -1,0 +1,32 @@
+add_ship 104 3
+remove_ship 104
+add_ship 339 6
+add_ship 148 28
+add_pirate 4 339 21
+treason 104 148
+update_pirate_treasure 4 21
+add_pirate 343 339 17
+update_pirate_treasure 343 13
+add_ship 370 3
+remove_pirate 343
+add_pirate 304 370 1
+add_pirate 142 370 7
+remove_pirate 304
+add_ship 9 29
+remove_ship 9
+add_pirate 429 370 29
+add_pirate 312 148 2
+add_ship 58 1
+update_pirate_treasure 142 20
+add_pirate 468 339 10
+add_ship 362 3
+treason 370 339
+get_treasure 429
+add_pirate 19 370 6
+add_pirate 106 104 21
+get_cannons 148
+get_treasure 468
+ships_battle 148 339
+add_pirate 384 148 23
+get_cannons 148
+remove_pirate 468

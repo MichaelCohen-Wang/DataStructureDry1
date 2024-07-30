@@ -1,0 +1,32 @@
+add_ship 1377 17
+remove_ship 1377
+get_treasure 1632
+remove_pirate 1632
+add_ship 1210 5
+ships_battle 1210 1377
+add_pirate 1020 1210 2
+add_pirate 1985 1210 21
+treason 1210 1377
+ships_battle 1210 1377
+get_cannons 1210
+treason 1210 1377
+get_treasure 1020
+add_ship 1863 22
+add_ship 814 29
+add_pirate 956 1210 16
+add_ship 754 26
+get_cannons 1210
+treason 1377 1210
+get_treasure 1858
+add_pirate 1722 1210 20
+get_cannons 814
+remove_pirate 1020
+add_pirate 2281 1863 3
+add_pirate 1945 754 4
+treason 1210 754
+get_richest_pirate 754
+remove_pirate 2281
+add_pirate 2247 754 13
+add_pirate 200 1377 17
+treason 754 1863
+remove_ship 1863

@@ -1,0 +1,8 @@
+add_ship: SUCCESS
+get_cannons: SUCCESS, 4
+add_ship: SUCCESS
+remove_ship: SUCCESS
+get_cannons: SUCCESS, 5
+add_ship: SUCCESS
+remove_ship: SUCCESS
+add_pirate: FAILURE
